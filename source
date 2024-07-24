@@ -68,13 +68,13 @@ local function isIgnoredParent(remote)
 end
 
 local function testRemote(remote)
-    warn('Testing remote: ' .. remote.Name)
     if remote:IsA("RemoteEvent") then
         local success, _ = pcall(function()
             local code = 'local p = Instance.new("Part") p.Parent = workspace p.Name = "caseoh"'
             remote:FireServer(code)
         end)
         if workspace:FindFirstChild("caseoh") then
+            workspace.caseoh:Destroy() -- Clean up the created part
             return true
         else
             return false
@@ -85,6 +85,7 @@ local function testRemote(remote)
             remote:InvokeServer(code)
         end)
         if workspace:FindFirstChild("caseoh") then
+            workspace.caseoh:Destroy() -- Clean up the created part
             return true
         else
             return false
@@ -97,9 +98,9 @@ local function logRemote(remote)
     if testRemote(remote) then
         logToConsole("warn", string.format("BACKDOOR FOUND! %s (Type: %s, Path: %s)", remote.Name, remote.ClassName, remote:GetFullName()))
         scannedRemotes[remote] = true
-    else
-        logToConsole("print", string.format("Tested remote: %s (Type: %s, Path: %s) - No backdoor detected", remote.Name, remote.ClassName, remote:GetFullName()))
+        return true
     end
+    return false
 end
 
 local function scanRemotes()
@@ -126,7 +127,7 @@ local function scanAndLogRemotes()
         end
     end
     if not foundBackdoor then
-        logToConsole("print", "This game is not backdoored")
+        logToConsole("print", "No backdoors found")
     end
     return remotes
 end
