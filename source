@@ -1,0 +1,138 @@
+local Scanner = {}
+
+local scannedRemotes = {}
+
+local ignoredRemotes = {
+    "ChatMain", "ClientChatModules", "ClientChatEvents", "DefaultChatSystemChatEvents",
+    "OnNewSystemMessage", "OnChannelJoined", "Event", "System", "Message", "GetServerType",
+    "CanChatWith", "ContactListIrisInviteTeleport", "SetDialogInUse", "UpdateCurrentCall",
+    "NewPlayerCanManageDetails", "WhisperChat", "GetServerVersion", "RequestDeviceCameraCFrame",
+    "ContactListInvokeIrisInvite", "NewPlayerGroupDetails", "UpdatePlayerBlockList",
+    "VoiceChatTokenRequest", "SetPlayerBlackList", "RecieveStatus", "SendPunishmentRequest",
+    "ToggleServerLock", "BC_TriggerPunishment", "__InCommand__Gateway", "DefaultChatSystemChatEvents",
+    "Chat", "System", "SetPlayerBlockList", "RequestDeviceCameraOrientationCapability",
+    "IntegrityCheckProcessorKey2_LocalizationTableAnalyticsSender_LocalizationService",
+    "CharacterSoundEvent", "CaptureFocus", "UIS_Ended", "OnNewMessage", "OnMessageDoneFiltering",
+    "OnChannelLeft", "OnMute", "OnUnmute", "CmdrEvent", "CmdrFunction"
+}
+
+local ignoredPatterns = {
+    "Chat", "PlayerAdded", "PlayerRemoving", "SystemMessage", "Notification",
+    "ChatSystem", "DefaultChatSystemChatEvents",
+}
+
+local ignoredParentNames = {
+    "HDAdminClient", "Adonis", "DefaultChatSystemChatEvents"
+}
+
+-- Helper Functions
+local function logToConsole(logType, ...)
+    if logType == "print" then
+        print(...)
+    elseif logType == "warn" then
+        warn(...)
+    end
+end
+
+local function isRemote(object)
+    return object:IsA("RemoteEvent") or object:IsA("RemoteFunction")
+end
+
+local function isIgnoredRemote(remote)
+    local remoteName = remote.Name
+
+    for _, name in ipairs(ignoredRemotes) do
+        if remoteName == name then
+            return true
+        end
+    end
+
+    for _, pattern in ipairs(ignoredPatterns) do
+        if string.match(remoteName, pattern) then
+            return true
+        end
+    end
+
+    return false
+end
+
+local function isIgnoredParent(remote)
+    local parent = remote.Parent
+    while parent do
+        if table.find(ignoredParentNames, parent.Name) then
+            return true
+        end
+        parent = parent.Parent
+    end
+    return false
+end
+
+local function testRemote(remote)
+    warn('Testing remote: ' .. remote.Name)
+    if remote:IsA("RemoteEvent") then
+        local success, _ = pcall(function()
+            local code = 'local p = Instance.new("Part") p.Parent = workspace p.Name = "caseoh"'
+            remote:FireServer(code)
+        end)
+        if workspace:FindFirstChild("caseoh") then
+            return true
+        else
+            return false
+        end
+    elseif remote:IsA("RemoteFunction") then
+        local success, _ = pcall(function()
+            local code = 'local p = Instance.new("Part") p.Parent = workspace p.Name = "caseoh"'
+            remote:InvokeServer(code)
+        end)
+        if workspace:FindFirstChild("caseoh") then
+            return true
+        else
+            return false
+        end
+    end
+    return false
+end
+
+local function logRemote(remote)
+    if testRemote(remote) then
+        logToConsole("warn", string.format("BACKDOOR FOUND! %s (Type: %s, Path: %s)", remote.Name, remote.ClassName, remote:GetFullName()))
+        scannedRemotes[remote] = true
+    else
+        logToConsole("print", string.format("Tested remote: %s (Type: %s, Path: %s) - No backdoor detected", remote.Name, remote.ClassName, remote:GetFullName()))
+    end
+end
+
+local function scanRemotes()
+    local remotes = {}
+    local instances = game:GetDescendants()
+
+    for _, instance in ipairs(instances) do
+        if isRemote(instance) and not isIgnoredRemote(instance) and not isIgnoredParent(instance) then
+            table.insert(remotes, instance)
+        end
+    end
+
+    return remotes
+end
+
+local function scanAndLogRemotes()
+    local remotes = scanRemotes()
+    local foundBackdoor = false
+    for _, remote in ipairs(remotes) do
+        if not scannedRemotes[remote] then
+            if logRemote(remote) then
+                foundBackdoor = true
+            end
+        end
+    end
+    if not foundBackdoor then
+        logToConsole("print", "This game is not backdoored")
+    end
+    return remotes
+end
+
+-- Returns library of functions.
+Scanner.scanAndLogRemotes = scanAndLogRemotes
+Scanner.scanRemotes = scanRemotes
+
+return Scanner
