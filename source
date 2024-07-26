@@ -26,11 +26,18 @@ local ignoredParentNames = {
 }
 
 -- Helper Functions
+local function getTimestamp()
+    return os.date("[%Y-%m-%d %H:%M:%S]")
+end
+
 local function logToConsole(logType, ...)
+    local timestamp = getTimestamp()
     if logType == "print" then
-        print(...)
+        print(timestamp, ...)
     elseif logType == "warn" then
-        warn(...)
+        warn(timestamp, ...)
+    elseif logType == "error" then
+        error(timestamp, ...)
     end
 end
 
@@ -95,10 +102,14 @@ local function testRemote(remote)
 end
 
 local function logRemote(remote)
+    local remoteInfo = string.format("Name: %s, Type: %s, Path: %s", remote.Name, remote.ClassName, remote:GetFullName())
+    
     if testRemote(remote) then
-        logToConsole("warn", string.format("BACKDOOR FOUND! %s (Type: %s, Path: %s)", remote.Name, remote.ClassName, remote:GetFullName()))
+        logToConsole("warn", string.format("[%s] BACKDOOR FOUND! %s", getTimestamp(), remoteInfo))
         scannedRemotes[remote] = true
         return true
+    else
+        logToConsole("print", string.format("[%s] Remote scanned: %s (Safe)", getTimestamp(), remoteInfo))
     end
     return false
 end
