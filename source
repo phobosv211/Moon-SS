@@ -140,7 +140,7 @@ local function scanAndLogRemotes()
     if not foundBackdoor then
         logToConsole("print", "No backdoors found")
     end
-    return remotes
+    return foundBackdoor
 end
 
 -- Returns library of functions.
