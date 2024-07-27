@@ -1,6 +1,7 @@
 local Scanner = {}
 
 local scannedRemotes = {}
+local scanResults = {}
 
 local ignoredRemotes = {
     "ChatMain", "ClientChatModules", "ClientChatEvents", "DefaultChatSystemChatEvents",
@@ -75,42 +76,57 @@ local function isIgnoredParent(remote)
 end
 
 local function testRemote(remote)
-    if remote:IsA("RemoteEvent") then
-        local success, _ = pcall(function()
+    local result = { found = false, error = nil }
+
+    local function testRemoteEvent()
+        local success, errorMsg = pcall(function()
             local code = 'local p = Instance.new("Part") p.Parent = workspace p.Name = "caseoh"'
             remote:FireServer(code)
         end)
-        if workspace:FindFirstChild("caseoh") then
+        if success and workspace:FindFirstChild("caseoh") then
             workspace.caseoh:Destroy() -- Clean up the created part
-            return true
+            result.found = true
         else
-            return false
+            result.error = errorMsg
         end
-    elseif remote:IsA("RemoteFunction") then
-        local success, _ = pcall(function()
+    end
+
+    local function testRemoteFunction()
+        local success, errorMsg = pcall(function()
             local code = 'local p = Instance.new("Part") p.Parent = workspace p.Name = "caseoh"'
             remote:InvokeServer(code)
         end)
-        if workspace:FindFirstChild("caseoh") then
+        if success and workspace:FindFirstChild("caseoh") then
             workspace.caseoh:Destroy() -- Clean up the created part
-            return true
+            result.found = true
         else
-            return false
+            result.error = errorMsg
         end
     end
-    return false
+
+    if remote:IsA("RemoteEvent") then
+        testRemoteEvent()
+    elseif remote:IsA("RemoteFunction") then
+        testRemoteFunction()
+    end
+
+    return result
 end
 
 local function logRemote(remote)
     local remoteInfo = string.format("Name: %s, Type: %s, Path: %s", remote.Name, remote.ClassName, remote:GetFullName())
-    
-    if testRemote(remote) then
+    local testResult = testRemote(remote)
+
+    if testResult.found then
         logToConsole("warn", string.format("[%s] BACKDOOR FOUND! %s", getTimestamp(), remoteInfo))
         scannedRemotes[remote] = true
+        scanResults[remote] = { status = "backdoor", error = testResult.error }
         return true
     else
         logToConsole("print", string.format("[%s] Remote scanned: %s (Safe)", getTimestamp(), remoteInfo))
+        scanResults[remote] = { status = "safe", error = testResult.error }
     end
+
     return false
 end
 
@@ -130,6 +146,7 @@ end
 local function scanAndLogRemotes()
     local remotes = scanRemotes()
     local foundBackdoor = false
+
     for _, remote in ipairs(remotes) do
         if not scannedRemotes[remote] then
             if logRemote(remote) then
@@ -137,10 +154,12 @@ local function scanAndLogRemotes()
             end
         end
     end
+
     if not foundBackdoor then
         logToConsole("print", "No backdoors found")
     end
-    return foundBackdoor
+
+    return foundBackdoor, scanResults
 end
 
 -- Returns library of functions.
