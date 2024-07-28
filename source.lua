@@ -12,7 +12,7 @@ BackdoorScanner.ignoredRemotes = {
     "Chat", "System", "SetPlayerBlockList", "RequestDeviceCameraOrientationCapability",
     "IntegrityCheckProcessorKey2_LocalizationTableAnalyticsSender_LocalizationService",
     "CharacterSoundEvent", "CaptureFocus", "UIS_Ended", "OnNewMessage", "OnMessageDoneFiltering",
-    "OnChannelLeft", "OnMute", "OnUnmute", "CmdrEvent", "CmdrFunction"
+    "OnChannelLeft", "OnMute", "OnUnmute", "CmdrEvent", "CmdrFunction","ClientControl","ServerControl",
 }
 BackdoorScanner.ignoredPatterns = {
     "Chat", "PlayerAdded", "PlayerRemoving", "SystemMessage", "Notification",
