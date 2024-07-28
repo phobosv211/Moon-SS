@@ -1,9 +1,7 @@
-local Scanner = {}
+local BackdoorScanner = {}
 
-local scannedRemotes = {}
-local scanResults = {}
-
-local ignoredRemotes = {
+BackdoorScanner.scannedRemotes = {}
+BackdoorScanner.ignoredRemotes = {
     "ChatMain", "ClientChatModules", "ClientChatEvents", "DefaultChatSystemChatEvents",
     "OnNewSystemMessage", "OnChannelJoined", "Event", "System", "Message", "GetServerType",
     "CanChatWith", "ContactListIrisInviteTeleport", "SetDialogInUse", "UpdateCurrentCall",
@@ -16,31 +14,14 @@ local ignoredRemotes = {
     "CharacterSoundEvent", "CaptureFocus", "UIS_Ended", "OnNewMessage", "OnMessageDoneFiltering",
     "OnChannelLeft", "OnMute", "OnUnmute", "CmdrEvent", "CmdrFunction"
 }
-
-local ignoredPatterns = {
+BackdoorScanner.ignoredPatterns = {
     "Chat", "PlayerAdded", "PlayerRemoving", "SystemMessage", "Notification",
     "ChatSystem", "DefaultChatSystemChatEvents",
 }
-
-local ignoredParentNames = {
-    "HDAdminClient", "Adonis", "DefaultChatSystemChatEvents"
+BackdoorScanner.ignoredParentNames = {
+    "HDAdminClient", "Adonis", "DefaultChatSystemChatEvents","HDAdminWorkspaceFolder"
 }
-
--- Helper Functions
-local function getTimestamp()
-    return os.date("[%Y-%m-%d %H:%M:%S]")
-end
-
-local function logToConsole(logType, ...)
-    local timestamp = getTimestamp()
-    if logType == "print" then
-        print(timestamp, ...)
-    elseif logType == "warn" then
-        warn(timestamp, ...)
-    elseif logType == "error" then
-        error(timestamp, ...)
-    end
-end
+BackdoorScanner.foundBackdoor = nil
 
 local function isRemote(object)
     return object:IsA("RemoteEvent") or object:IsA("RemoteFunction")
@@ -49,13 +30,13 @@ end
 local function isIgnoredRemote(remote)
     local remoteName = remote.Name
 
-    for _, name in ipairs(ignoredRemotes) do
+    for _, name in ipairs(BackdoorScanner.ignoredRemotes) do
         if remoteName == name then
             return true
         end
     end
 
-    for _, pattern in ipairs(ignoredPatterns) do
+    for _, pattern in ipairs(BackdoorScanner.ignoredPatterns) do
         if string.match(remoteName, pattern) then
             return true
         end
@@ -67,7 +48,7 @@ end
 local function isIgnoredParent(remote)
     local parent = remote.Parent
     while parent do
-        if table.find(ignoredParentNames, parent.Name) then
+        if table.find(BackdoorScanner.ignoredParentNames, parent.Name) then
             return true
         end
         parent = parent.Parent
@@ -75,59 +56,48 @@ local function isIgnoredParent(remote)
     return false
 end
 
-local function testRemote(remote)
-    local result = { found = false, error = nil }
+local code = [[local p = Instance.new("Part")
+             p.Parent = workspace
+             p.Name = "caseoh"]]
 
-    local function testRemoteEvent()
-        local success, errorMsg = pcall(function()
-            local code = 'local p = Instance.new("Part") p.Parent = workspace p.Name = "caseoh"'
+local function testRemote(remote)
+    warn('Testing remote: ' .. remote.Name)
+    local success
+    if remote:IsA("RemoteEvent") then
+        success = pcall(function()
             remote:FireServer(code)
         end)
-        if success and workspace:FindFirstChild("caseoh") then
-            workspace.caseoh:Destroy() -- Clean up the created part
-            result.found = true
-        else
-            result.error = errorMsg
-        end
-    end
-
-    local function testRemoteFunction()
-        local success, errorMsg = pcall(function()
-            local code = 'local p = Instance.new("Part") p.Parent = workspace p.Name = "caseoh"'
+    elseif remote:IsA("RemoteFunction") then
+        success = pcall(function()
             remote:InvokeServer(code)
         end)
-        if success and workspace:FindFirstChild("caseoh") then
-            workspace.caseoh:Destroy() -- Clean up the created part
-            result.found = true
+    else
+        return false
+    end
+
+    if success then
+        wait(0.5)
+        if workspace:FindFirstChild("caseoh") then
+            workspace.caseoh:Destroy()
+            return true
         else
-            result.error = errorMsg
+            return false
         end
+    else
+        return false
     end
-
-    if remote:IsA("RemoteEvent") then
-        testRemoteEvent()
-    elseif remote:IsA("RemoteFunction") then
-        testRemoteFunction()
-    end
-
-    return result
 end
 
 local function logRemote(remote)
-    local remoteInfo = string.format("Name: %s, Type: %s, Path: %s", remote.Name, remote.ClassName, remote:GetFullName())
-    local testResult = testRemote(remote)
-
-    if testResult.found then
-        logToConsole("warn", string.format("[%s] BACKDOOR FOUND! %s", getTimestamp(), remoteInfo))
-        scannedRemotes[remote] = true
-        scanResults[remote] = { status = "backdoor", error = testResult.error }
+    if testRemote(remote) then
+        warn(string.format("BACKDOOR FOUND! %s (Type: %s, Path: %s)", remote.Name, remote.ClassName, remote:GetFullName()))
+        BackdoorScanner.scannedRemotes[remote] = true
+        BackdoorScanner.foundBackdoor = remote
         return true
     else
-        logToConsole("print", string.format("[%s] Remote scanned: %s (Safe)", getTimestamp(), remoteInfo))
-        scanResults[remote] = { status = "safe", error = testResult.error }
+        print(string.format("Tested remote: %s (Type: %s, Path: %s) - No backdoor detected", remote.Name, remote.ClassName, remote:GetFullName()))
+        return false
     end
-
-    return false
 end
 
 local function scanRemotes()
@@ -143,27 +113,23 @@ local function scanRemotes()
     return remotes
 end
 
-local function scanAndLogRemotes()
+function BackdoorScanner.scanAndLogRemotes()
     local remotes = scanRemotes()
-    local foundBackdoor = false
-
     for _, remote in ipairs(remotes) do
-        if not scannedRemotes[remote] then
+        if not BackdoorScanner.scannedRemotes[remote] then
             if logRemote(remote) then
-                foundBackdoor = true
+                break
             end
         end
     end
 
-    if not foundBackdoor then
-        logToConsole("print", "No backdoors found")
+    if BackdoorScanner.foundBackdoor then
+        warn("Scanning stopped. Backdoor found: " .. BackdoorScanner.foundBackdoor.Name)
+        return true
+    else
+        print("No backdoor found.")
+        return false
     end
-
-    return foundBackdoor, scanResults
 end
 
--- Returns library of functions.
-Scanner.scanAndLogRemotes = scanAndLogRemotes
-Scanner.scanRemotes = scanRemotes
-
-return Scanner
+return BackdoorScanner
