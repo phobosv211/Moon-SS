@@ -124,10 +124,8 @@ function BackdoorScanner.scanAndLogRemotes()
     end
 
     if BackdoorScanner.foundBackdoor then
-        warn("Scanning stopped. Backdoor found: " .. BackdoorScanner.foundBackdoor.Name)
-        return true
+        return true, BackdoorScanner.foundBackdoor
     else
-        print("No backdoor found.")
         return false
     end
 end
