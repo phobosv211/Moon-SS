@@ -1,2 +1,7 @@
 local backdoor = useableBackdoor
+
+if backdoor = "Moon" then
+  warn("Using Moon's builtin functions for it!")
+else
 warn("Useable Backdoor: "..useableBackdoor)
+end
