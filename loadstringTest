@@ -1,1 +1,1 @@
-warn(getgenv.hello)
+warn(getgenv().hello)
