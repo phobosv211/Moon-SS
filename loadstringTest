@@ -1,7 +1,10 @@
 local backdoor = useableBackdoor
 
+print("Value of backdoor:", backdoor)
+
+-- Check the value of the variable
 if backdoor == "Moon" then
     warn("Using Moon's builtin functions for it!")
 else
-    warn("Useable Backdoor: " .. useableBackdoor)
+    warn("Useable Backdoor: " .. backdoor)
 end
