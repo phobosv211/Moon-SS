@@ -56,12 +56,18 @@ local function isIgnoredParent(remote)
     return false
 end
 
-local code = [[local p = Instance.new("Part")
-             p.Parent = workspace
-             p.Name = "caseoh"]]
+
+local code = [[
+local p = Instance.new("Part")
+p.Parent = workspace
+p.Name = "YxsGCuoAgMPCMgn"
+p.Transparency = 1
+p.CanCollide = false
+]]
+
 
 local function testRemote(remote)
-    warn('Testing remote: ' .. remote.Name)
+    --warn('Testing remote: ' .. remote.Name)
     local success
     if remote:IsA("RemoteEvent") then
         success = pcall(function()
@@ -77,8 +83,8 @@ local function testRemote(remote)
 
     if success then
         wait(0.5)
-        if workspace:FindFirstChild("caseoh") then
-            workspace.caseoh:Destroy()
+        if workspace:FindFirstChild("YxsGCuoAgMPCMgn") then
+            workspace:FindFirstChild("YxsGCuoAgMPCMgn"):Destroy()
             return true
         else
             return false
@@ -90,12 +96,12 @@ end
 
 local function logRemote(remote)
     if testRemote(remote) then
-        warn(string.format("BACKDOOR FOUND! %s (Type: %s, Path: %s)", remote.Name, remote.ClassName, remote:GetFullName()))
+        --warn(string.format("BACKDOOR FOUND! %s (Type: %s, Path: %s)", remote.Name, remote.ClassName, remote:GetFullName()))
         BackdoorScanner.scannedRemotes[remote] = true
         BackdoorScanner.foundBackdoor = remote
         return true
     else
-        print(string.format("Tested remote: %s (Type: %s, Path: %s) - No backdoor detected", remote.Name, remote.ClassName, remote:GetFullName()))
+        --print(string.format("Tested remote: %s (Type: %s, Path: %s) - No backdoor detected", remote.Name, remote.ClassName, remote:GetFullName()))
         return false
     end
 end
