@@ -1554,15 +1554,15 @@ UICorner_27.Parent = Notification
 
 -- Scripts:
 
-local function DMLVTRZ_fake_script() -- Close.LocalScript 
+local function DJBS_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(DMLVTRZ_fake_script)()
-local function SBESTSA_fake_script() -- Console.Drag 
+coroutine.wrap(DJBS_fake_script)()
+local function SQOM_fake_script() -- Console.Drag 
 	local script = Instance.new('LocalScript', Console)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1605,8 +1605,8 @@ local function SBESTSA_fake_script() -- Console.Drag
 		end
 	end)
 end
-coroutine.wrap(SBESTSA_fake_script)()
-local function MXKTUY_fake_script() -- Main.Drag 
+coroutine.wrap(SQOM_fake_script)()
+local function CEBGX_fake_script() -- Main.Drag 
 	local script = Instance.new('LocalScript', Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1649,8 +1649,8 @@ local function MXKTUY_fake_script() -- Main.Drag
 		end
 	end)
 end
-coroutine.wrap(MXKTUY_fake_script)()
-local function VYEGB_fake_script() -- ScriptHub.LocalScript 
+coroutine.wrap(CEBGX_fake_script)()
+local function PNOTQTC_fake_script() -- ScriptHub.LocalScript 
 	local script = Instance.new('LocalScript', ScriptHub)
 
 	local searchBar = script.Parent.SearchBar
@@ -1676,8 +1676,8 @@ local function VYEGB_fake_script() -- ScriptHub.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(VYEGB_fake_script)()
-local function MJJG_fake_script() -- Frame.Main2 
+coroutine.wrap(PNOTQTC_fake_script)()
+local function EPWTZ_fake_script() -- Frame.Main2 
 	local script = Instance.new('LocalScript', Frame)
 
 	local addScript = script.Parent.Parent.Parent.Parent:FindFirstChild("Main"):FindFirstChild("addScript")
@@ -1764,8 +1764,8 @@ local function MJJG_fake_script() -- Frame.Main2
 	end)
 	
 end
-coroutine.wrap(MJJG_fake_script)()
-local function UDMYI_fake_script() -- scriptBOX.Main 
+coroutine.wrap(EPWTZ_fake_script)()
+local function BNCQIV_fake_script() -- scriptBOX.Main 
 	local script = Instance.new('LocalScript', scriptBOX)
 
 	local settings = {
@@ -2421,9 +2421,9 @@ local function UDMYI_fake_script() -- scriptBOX.Main
 		end)
 	end
 end
-coroutine.wrap(UDMYI_fake_script)()
+coroutine.wrap(BNCQIV_fake_script)()
 -- Comments_.LocalScript is disabled.
-local function GDNR_fake_script() -- Main.Tabs 
+local function VGYI_fake_script() -- Main.Tabs 
 	local script = Instance.new('LocalScript', Main)
 
 	local TweenService = game:GetService("TweenService")
@@ -2692,8 +2692,8 @@ local function GDNR_fake_script() -- Main.Tabs
 	updateAddButtonVisibility()
 	
 end
-coroutine.wrap(GDNR_fake_script)()
-local function AEIFD_fake_script() -- Main.PredictALPHA 
+coroutine.wrap(VGYI_fake_script)()
+local function LTVFOT_fake_script() -- Main.PredictALPHA 
 	local script = Instance.new('LocalScript', Main)
 
 	local textBox = script.Parent.ExecuBox:FindFirstChild("Source")
@@ -2884,9 +2884,9 @@ local function AEIFD_fake_script() -- Main.PredictALPHA
 	end)
 	
 end
-coroutine.wrap(AEIFD_fake_script)()
+coroutine.wrap(LTVFOT_fake_script)()
 -- Comments__2.LocalScript is disabled.
-local function YWQZF_fake_script() -- ExecuBox.Main 
+local function HHIFQJH_fake_script() -- ExecuBox.Main 
 	local script = Instance.new('LocalScript', ExecuBox)
 
 	local settings = {
@@ -3541,8 +3541,8 @@ local function YWQZF_fake_script() -- ExecuBox.Main
 		end)
 	end
 end
-coroutine.wrap(YWQZF_fake_script)()
-local function VFUUK_fake_script() -- detail_3.LocalScript 
+coroutine.wrap(HHIFQJH_fake_script)()
+local function JEAVYT_fake_script() -- detail_3.LocalScript 
 	local script = Instance.new('LocalScript', detail_3)
 
 	-- Define the UI element
@@ -3563,8 +3563,8 @@ local function VFUUK_fake_script() -- detail_3.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(VFUUK_fake_script)()
-local function TEAYEC_fake_script() -- detail_4.LocalScript 
+coroutine.wrap(JEAVYT_fake_script)()
+local function GVEYB_fake_script() -- detail_4.LocalScript 
 	local script = Instance.new('LocalScript', detail_4)
 
 	-- Define the UI element
@@ -3585,8 +3585,8 @@ local function TEAYEC_fake_script() -- detail_4.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(TEAYEC_fake_script)()
-local function VKPBC_fake_script() -- detail_5.LocalScript 
+coroutine.wrap(GVEYB_fake_script)()
+local function DRJXO_fake_script() -- detail_5.LocalScript 
 	local script = Instance.new('LocalScript', detail_5)
 
 	-- Define the UI element
@@ -3607,8 +3607,8 @@ local function VKPBC_fake_script() -- detail_5.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(VKPBC_fake_script)()
-local function ZIRY_fake_script() -- Settings_2.Main 
+coroutine.wrap(DRJXO_fake_script)()
+local function QNQW_fake_script() -- Settings_2.Main 
 	local script = Instance.new('LocalScript', Settings_2)
 
 	local UIAnim = script.Parent:FindFirstChild("UIAnim")
@@ -3808,8 +3808,8 @@ local function ZIRY_fake_script() -- Settings_2.Main
 		end
 	end)
 end
-coroutine.wrap(ZIRY_fake_script)()
-local function YXYJFGT_fake_script() -- Settings_2.Drag 
+coroutine.wrap(QNQW_fake_script)()
+local function QVDKTVM_fake_script() -- Settings_2.Drag 
 	local script = Instance.new('LocalScript', Settings_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -3852,8 +3852,8 @@ local function YXYJFGT_fake_script() -- Settings_2.Drag
 		end
 	end)
 end
-coroutine.wrap(YXYJFGT_fake_script)()
-local function EJJS_fake_script() -- Open.Drag 
+coroutine.wrap(QVDKTVM_fake_script)()
+local function VLWONBI_fake_script() -- Open.Drag 
 	local script = Instance.new('LocalScript', Open)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -3896,8 +3896,8 @@ local function EJJS_fake_script() -- Open.Drag
 		end
 	end)
 end
-coroutine.wrap(EJJS_fake_script)()
-local function LEILRQ_fake_script() -- detail_6.LocalScript 
+coroutine.wrap(VLWONBI_fake_script)()
+local function CXCCQE_fake_script() -- detail_6.LocalScript 
 	local script = Instance.new('LocalScript', detail_6)
 
 	-- Define the UI element
@@ -3918,8 +3918,8 @@ local function LEILRQ_fake_script() -- detail_6.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(LEILRQ_fake_script)()
-local function YPCGDTX_fake_script() -- detail_7.LocalScript 
+coroutine.wrap(CXCCQE_fake_script)()
+local function SPIP_fake_script() -- detail_7.LocalScript 
 	local script = Instance.new('LocalScript', detail_7)
 
 	-- Define the UI element
@@ -3940,8 +3940,8 @@ local function YPCGDTX_fake_script() -- detail_7.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(YPCGDTX_fake_script)()
-local function YUVOAF_fake_script() -- MoonExecu.Rewrite 
+coroutine.wrap(SPIP_fake_script)()
+local function TPPOQS_fake_script() -- MoonExecu.Rewrite 
 	local script = Instance.new('LocalScript', MoonExecu)
 
 	--[[
@@ -4014,10 +4014,17 @@ local function YUVOAF_fake_script() -- MoonExecu.Rewrite
 	--// Functions
 	ExecuteBTN.MouseButton1Click:Connect(function()
 		if Backdoor == "Moon" then
+			warn("backdoor is moon HAHAHAHA")
 			if bd and serverResponse then
 				local success, result = pcall(function()
 					bd:FireServer(ExecuBox.Text)
 				end)
+	
+				if success then
+					alertLib.Success(MainGUI, Title, 'Executed script!')
+				else
+					alertLib.Error(MainGUI, Title, 'Failed to execute script!')
+				end
 			end
 		else
 			local success, result = pcall(function()
@@ -4034,9 +4041,10 @@ local function YUVOAF_fake_script() -- MoonExecu.Rewrite
 	
 	R6BTN.MouseButton1Click:Connect(function()
 		if Backdoor == "Moon" then
+			Other = "R6"
 			if bd and serverResponse then
 				local success, result = pcall(function()
-					bd:FireServer('require(18166157179).Dummy("'..game.Players.LocalPlayer.Name..'")')
+					bd:FireServer(plr, Other)
 				end)
 				if success then
 					alertLib.Success(MainGUI, Title, 'Converted to R6!')
@@ -4088,4 +4096,4 @@ local function YUVOAF_fake_script() -- MoonExecu.Rewrite
 	end)
 	
 end
-coroutine.wrap(YUVOAF_fake_script)()
+coroutine.wrap(TPPOQS_fake_script)()
