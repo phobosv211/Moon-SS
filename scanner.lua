@@ -1,3 +1,8 @@
+--[[
+
+Insanely basic prototype don't bully us pls :sob:
+
+]]
 local BackdoorScanner = {}
 
 BackdoorScanner.scannedRemotes = {}
