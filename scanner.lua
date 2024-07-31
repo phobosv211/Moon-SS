@@ -72,7 +72,7 @@ p.CanCollide = false
 
 
 local function testRemote(remote)
-    --warn('Testing remote: ' .. remote.Name)
+   warn('Testing remote: ' .. remote.Name)
     local success
     if remote:IsA("RemoteEvent") then
         success = pcall(function()
