@@ -27,117 +27,143 @@ local Label_3 = Instance.new("TextLabel")
 local detail = Instance.new("ImageLabel")
 local Main = Instance.new("Frame")
 local UICorner_4 = Instance.new("UICorner")
-local Top_2 = Instance.new("Frame")
-local UICorner_5 = Instance.new("UICorner")
-local Close_2 = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
-local Status_2 = Instance.new("TextLabel")
-local Logo_2 = Instance.new("ImageButton")
-local SideFrame = Instance.new("Frame")
-local Execute = Instance.new("ImageButton")
+local Home = Instance.new("Frame")
+local detail_2 = Instance.new("ImageLabel")
+local detail_3 = Instance.new("ImageLabel")
 local TextLabel = Instance.new("TextLabel")
-local UICorner_7 = Instance.new("UICorner")
-local Clear = Instance.new("ImageButton")
-local TextLabel_2 = Instance.new("TextLabel")
-local UICorner_8 = Instance.new("UICorner")
-local Respawn = Instance.new("ImageButton")
-local TextLabel_3 = Instance.new("TextLabel")
-local UICorner_9 = Instance.new("UICorner")
-local R6 = Instance.new("ImageButton")
-local Label_4 = Instance.new("TextLabel")
-local UICorner_10 = Instance.new("UICorner")
-local ImageLabel = Instance.new("ImageLabel")
-local Side = Instance.new("Frame")
-local UICorner_11 = Instance.new("UICorner")
-local Settings = Instance.new("ImageButton")
-local Console_3 = Instance.new("ImageButton")
-local SpawnDummy = Instance.new("ImageButton")
-local UploadScript = Instance.new("ImageButton")
-local Tabs = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
 local UIListLayout_2 = Instance.new("UIListLayout")
-local add = Instance.new("ImageButton")
-local tab1 = Instance.new("TextButton")
-local remove = Instance.new("ImageButton")
+local UpdateLabel = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local UpdateLabel_2 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local UpdateLabel_3 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local UpdateLabel_4 = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local UpdateLabel_5 = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local UpdateLabel_6 = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local UpdateLabel_7 = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_13 = Instance.new("UICorner")
+local Execution = Instance.new("Frame")
+local Predict = Instance.new("Frame")
+local Icon = Instance.new("ImageLabel")
+local Label_4 = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local UsePrediction = Instance.new("TextButton")
+local detail_4 = Instance.new("ImageLabel")
 local ScriptHub = Instance.new("Frame")
 local SearchBar = Instance.new("TextBox")
 local Frame = Instance.new("ScrollingFrame")
 local UIListLayout_3 = Instance.new("UIListLayout")
 local UIPadding_2 = Instance.new("UIPadding")
+local FolderFrameTest = Instance.new("Frame")
+local FoldersnButtons = Instance.new("Folder")
+local Folder_One = Instance.new("ImageButton")
+local Placeholder_One = Instance.new("TextButton")
+local Folder_Two = Instance.new("ImageButton")
+local Placeholder_Two = Instance.new("TextButton")
+local PlaceholderFiles = Instance.new("Folder")
+local Button_One = Instance.new("TextButton")
+local Button_Two = Instance.new("TextButton")
 local SampleBTN = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local addScript = Instance.new("Frame")
-local detail_2 = Instance.new("ImageLabel")
-local title = Instance.new("TextLabel")
-local TextLabel_4 = Instance.new("TextLabel")
-local UICorner_13 = Instance.new("UICorner")
-local scriptBOX = Instance.new("ScrollingFrame")
-local Lines = Instance.new("TextLabel")
-local UIGradient = Instance.new("UIGradient")
-local UICorner_14 = Instance.new("UICorner")
-local UIListLayout_4 = Instance.new("UIListLayout")
-local Source = Instance.new("TextBox")
 local UICorner_15 = Instance.new("UICorner")
+local SideFrame = Instance.new("Frame")
+local Execute = Instance.new("ImageButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local Clear = Instance.new("ImageButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_17 = Instance.new("UICorner")
+local Respawn = Instance.new("ImageButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_18 = Instance.new("UICorner")
+local R6 = Instance.new("ImageButton")
+local Label_5 = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
+local Tabs = Instance.new("Frame")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local add = Instance.new("ImageButton")
+local tab1 = Instance.new("TextButton")
+local remove = Instance.new("ImageButton")
+local ExecuBox = Instance.new("ScrollingFrame")
+local Source = Instance.new("TextBox")
 local Vars_ = Instance.new("TextLabel")
 local Tokens_ = Instance.new("TextLabel")
 local Strings_ = Instance.new("TextLabel")
+local Numbers_ = Instance.new("TextLabel")
 local Keywords_ = Instance.new("TextLabel")
 local Globals_ = Instance.new("TextLabel")
 local Comments_ = Instance.new("TextLabel")
-local Numbers_ = Instance.new("TextLabel")
-local UICorner_16 = Instance.new("UICorner")
-local scriptName = Instance.new("TextBox")
-local UICorner_17 = Instance.new("UICorner")
-local Create = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
-local ExecuBox = Instance.new("ScrollingFrame")
+local UICorner_20 = Instance.new("UICorner")
+local Lines = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local UICorner_21 = Instance.new("UICorner")
+local UIListLayout_5 = Instance.new("UIListLayout")
+local detail_5 = Instance.new("ImageLabel")
+local detail_6 = Instance.new("ImageLabel")
+local BottomFrame = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local detail_7 = Instance.new("ImageLabel")
+local detail_8 = Instance.new("ImageLabel")
+local addScript = Instance.new("Frame")
+local detail_9 = Instance.new("ImageLabel")
+local title = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local UICorner_22 = Instance.new("UICorner")
+local scriptBOX = Instance.new("ScrollingFrame")
+local Lines_2 = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_23 = Instance.new("UICorner")
+local UIListLayout_6 = Instance.new("UIListLayout")
 local Source_2 = Instance.new("TextBox")
+local UICorner_24 = Instance.new("UICorner")
 local Vars__2 = Instance.new("TextLabel")
 local Tokens__2 = Instance.new("TextLabel")
 local Strings__2 = Instance.new("TextLabel")
-local Numbers__2 = Instance.new("TextLabel")
 local Keywords__2 = Instance.new("TextLabel")
 local Globals__2 = Instance.new("TextLabel")
 local Comments__2 = Instance.new("TextLabel")
-local UICorner_19 = Instance.new("UICorner")
-local Lines_2 = Instance.new("TextLabel")
-local UIGradient_2 = Instance.new("UIGradient")
-local UICorner_20 = Instance.new("UICorner")
-local UIListLayout_5 = Instance.new("UIListLayout")
-local Predict = Instance.new("Frame")
-local Icon = Instance.new("ImageLabel")
-local Label_5 = Instance.new("TextLabel")
-local UICorner_21 = Instance.new("UICorner")
-local UsePrediction = Instance.new("TextButton")
-local detail_3 = Instance.new("ImageLabel")
-local detail_4 = Instance.new("ImageLabel")
-local detail_5 = Instance.new("ImageLabel")
+local Numbers__2 = Instance.new("TextLabel")
+local UICorner_25 = Instance.new("UICorner")
+local scriptName = Instance.new("TextBox")
+local UICorner_26 = Instance.new("UICorner")
+local Create = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Top_2 = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
+local Close_2 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Status_2 = Instance.new("TextLabel")
+local Logo_2 = Instance.new("ImageButton")
+local Side = Instance.new("Frame")
+local UICorner_30 = Instance.new("UICorner")
+local Settings = Instance.new("ImageButton")
+local Execution_2 = Instance.new("ImageButton")
+local UploadScript = Instance.new("ImageButton")
+local Home_2 = Instance.new("ImageButton")
 local Settings_2 = Instance.new("Frame")
 local WindowTitle = Instance.new("TextLabel")
 local UIAnim = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
-local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_31 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
 local Info1 = Instance.new("TextLabel")
-local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
 local SyntaxHighlighting = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
+local UICorner_32 = Instance.new("UICorner")
 local Info2 = Instance.new("TextLabel")
-local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
 local Info3 = Instance.new("TextLabel")
 local HideUsername = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
-local ImageLabel_2 = Instance.new("ImageLabel")
-local TextLabel_8 = Instance.new("TextLabel")
+local UICorner_33 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel_11 = Instance.new("TextLabel")
 local Open = Instance.new("ImageButton")
-local NotificationD = Instance.new("Frame")
-local UIListLayout_6 = Instance.new("UIListLayout")
-local Notification = Instance.new("Frame")
-local detail_6 = Instance.new("ImageLabel")
-local detail_7 = Instance.new("ImageLabel")
-local Label_6 = Instance.new("TextLabel")
-local UICorner_25 = Instance.new("UICorner")
-local Title = Instance.new("TextLabel")
-local UICorner_26 = Instance.new("UICorner")
-local UICorner_27 = Instance.new("UICorner")
 
 --Properties:
 
@@ -382,78 +408,451 @@ detail.ImageTransparency = 0.780
 
 Main.Name = "Main"
 Main.Parent = MoonExecu
+Main.AnchorPoint = Vector2.new(0.5, 0.5)
 Main.BackgroundColor3 = Color3.fromRGB(18, 20, 26)
 Main.BorderColor3 = Color3.fromRGB(32, 34, 43)
-Main.Position = UDim2.new(0.24278301, 0, 0.374521643, 0)
-Main.Size = UDim2.new(0, 566, 0, 292)
+Main.Position = UDim2.new(0.5, 0, 0.5, 0)
+Main.Size = UDim2.new(0, 622, 0, 320)
 Main.ZIndex = 2
 
 UICorner_4.CornerRadius = UDim.new(0, 3)
 UICorner_4.Parent = Main
 
-Top_2.Name = "Top"
-Top_2.Parent = Main
-Top_2.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
-Top_2.BackgroundTransparency = 0.850
-Top_2.BorderColor3 = Color3.fromRGB(19, 21, 26)
-Top_2.Size = UDim2.new(0, 566, 0, 38)
-Top_2.ZIndex = 10
+Home.Name = "Home"
+Home.Parent = Main
+Home.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0.0762851164, 0, 0.118749999, 0)
+Home.Size = UDim2.new(0, 573, 0, 282)
+Home.Visible = false
+Home.ZIndex = 99
 
-UICorner_5.CornerRadius = UDim.new(0, 3)
-UICorner_5.Parent = Top_2
+detail_2.Name = "detail"
+detail_2.Parent = Home
+detail_2.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_2.BackgroundTransparency = 1.000
+detail_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_2.BorderSizePixel = 0
+detail_2.Size = UDim2.new(1, 0, 1, 0)
+detail_2.ZIndex = 0
+detail_2.Image = "rbxassetid://16255699706"
+detail_2.ImageColor3 = Color3.fromRGB(33, 95, 98)
+detail_2.ImageTransparency = 0.860
 
-Close_2.Name = "Close"
-Close_2.Parent = Top_2
-Close_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-Close_2.BackgroundTransparency = 1.000
-Close_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Close_2.Position = UDim2.new(0.935744703, 0, -0.0263157897, 0)
-Close_2.Size = UDim2.new(0, 35, 0, 39)
-Close_2.ZIndex = 999999
-Close_2.Font = Enum.Font.Arial
-Close_2.Text = "X"
-Close_2.TextColor3 = Color3.fromRGB(144, 146, 150)
-Close_2.TextSize = 24.000
-Close_2.TextWrapped = true
+detail_3.Name = "detail"
+detail_3.Parent = Home
+detail_3.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_3.BackgroundTransparency = 1.000
+detail_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_3.BorderSizePixel = 0
+detail_3.Position = UDim2.new(-0.000885702146, 0, 0, 0)
+detail_3.Size = UDim2.new(1.00359178, 0, 1, 0)
+detail_3.ZIndex = 0
+detail_3.Image = "rbxassetid://16255699706"
+detail_3.ImageColor3 = Color3.fromRGB(33, 95, 98)
+detail_3.ImageTransparency = 0.860
 
-UICorner_6.CornerRadius = UDim.new(0, 3)
-UICorner_6.Parent = Close_2
+TextLabel.Parent = Home
+TextLabel.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+TextLabel.BackgroundTransparency = 0.850
+TextLabel.BorderColor3 = Color3.fromRGB(19, 21, 26)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.00830568094, 0, 0.00354609918, 0)
+TextLabel.Size = UDim2.new(0, 568, 0, 31)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "Welcome, John Doe!"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
 
-Status_2.Name = "Status"
-Status_2.Parent = Top_2
-Status_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Status_2.BackgroundTransparency = 1.000
-Status_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Status_2.Position = UDim2.new(0.23170732, 0, 0.0882347524, 0)
-Status_2.Size = UDim2.new(0, 260, 0, 31)
-Status_2.ZIndex = 99
-Status_2.Font = Enum.Font.ArialBold
-Status_2.Text = "Execution Error: No backdoor found"
-Status_2.TextColor3 = Color3.fromRGB(212, 22, 57)
-Status_2.TextScaled = true
-Status_2.TextSize = 20.000
-Status_2.TextTransparency = 1.000
-Status_2.TextWrapped = true
+UICorner_5.Parent = TextLabel
 
-Logo_2.Name = "Logo"
-Logo_2.Parent = Top_2
-Logo_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Logo_2.BackgroundTransparency = 1.000
-Logo_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Logo_2.Position = UDim2.new(-0.000281018351, 0, -0.156762376, 5)
-Logo_2.Size = UDim2.new(0, 43, 0, 45)
-Logo_2.ZIndex = 9999
-Logo_2.Image = "http://www.roblox.com/asset/?id=18471700048"
-Logo_2.ScaleType = Enum.ScaleType.Fit
+ScrollingFrame.Parent = Home
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+ScrollingFrame.BackgroundTransparency = 0.850
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.00830568094, 0, 0.258865237, 0)
+ScrollingFrame.Size = UDim2.new(0, 568, 0, 208)
+ScrollingFrame.ScrollBarThickness = 10
+
+UIListLayout_2.Parent = ScrollingFrame
+UIListLayout_2.Padding = UDim.new(0, 10)
+
+UpdateLabel.Name = "UpdateLabel"
+UpdateLabel.Parent = ScrollingFrame
+UpdateLabel.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+UpdateLabel.BackgroundTransparency = 0.850
+UpdateLabel.BorderColor3 = Color3.fromRGB(19, 21, 26)
+UpdateLabel.BorderSizePixel = 0
+UpdateLabel.Position = UDim2.new(0.00830568094, 0, 0.00354609918, 0)
+UpdateLabel.Size = UDim2.new(0, 568, 0, 31)
+UpdateLabel.Font = Enum.Font.Unknown
+UpdateLabel.Text = " Moon released (8/1/24)"
+UpdateLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpdateLabel.TextScaled = true
+UpdateLabel.TextSize = 14.000
+UpdateLabel.TextWrapped = true
+UpdateLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_6.Parent = UpdateLabel
+
+UpdateLabel_2.Name = "UpdateLabel"
+UpdateLabel_2.Parent = ScrollingFrame
+UpdateLabel_2.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+UpdateLabel_2.BackgroundTransparency = 0.850
+UpdateLabel_2.BorderColor3 = Color3.fromRGB(19, 21, 26)
+UpdateLabel_2.BorderSizePixel = 0
+UpdateLabel_2.Position = UDim2.new(0.00830568094, 0, 0.00354609918, 0)
+UpdateLabel_2.Size = UDim2.new(0, 568, 0, 31)
+UpdateLabel_2.Font = Enum.Font.Unknown
+UpdateLabel_2.Text = " Added a backdoor scanner (8/1/24)"
+UpdateLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpdateLabel_2.TextScaled = true
+UpdateLabel_2.TextSize = 14.000
+UpdateLabel_2.TextWrapped = true
+UpdateLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_7.Parent = UpdateLabel_2
+
+UpdateLabel_3.Name = "UpdateLabel"
+UpdateLabel_3.Parent = ScrollingFrame
+UpdateLabel_3.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+UpdateLabel_3.BackgroundTransparency = 0.850
+UpdateLabel_3.BorderColor3 = Color3.fromRGB(19, 21, 26)
+UpdateLabel_3.BorderSizePixel = 0
+UpdateLabel_3.Position = UDim2.new(0.00830568094, 0, 0.00354609918, 0)
+UpdateLabel_3.Size = UDim2.new(0, 568, 0, 31)
+UpdateLabel_3.Font = Enum.Font.Unknown
+UpdateLabel_3.Text = " Brand new UI (8/1/24)"
+UpdateLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpdateLabel_3.TextScaled = true
+UpdateLabel_3.TextSize = 14.000
+UpdateLabel_3.TextWrapped = true
+UpdateLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_8.Parent = UpdateLabel_3
+
+UpdateLabel_4.Name = "UpdateLabel"
+UpdateLabel_4.Parent = ScrollingFrame
+UpdateLabel_4.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+UpdateLabel_4.BackgroundTransparency = 0.850
+UpdateLabel_4.BorderColor3 = Color3.fromRGB(19, 21, 26)
+UpdateLabel_4.BorderSizePixel = 0
+UpdateLabel_4.Position = UDim2.new(0.00830568094, 0, 0.00354609918, 0)
+UpdateLabel_4.Size = UDim2.new(0, 568, 0, 31)
+UpdateLabel_4.Font = Enum.Font.Unknown
+UpdateLabel_4.Text = " Fixed alot of vulnerabilities (8/1/24)"
+UpdateLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpdateLabel_4.TextScaled = true
+UpdateLabel_4.TextSize = 14.000
+UpdateLabel_4.TextWrapped = true
+UpdateLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_9.Parent = UpdateLabel_4
+
+UpdateLabel_5.Name = "UpdateLabel"
+UpdateLabel_5.Parent = ScrollingFrame
+UpdateLabel_5.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+UpdateLabel_5.BackgroundTransparency = 0.850
+UpdateLabel_5.BorderColor3 = Color3.fromRGB(19, 21, 26)
+UpdateLabel_5.BorderSizePixel = 0
+UpdateLabel_5.Position = UDim2.new(0.00830568094, 0, 0.00354609918, 0)
+UpdateLabel_5.Size = UDim2.new(0, 568, 0, 31)
+UpdateLabel_5.Font = Enum.Font.Unknown
+UpdateLabel_5.Text = " Added pages (8/1/24)"
+UpdateLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpdateLabel_5.TextScaled = true
+UpdateLabel_5.TextSize = 14.000
+UpdateLabel_5.TextWrapped = true
+UpdateLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_10.Parent = UpdateLabel_5
+
+UpdateLabel_6.Name = "UpdateLabel"
+UpdateLabel_6.Parent = ScrollingFrame
+UpdateLabel_6.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+UpdateLabel_6.BackgroundTransparency = 0.850
+UpdateLabel_6.BorderColor3 = Color3.fromRGB(19, 21, 26)
+UpdateLabel_6.BorderSizePixel = 0
+UpdateLabel_6.Position = UDim2.new(-0.00528169004, 0, 0.264423072, 0)
+UpdateLabel_6.Size = UDim2.new(0, 568, 0, 31)
+UpdateLabel_6.Font = Enum.Font.Unknown
+UpdateLabel_6.Text = " Fixed and updated the starter for Moon (8/1/24)"
+UpdateLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpdateLabel_6.TextScaled = true
+UpdateLabel_6.TextSize = 14.000
+UpdateLabel_6.TextWrapped = true
+UpdateLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_11.Parent = UpdateLabel_6
+
+UpdateLabel_7.Name = "UpdateLabel"
+UpdateLabel_7.Parent = ScrollingFrame
+UpdateLabel_7.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+UpdateLabel_7.BackgroundTransparency = 0.850
+UpdateLabel_7.BorderColor3 = Color3.fromRGB(19, 21, 26)
+UpdateLabel_7.BorderSizePixel = 0
+UpdateLabel_7.Position = UDim2.new(0.00830568094, 0, 0.00354609918, 0)
+UpdateLabel_7.Size = UDim2.new(0, 568, 0, 31)
+UpdateLabel_7.Font = Enum.Font.Unknown
+UpdateLabel_7.Text = "Thats all we got, thanks for reading!"
+UpdateLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpdateLabel_7.TextScaled = true
+UpdateLabel_7.TextSize = 14.000
+UpdateLabel_7.TextWrapped = true
+UpdateLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_12.Parent = UpdateLabel_7
+
+TextLabel_2.Parent = Home
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+TextLabel_2.BackgroundTransparency = 0.850
+TextLabel_2.BorderColor3 = Color3.fromRGB(19, 21, 26)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.00830568094, 0, 0.145390064, 0)
+TextLabel_2.Size = UDim2.new(0, 568, 0, 32)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "What's New (1.0)"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_13.Parent = TextLabel_2
+
+Execution.Name = "Execution"
+Execution.Parent = Main
+Execution.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+Execution.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Execution.BorderSizePixel = 0
+Execution.Position = UDim2.new(0.0762851164, 0, 0.118749999, 0)
+Execution.Size = UDim2.new(0, 573, 0, 282)
+Execution.ZIndex = 99
+
+Predict.Name = "Predict"
+Predict.Parent = Execution
+Predict.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
+Predict.BackgroundTransparency = 0.800
+Predict.BorderColor3 = Color3.fromRGB(32, 34, 43)
+Predict.Position = UDim2.new(0.5, -75, 0.5, -15)
+Predict.Size = UDim2.new(0, 150, 0, 25)
+Predict.Visible = false
+Predict.ZIndex = 999
+
+Icon.Name = "Icon"
+Icon.Parent = Predict
+Icon.BackgroundColor3 = Color3.fromRGB(43, 0, 1)
+Icon.BackgroundTransparency = 1.000
+Icon.Size = UDim2.new(0, 27, 0, 25)
+Icon.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Icon.Image = "http://www.roblox.com/asset/?id=18607792772"
+Icon.ScaleType = Enum.ScaleType.Fit
+
+Label_4.Name = "Label"
+Label_4.Parent = Predict
+Label_4.BackgroundColor3 = Color3.fromRGB(43, 0, 1)
+Label_4.BackgroundTransparency = 1.000
+Label_4.Position = UDim2.new(0, 35, 0, 0)
+Label_4.Size = UDim2.new(0, 115, 0, 25)
+Label_4.Font = Enum.Font.Unknown
+Label_4.Text = "nil"
+Label_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label_4.TextScaled = true
+Label_4.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0, 3)
+UICorner_14.Parent = Predict
+
+UsePrediction.Name = "UsePrediction"
+UsePrediction.Parent = Predict
+UsePrediction.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UsePrediction.BackgroundTransparency = 1.000
+UsePrediction.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UsePrediction.BorderSizePixel = 0
+UsePrediction.Size = UDim2.new(0, 150, 0, 25)
+UsePrediction.ZIndex = 999999999
+UsePrediction.Font = Enum.Font.SourceSans
+UsePrediction.Text = ""
+UsePrediction.TextColor3 = Color3.fromRGB(0, 0, 0)
+UsePrediction.TextSize = 14.000
+
+detail_4.Name = "detail"
+detail_4.Parent = Predict
+detail_4.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_4.BackgroundTransparency = 1.000
+detail_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_4.BorderSizePixel = 0
+detail_4.Position = UDim2.new(-0.000885739573, 0, 0, 0)
+detail_4.Size = UDim2.new(1, 0, 1, 0)
+detail_4.ZIndex = 0
+detail_4.Image = "rbxassetid://16255699706"
+detail_4.ImageColor3 = Color3.fromRGB(33, 95, 98)
+detail_4.ImageTransparency = 0.930
+
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = Execution
+ScriptHub.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+ScriptHub.BackgroundTransparency = 0.850
+ScriptHub.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScriptHub.BorderSizePixel = 0
+ScriptHub.Position = UDim2.new(0.800364137, 0, 0, 0)
+ScriptHub.Size = UDim2.new(0, 114, 0, 279)
+ScriptHub.ZIndex = 10
+
+SearchBar.Name = "SearchBar"
+SearchBar.Parent = ScriptHub
+SearchBar.AnchorPoint = Vector2.new(0.5, 0)
+SearchBar.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
+SearchBar.BackgroundTransparency = 1.000
+SearchBar.BorderColor3 = Color3.fromRGB(32, 32, 32)
+SearchBar.BorderSizePixel = 0
+SearchBar.Position = UDim2.new(0.499999344, 0, 0.0345461555, 0)
+SearchBar.Size = UDim2.new(0.999998689, 0, 0.108915903, 0)
+SearchBar.ZIndex = 2
+SearchBar.Font = Enum.Font.Unknown
+SearchBar.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+SearchBar.PlaceholderText = "Search"
+SearchBar.Text = ""
+SearchBar.TextColor3 = Color3.fromRGB(204, 204, 204)
+SearchBar.TextScaled = true
+SearchBar.TextSize = 14.000
+SearchBar.TextWrapped = true
+
+Frame.Name = "Frame"
+Frame.Parent = ScriptHub
+Frame.Active = true
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0637681112, 0, 0.149114639, 0)
+Frame.Size = UDim2.new(0, 96, 0, 183)
+Frame.CanvasSize = UDim2.new(0, 0, 999, 0)
+Frame.ScrollBarThickness = 5
+
+UIListLayout_3.Parent = Frame
+UIListLayout_3.Padding = UDim.new(0, 15)
+
+UIPadding_2.Parent = Frame
+UIPadding_2.PaddingBottom = UDim.new(0, 5)
+UIPadding_2.PaddingTop = UDim.new(0, 30)
+
+FolderFrameTest.Name = "Folder Frame Test"
+FolderFrameTest.Parent = Frame
+FolderFrameTest.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FolderFrameTest.BackgroundTransparency = 1.000
+FolderFrameTest.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FolderFrameTest.BorderSizePixel = 0
+FolderFrameTest.Size = UDim2.new(1, 0, 1, 0)
+
+FoldersnButtons.Name = "Folders n Buttons"
+FoldersnButtons.Parent = FolderFrameTest
+
+Folder_One.Name = "Folder_One"
+Folder_One.Parent = FoldersnButtons
+Folder_One.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Folder_One.BackgroundTransparency = 1.000
+Folder_One.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Folder_One.BorderSizePixel = 0
+Folder_One.Size = UDim2.new(0, 15, 0, 15)
+Folder_One.Image = "rbxassetid://18367038485"
+
+Placeholder_One.Name = "Placeholder_One"
+Placeholder_One.Parent = FoldersnButtons
+Placeholder_One.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Placeholder_One.BackgroundTransparency = 1.000
+Placeholder_One.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Placeholder_One.BorderSizePixel = 0
+Placeholder_One.Position = UDim2.new(0.21875, 0, 0, 0)
+Placeholder_One.Size = UDim2.new(0, 56, 0, 15)
+Placeholder_One.Font = Enum.Font.SourceSans
+Placeholder_One.Text = "Placeholder"
+Placeholder_One.TextColor3 = Color3.fromRGB(255, 255, 255)
+Placeholder_One.TextSize = 14.000
+
+Folder_Two.Name = "Folder_Two"
+Folder_Two.Parent = FoldersnButtons
+Folder_Two.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Folder_Two.BackgroundTransparency = 1.000
+Folder_Two.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Folder_Two.BorderSizePixel = 0
+Folder_Two.Position = UDim2.new(0, 0, 8.25301613e-05, 0)
+Folder_Two.Size = UDim2.new(0, 15, 0, 15)
+Folder_Two.Image = "rbxassetid://18367038485"
+
+Placeholder_Two.Name = "Placeholder_Two"
+Placeholder_Two.Parent = FoldersnButtons
+Placeholder_Two.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Placeholder_Two.BackgroundTransparency = 1.000
+Placeholder_Two.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Placeholder_Two.BorderSizePixel = 0
+Placeholder_Two.Position = UDim2.new(0.21875, 0, 8.25301613e-05, 0)
+Placeholder_Two.Size = UDim2.new(0, 56, 0, 15)
+Placeholder_Two.Font = Enum.Font.SourceSans
+Placeholder_Two.Text = "Placeholder"
+Placeholder_Two.TextColor3 = Color3.fromRGB(255, 255, 255)
+Placeholder_Two.TextSize = 14.000
+
+PlaceholderFiles.Name = "Placeholder Files"
+PlaceholderFiles.Parent = FolderFrameTest
+
+Button_One.Name = "Button_One"
+Button_One.Parent = PlaceholderFiles
+Button_One.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_One.BackgroundTransparency = 1.000
+Button_One.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_One.BorderSizePixel = 0
+Button_One.Position = UDim2.new(0.291666657, 0, 8.25301613e-05, 0)
+Button_One.Size = UDim2.new(0, 52, 0, 15)
+Button_One.Visible = false
+Button_One.Font = Enum.Font.SourceSans
+Button_One.Text = "Place Holder"
+Button_One.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_One.TextSize = 14.000
+
+Button_Two.Name = "Button_Two"
+Button_Two.Parent = PlaceholderFiles
+Button_Two.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_Two.BackgroundTransparency = 1.000
+Button_Two.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_Two.BorderSizePixel = 0
+Button_Two.Position = UDim2.new(0.291666657, 0, 0.000147118975, 0)
+Button_Two.Size = UDim2.new(0, 52, 0, 15)
+Button_Two.Visible = false
+Button_Two.Font = Enum.Font.SourceSans
+Button_Two.Text = "Place Holder"
+Button_Two.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_Two.TextSize = 14.000
+
+SampleBTN.Name = "SampleBTN"
+SampleBTN.Parent = ScriptHub
+SampleBTN.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+SampleBTN.BackgroundTransparency = 1.000
+SampleBTN.Position = UDim2.new(0.020833334, 0, -1.44339892e-05, 0)
+SampleBTN.Size = UDim2.new(0, 85, 0, 23)
+SampleBTN.Visible = false
+SampleBTN.Font = Enum.Font.Unknown
+SampleBTN.Text = "INF YIELD SS"
+SampleBTN.TextColor3 = Color3.fromRGB(255, 255, 255)
+SampleBTN.TextScaled = true
+SampleBTN.TextSize = 14.000
+SampleBTN.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = SampleBTN
 
 SideFrame.Name = "SideFrame"
-SideFrame.Parent = Main
+SideFrame.Parent = Execution
 SideFrame.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
 SideFrame.BackgroundTransparency = 0.850
 SideFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SideFrame.BorderSizePixel = 0
-SideFrame.Position = UDim2.new(0.00203257124, 0, 0.811855257, 0)
-SideFrame.Size = UDim2.new(0, 544, 0, 57)
+SideFrame.Position = UDim2.new(-0.00157839258, 0, 0.76138413, 0)
+SideFrame.Size = UDim2.new(0, 563, 0, 41)
 SideFrame.ZIndex = 10
 
 Execute.Name = "Execute"
@@ -461,204 +860,133 @@ Execute.Parent = SideFrame
 Execute.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Execute.BackgroundTransparency = 1.000
 Execute.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Execute.Position = UDim2.new(0.00510830712, 0, 0.211974084, 0)
-Execute.Size = UDim2.new(0, 51, 0, 34)
+Execute.Position = UDim2.new(0.00510833971, 0, 0.211974308, 0)
+Execute.Size = UDim2.new(0, 51, 0, 31)
 Execute.ZIndex = 9999
 Execute.Image = "rbxassetid://6764432408"
 Execute.ImageColor3 = Color3.fromRGB(3, 255, 121)
 Execute.ImageRectOffset = Vector2.new(100, 150)
 Execute.ImageRectSize = Vector2.new(50, 50)
 
-TextLabel.Parent = Execute
-TextLabel.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.784313738, 0, 0.264705896, 0)
-TextLabel.Size = UDim2.new(0, 85, 0, 19)
-TextLabel.ZIndex = 99999
-TextLabel.Font = Enum.Font.ArialBold
-TextLabel.Text = "Execute"
-TextLabel.TextColor3 = Color3.fromRGB(4, 248, 118)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
+TextLabel_3.Parent = Execute
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.784313142, 0, 0.264705539, 0)
+TextLabel_3.Size = UDim2.new(0, 79, 0, 19)
+TextLabel_3.ZIndex = 99999
+TextLabel_3.Font = Enum.Font.ArialBold
+TextLabel_3.Text = "Execute"
+TextLabel_3.TextColor3 = Color3.fromRGB(4, 248, 118)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
 
-UICorner_7.Parent = TextLabel
+UICorner_16.Parent = TextLabel_3
 
 Clear.Name = "Clear"
 Clear.Parent = SideFrame
 Clear.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Clear.BackgroundTransparency = 1.000
 Clear.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Clear.Position = UDim2.new(0.757511199, 0, 0.243224084, 0)
-Clear.Size = UDim2.new(0, 35, 0, 30)
+Clear.Position = UDim2.new(0.603564203, 0, 0.29450655, 0)
+Clear.Size = UDim2.new(0, 35, 0, 29)
 Clear.ZIndex = 9999
 Clear.Image = "rbxassetid://3926307971"
 Clear.ImageColor3 = Color3.fromRGB(255, 15, 87)
 Clear.ImageRectOffset = Vector2.new(84, 84)
 Clear.ImageRectSize = Vector2.new(36, 36)
 
-TextLabel_2.Parent = Clear
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(1.00177526, 0, 0.198038742, 0)
-TextLabel_2.Size = UDim2.new(0, 55, 0, 19)
-TextLabel_2.ZIndex = 99999
-TextLabel_2.Font = Enum.Font.ArialBold
-TextLabel_2.Text = "Clear"
-TextLabel_2.TextColor3 = Color3.fromRGB(252, 15, 86)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
+TextLabel_4.Parent = Clear
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(1.23034668, 0, 0.163556322, 0)
+TextLabel_4.Size = UDim2.new(0, 46, 0, 19)
+TextLabel_4.ZIndex = 99999
+TextLabel_4.Font = Enum.Font.ArialBold
+TextLabel_4.Text = "Clear"
+TextLabel_4.TextColor3 = Color3.fromRGB(252, 15, 86)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
 
-UICorner_8.Parent = TextLabel_2
+UICorner_17.Parent = TextLabel_4
 
 Respawn.Name = "Respawn"
 Respawn.Parent = SideFrame
 Respawn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Respawn.BackgroundTransparency = 1.000
 Respawn.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Respawn.Position = UDim2.new(0.48550123, 0, 0.0206363071, 5)
-Respawn.Size = UDim2.new(0, 48, 0, 44)
+Respawn.Position = UDim2.new(0.381837457, 0, 0.0300806556, 5)
+Respawn.Size = UDim2.new(0, 48, 0, 34)
 Respawn.ZIndex = 9999
 Respawn.Image = "http://www.roblox.com/asset/?id=17781654120"
 Respawn.ImageRectOffset = Vector2.new(160, 15)
 Respawn.ImageRectSize = Vector2.new(60, 60)
 Respawn.ScaleType = Enum.ScaleType.Fit
 
-TextLabel_3.Parent = Respawn
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0.983417511, 0, 0.315601707, 0)
-TextLabel_3.Size = UDim2.new(0, 71, 0, 20)
-TextLabel_3.ZIndex = 99999
-TextLabel_3.Font = Enum.Font.ArialBold
-TextLabel_3.Text = "Respawn"
-TextLabel_3.TextColor3 = Color3.fromRGB(253, 253, 253)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
+TextLabel_5.Parent = Respawn
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.983417511, 0, 0.315602034, 0)
+TextLabel_5.Size = UDim2.new(0, 60, 0, 20)
+TextLabel_5.ZIndex = 99999
+TextLabel_5.Font = Enum.Font.ArialBold
+TextLabel_5.Text = "Respawn"
+TextLabel_5.TextColor3 = Color3.fromRGB(253, 253, 253)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
 
-UICorner_9.Parent = TextLabel_3
+UICorner_18.Parent = TextLabel_5
 
 R6.Name = "R6"
 R6.Parent = SideFrame
 R6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 R6.BackgroundTransparency = 1.000
 R6.BorderColor3 = Color3.fromRGB(27, 42, 53)
-R6.Position = UDim2.new(0.288922697, 0, 0.074647069, 0)
-R6.Size = UDim2.new(0, 49, 0, 46)
+R6.Position = UDim2.new(0.234992296, 0, 0.14607276, 0)
+R6.Size = UDim2.new(0, 49, 0, 36)
 R6.ZIndex = 9999
 R6.Image = "http://www.roblox.com/asset/?id=17781654120"
 R6.ImageRectSize = Vector2.new(90, 90)
 R6.ScaleType = Enum.ScaleType.Fit
 
-Label_4.Name = "Label"
-Label_4.Parent = R6
-Label_4.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_4.BackgroundTransparency = 1.000
-Label_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Label_4.BorderSizePixel = 0
-Label_4.Position = UDim2.new(0.795917094, 0, 0.315602183, 0)
-Label_4.Size = UDim2.new(0, 57, 0, 20)
-Label_4.ZIndex = 99999
-Label_4.Font = Enum.Font.ArialBold
-Label_4.Text = "R6"
-Label_4.TextColor3 = Color3.fromRGB(253, 203, 0)
-Label_4.TextScaled = true
-Label_4.TextSize = 14.000
-Label_4.TextWrapped = true
+Label_5.Name = "Label"
+Label_5.Parent = R6
+Label_5.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_5.BackgroundTransparency = 1.000
+Label_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Label_5.BorderSizePixel = 0
+Label_5.Position = UDim2.new(0.795920849, 0, 0.31560263, 0)
+Label_5.Size = UDim2.new(0, 45, 0, 20)
+Label_5.ZIndex = 99999
+Label_5.Font = Enum.Font.ArialBold
+Label_5.Text = "R6"
+Label_5.TextColor3 = Color3.fromRGB(253, 203, 0)
+Label_5.TextScaled = true
+Label_5.TextSize = 14.000
+Label_5.TextWrapped = true
 
-UICorner_10.Parent = Label_4
-
-ImageLabel.Parent = SideFrame
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.BackgroundTransparency = 1.000
-ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
-ImageLabel.Size = UDim2.new(1.0383265, 0, 1, 0)
-ImageLabel.Image = "rbxassetid://10548483470"
-ImageLabel.ImageTransparency = 0.710
-
-Side.Name = "Side"
-Side.Parent = Main
-Side.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
-Side.BackgroundTransparency = 0.850
-Side.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Side.Position = UDim2.new(0, 0, 0.123778306, 0)
-Side.Size = UDim2.new(0, 51, 0, 211)
-Side.ZIndex = 10
-
-UICorner_11.CornerRadius = UDim.new(0, 3)
-UICorner_11.Parent = Side
-
-Settings.Name = "Settings"
-Settings.Parent = Side
-Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Settings.BackgroundTransparency = 1.000
-Settings.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Settings.Position = UDim2.new(0.0491787791, 0, 0.045085825, 5)
-Settings.Size = UDim2.new(0, 45, 0, 44)
-Settings.ZIndex = 9999
-Settings.Image = "rbxassetid://3926307971"
-Settings.ImageRectOffset = Vector2.new(324, 124)
-Settings.ImageRectSize = Vector2.new(36, 36)
-Settings.ScaleType = Enum.ScaleType.Fit
-
-Console_3.Name = "Console"
-Console_3.Parent = Side
-Console_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Console_3.BackgroundTransparency = 1.000
-Console_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Console_3.Position = UDim2.new(0.0993125737, 0, 0.274726331, 5)
-Console_3.Size = UDim2.new(0, 39, 0, 39)
-Console_3.ZIndex = 9999
-Console_3.Image = "rbxassetid://3926305904"
-Console_3.ImageRectOffset = Vector2.new(444, 524)
-Console_3.ImageRectSize = Vector2.new(36, 36)
-Console_3.ScaleType = Enum.ScaleType.Fit
-
-SpawnDummy.Name = "SpawnDummy"
-SpawnDummy.Parent = Side
-SpawnDummy.BackgroundTransparency = 1.000
-SpawnDummy.BorderColor3 = Color3.fromRGB(27, 42, 53)
-SpawnDummy.LayoutOrder = 8
-SpawnDummy.Position = UDim2.new(0.117647059, 0, 0.5, 0)
-SpawnDummy.Size = UDim2.new(0, 36, 0, 36)
-SpawnDummy.ZIndex = 999999999
-SpawnDummy.Image = "rbxassetid://3926307971"
-SpawnDummy.ImageRectOffset = Vector2.new(404, 204)
-SpawnDummy.ImageRectSize = Vector2.new(36, 36)
-
-UploadScript.Name = "UploadScript"
-UploadScript.Parent = Side
-UploadScript.Active = false
-UploadScript.BackgroundTransparency = 1.000
-UploadScript.BorderColor3 = Color3.fromRGB(27, 42, 53)
-UploadScript.LayoutOrder = 6
-UploadScript.Position = UDim2.new(0.107843138, 0, 0.702586234, 0)
-UploadScript.Size = UDim2.new(0, 39, 0, 39)
-UploadScript.ZIndex = 9999
-UploadScript.Image = "rbxassetid://3926307971"
-UploadScript.ImageRectOffset = Vector2.new(4, 4)
-UploadScript.ImageRectSize = Vector2.new(36, 36)
+UICorner_19.Parent = Label_5
 
 Tabs.Name = "Tabs"
-Tabs.Parent = Main
-Tabs.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
+Tabs.Parent = Execution
+Tabs.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
 Tabs.BackgroundTransparency = 0.600
 Tabs.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Tabs.BorderSizePixel = 0
-Tabs.Position = UDim2.new(0.0970482677, 0, 0.123778462, 0)
+Tabs.Position = UDim2.new(-0.000682997226, 0, 0.00321105518, 0)
 Tabs.Size = UDim2.new(0, 459, 0, 21)
 
-UIListLayout_2.Parent = Tabs
-UIListLayout_2.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.Parent = Tabs
+UIListLayout_4.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
 
 add.Name = "add"
 add.Parent = Tabs
@@ -698,164 +1026,25 @@ remove.Image = "rbxassetid://3926305904"
 remove.ImageRectOffset = Vector2.new(924, 724)
 remove.ImageRectSize = Vector2.new(36, 36)
 
-ScriptHub.Name = "ScriptHub"
-ScriptHub.Parent = Main
-ScriptHub.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
-ScriptHub.BackgroundTransparency = 0.850
-ScriptHub.BorderColor3 = Color3.fromRGB(27, 42, 53)
-ScriptHub.BorderSizePixel = 0
-ScriptHub.Position = UDim2.new(0.832967043, 0, 0.123778149, 0)
-ScriptHub.Size = UDim2.new(0, 94, 0, 212)
-ScriptHub.ZIndex = 10
-
-SearchBar.Name = "SearchBar"
-SearchBar.Parent = ScriptHub
-SearchBar.AnchorPoint = Vector2.new(0.5, 0)
-SearchBar.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
-SearchBar.BackgroundTransparency = 1.000
-SearchBar.BorderColor3 = Color3.fromRGB(32, 32, 32)
-SearchBar.BorderSizePixel = 0
-SearchBar.Position = UDim2.new(0.499999344, 0, 0.0345461555, 0)
-SearchBar.Size = UDim2.new(0.999998689, 0, 0.108915903, 0)
-SearchBar.ZIndex = 2
-SearchBar.Font = Enum.Font.Unknown
-SearchBar.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-SearchBar.PlaceholderText = "Search"
-SearchBar.Text = ""
-SearchBar.TextColor3 = Color3.fromRGB(204, 204, 204)
-SearchBar.TextScaled = true
-SearchBar.TextSize = 14.000
-SearchBar.TextWrapped = true
-
-Frame.Name = "Frame"
-Frame.Parent = ScriptHub
-Frame.Active = true
-Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame.BackgroundTransparency = 1.000
-Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.0637681112, 0, 0.149114639, 0)
-Frame.Size = UDim2.new(0, 96, 0, 183)
-Frame.CanvasSize = UDim2.new(0, 0, 999, 0)
-Frame.ScrollBarThickness = 5
-
-UIListLayout_3.Parent = Frame
-UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIListLayout_3.Padding = UDim.new(0, 15)
-
-UIPadding_2.Parent = Frame
-UIPadding_2.PaddingBottom = UDim.new(0, 5)
-UIPadding_2.PaddingTop = UDim.new(0, 30)
-
-SampleBTN.Name = "SampleBTN"
-SampleBTN.Parent = ScriptHub
-SampleBTN.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
-SampleBTN.BackgroundTransparency = 1.000
-SampleBTN.Position = UDim2.new(0.020833334, 0, -1.44339892e-05, 0)
-SampleBTN.Size = UDim2.new(0, 85, 0, 23)
-SampleBTN.Visible = false
-SampleBTN.Font = Enum.Font.Unknown
-SampleBTN.Text = "INF YIELD SS"
-SampleBTN.TextColor3 = Color3.fromRGB(255, 255, 255)
-SampleBTN.TextScaled = true
-SampleBTN.TextSize = 14.000
-SampleBTN.TextWrapped = true
-
-UICorner_12.CornerRadius = UDim.new(0, 3)
-UICorner_12.Parent = SampleBTN
-
-addScript.Name = "addScript"
-addScript.Parent = Main
-addScript.BackgroundColor3 = Color3.fromRGB(34, 37, 47)
-addScript.BorderColor3 = Color3.fromRGB(0, 0, 0)
-addScript.BorderSizePixel = 0
-addScript.Position = UDim2.new(0.0932358354, 0, 0.123778105, 0)
-addScript.Size = UDim2.new(0, 390, 0, 211)
-addScript.Visible = false
-addScript.ZIndex = 99999999
-
-detail_2.Name = "detail"
-detail_2.Parent = addScript
-detail_2.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
-detail_2.BackgroundTransparency = 1.000
-detail_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-detail_2.BorderSizePixel = 0
-detail_2.Size = UDim2.new(1, 0, 1, 0)
-detail_2.ZIndex = 0
-detail_2.Image = "rbxassetid://16255699706"
-detail_2.ImageColor3 = Color3.fromRGB(106, 106, 106)
-detail_2.ImageTransparency = 0.780
-
-title.Name = "title"
-title.Parent = addScript
-title.BackgroundColor3 = Color3.fromRGB(27, 31, 37)
-title.BorderColor3 = Color3.fromRGB(0, 0, 0)
-title.BorderSizePixel = 0
-title.Size = UDim2.new(0, 391, 0, 30)
-title.Font = Enum.Font.Unknown
-title.Text = "Add a script"
-title.TextColor3 = Color3.fromRGB(255, 255, 255)
-title.TextScaled = true
-title.TextSize = 14.000
-title.TextWrapped = true
-
-TextLabel_4.Parent = addScript
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(27, 31, 37)
-TextLabel_4.BackgroundTransparency = 0.600
-TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.BorderSizePixel = 0
-TextLabel_4.Position = UDim2.new(0.00997627433, 0, 0.836064756, 0)
-TextLabel_4.Size = UDim2.new(0, 103, 0, 27)
-TextLabel_4.Font = Enum.Font.Unknown
-TextLabel_4.Text = "Script Name"
-TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.TextScaled = true
-TextLabel_4.TextSize = 24.000
-TextLabel_4.TextWrapped = true
-
-UICorner_13.Parent = TextLabel_4
-
-scriptBOX.Name = "scriptBOX"
-scriptBOX.Parent = addScript
-scriptBOX.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
-scriptBOX.BackgroundTransparency = 1.000
-scriptBOX.BorderColor3 = Color3.fromRGB(61, 61, 61)
-scriptBOX.BorderSizePixel = 0
-scriptBOX.Position = UDim2.new(0, 0, 0.141509429, 0)
-scriptBOX.Size = UDim2.new(1.00512815, 5, 0.656819463, 0)
-scriptBOX.ZIndex = 999999999
-scriptBOX.BottomImage = "rbxassetid://148970562"
-scriptBOX.CanvasSize = UDim2.new(0, 9999, 0, 9999)
-scriptBOX.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
-scriptBOX.MidImage = "rbxassetid://148970562"
-scriptBOX.ScrollBarThickness = 5
-scriptBOX.TopImage = "rbxassetid://148970562"
-
-Lines.Name = "Lines"
-Lines.Parent = scriptBOX
-Lines.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Lines.BackgroundTransparency = 1.000
-Lines.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Lines.Size = UDim2.new(0.03232494, 0, 1, 0)
-Lines.Visible = false
-Lines.ZIndex = 4
-Lines.Font = Enum.Font.Code
-Lines.Text = "1"
-Lines.TextColor3 = Color3.fromRGB(255, 255, 255)
-Lines.TextSize = 15.000
-Lines.TextYAlignment = Enum.TextYAlignment.Top
-
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.48, Color3.fromRGB(168, 168, 168)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(67, 67, 67))}
-UIGradient.Parent = scriptBOX
-
-UICorner_14.Parent = scriptBOX
-
-UIListLayout_4.Parent = scriptBOX
-UIListLayout_4.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+ExecuBox.Name = "ExecuBox"
+ExecuBox.Parent = Execution
+ExecuBox.AnchorPoint = Vector2.new(0, 1)
+ExecuBox.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+ExecuBox.BackgroundTransparency = 0.850
+ExecuBox.BorderColor3 = Color3.fromRGB(19, 21, 26)
+ExecuBox.BorderSizePixel = 0
+ExecuBox.Position = UDim2.new(0.0183241814, 0, 0.757478952, 0)
+ExecuBox.Size = UDim2.new(0.77331394, 5, 0.67592603, 0)
+ExecuBox.ZIndex = 57
+ExecuBox.BottomImage = "rbxassetid://148970562"
+ExecuBox.CanvasSize = UDim2.new(0, 9999, 0, 9999)
+ExecuBox.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+ExecuBox.MidImage = "rbxassetid://148970562"
+ExecuBox.ScrollBarThickness = 5
+ExecuBox.TopImage = "rbxassetid://148970562"
 
 Source.Name = "Source"
-Source.Parent = scriptBOX
+Source.Parent = ExecuBox
 Source.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Source.BackgroundTransparency = 1.000
 Source.BorderColor3 = Color3.fromRGB(27, 42, 53)
@@ -872,8 +1061,6 @@ Source.TextSize = 15.000
 Source.TextWrapped = true
 Source.TextXAlignment = Enum.TextXAlignment.Left
 Source.TextYAlignment = Enum.TextYAlignment.Top
-
-UICorner_15.Parent = Source
 
 Vars_.Name = "Vars_"
 Vars_.Parent = Source
@@ -920,6 +1107,21 @@ Strings_.TextWrapped = true
 Strings_.TextXAlignment = Enum.TextXAlignment.Left
 Strings_.TextYAlignment = Enum.TextYAlignment.Top
 
+Numbers_.Name = "Numbers_"
+Numbers_.Parent = Source
+Numbers_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Numbers_.BackgroundTransparency = 1.000
+Numbers_.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Numbers_.Size = UDim2.new(1, 0, 0.972692251, 0)
+Numbers_.ZIndex = 3
+Numbers_.Font = Enum.Font.Code
+Numbers_.Text = ""
+Numbers_.TextColor3 = Color3.fromRGB(255, 198, 0)
+Numbers_.TextSize = 15.000
+Numbers_.TextWrapped = true
+Numbers_.TextXAlignment = Enum.TextXAlignment.Left
+Numbers_.TextYAlignment = Enum.TextYAlignment.Top
+
 Keywords_.Name = "Keywords_"
 Keywords_.Parent = Source
 Keywords_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -958,84 +1160,205 @@ Comments_.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Comments_.Size = UDim2.new(1, 0, 0.972692251, 0)
 Comments_.ZIndex = 2
 Comments_.Font = Enum.Font.Code
-Comments_.Text = "--Insert script here"
+Comments_.Text = ""
 Comments_.TextColor3 = Color3.fromRGB(59, 200, 59)
 Comments_.TextSize = 15.000
 Comments_.TextWrapped = true
 Comments_.TextXAlignment = Enum.TextXAlignment.Left
 Comments_.TextYAlignment = Enum.TextYAlignment.Top
 
-Numbers_.Name = "Numbers_"
-Numbers_.Parent = Source
-Numbers_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Numbers_.BackgroundTransparency = 1.000
-Numbers_.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Numbers_.Size = UDim2.new(1, 0, 0.972692251, 0)
-Numbers_.ZIndex = 3
-Numbers_.Font = Enum.Font.Code
-Numbers_.Text = ""
-Numbers_.TextColor3 = Color3.fromRGB(255, 198, 0)
-Numbers_.TextSize = 15.000
-Numbers_.TextWrapped = true
-Numbers_.TextXAlignment = Enum.TextXAlignment.Left
-Numbers_.TextYAlignment = Enum.TextYAlignment.Top
+UICorner_20.Parent = Source
 
-UICorner_16.Parent = scriptBOX
+Lines.Name = "Lines"
+Lines.Parent = ExecuBox
+Lines.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lines.BackgroundTransparency = 1.000
+Lines.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Lines.Size = UDim2.new(0.03232494, 0, 1, 0)
+Lines.Visible = false
+Lines.ZIndex = 4
+Lines.Font = Enum.Font.Code
+Lines.Text = "1"
+Lines.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lines.TextSize = 15.000
+Lines.TextYAlignment = Enum.TextYAlignment.Top
 
-scriptName.Name = "scriptName"
-scriptName.Parent = addScript
-scriptName.BackgroundColor3 = Color3.fromRGB(27, 31, 37)
-scriptName.BackgroundTransparency = 0.600
-scriptName.BorderColor3 = Color3.fromRGB(0, 0, 0)
-scriptName.BorderSizePixel = 0
-scriptName.Position = UDim2.new(0.303248018, 0, 0.836064756, 0)
-scriptName.Size = UDim2.new(0, 132, 0, 26)
-scriptName.Font = Enum.Font.Unknown
-scriptName.PlaceholderText = "--Script Name"
-scriptName.Text = ""
-scriptName.TextColor3 = Color3.fromRGB(255, 255, 255)
-scriptName.TextScaled = true
-scriptName.TextSize = 14.000
-scriptName.TextWrapped = true
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.48, Color3.fromRGB(168, 168, 168)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(67, 67, 67))}
+UIGradient.Parent = ExecuBox
 
-UICorner_17.Parent = scriptName
+UICorner_21.Parent = ExecuBox
 
-Create.Name = "Create"
-Create.Parent = addScript
-Create.BackgroundColor3 = Color3.fromRGB(27, 31, 37)
-Create.BackgroundTransparency = 0.600
-Create.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Create.BorderSizePixel = 0
-Create.Position = UDim2.new(0.670329392, 0, 0.836064756, 0)
-Create.Size = UDim2.new(0, 122, 0, 26)
-Create.Font = Enum.Font.Unknown
-Create.Text = "Create"
-Create.TextColor3 = Color3.fromRGB(255, 255, 255)
-Create.TextScaled = true
-Create.TextSize = 14.000
-Create.TextWrapped = true
+UIListLayout_5.Parent = ExecuBox
+UIListLayout_5.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
 
-UICorner_18.Parent = Create
+detail_5.Name = "detail"
+detail_5.Parent = Execution
+detail_5.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_5.BackgroundTransparency = 1.000
+detail_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_5.BorderSizePixel = 0
+detail_5.Position = UDim2.new(-0.000885739573, 0, 0, 0)
+detail_5.Size = UDim2.new(1, 0, 1, 0)
+detail_5.ZIndex = 0
+detail_5.Image = "rbxassetid://16255699706"
+detail_5.ImageColor3 = Color3.fromRGB(33, 95, 98)
+detail_5.ImageTransparency = 0.860
 
-ExecuBox.Name = "ExecuBox"
-ExecuBox.Parent = Main
-ExecuBox.AnchorPoint = Vector2.new(0, 1)
-ExecuBox.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
-ExecuBox.BackgroundTransparency = 0.600
-ExecuBox.BorderColor3 = Color3.fromRGB(61, 61, 61)
-ExecuBox.BorderSizePixel = 0
-ExecuBox.Position = UDim2.new(0.100348681, 0, 0.814331889, 0)
-ExecuBox.Size = UDim2.new(0.724618256, 5, 0.633488178, 0)
-ExecuBox.ZIndex = 57
-ExecuBox.BottomImage = "rbxassetid://148970562"
-ExecuBox.CanvasSize = UDim2.new(0, 9999, 0, 9999)
-ExecuBox.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
-ExecuBox.MidImage = "rbxassetid://148970562"
-ExecuBox.ScrollBarThickness = 5
-ExecuBox.TopImage = "rbxassetid://148970562"
+detail_6.Name = "detail"
+detail_6.Parent = Execution
+detail_6.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_6.BackgroundTransparency = 1.000
+detail_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_6.BorderSizePixel = 0
+detail_6.Size = UDim2.new(1, 0, 1, 0)
+detail_6.ZIndex = 0
+detail_6.Image = "rbxassetid://16255699706"
+detail_6.ImageColor3 = Color3.fromRGB(33, 95, 98)
+detail_6.ImageTransparency = 0.860
+
+BottomFrame.Name = "BottomFrame"
+BottomFrame.Parent = Execution
+BottomFrame.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+BottomFrame.BackgroundTransparency = 0.850
+BottomFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+BottomFrame.BorderSizePixel = 0
+BottomFrame.Position = UDim2.new(-0.0729895234, 0, 0.912810981, 0)
+BottomFrame.Size = UDim2.new(0, 562, 0, 24)
+BottomFrame.ZIndex = 10
+
+TextLabel_6.Parent = BottomFrame
+TextLabel_6.Active = true
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.000636524986, 0, 0.0558700562, 0)
+TextLabel_6.Size = UDim2.new(0, 140, 0, 25)
+TextLabel_6.Font = Enum.Font.Unknown
+TextLabel_6.Text = "Backdoor: RemoteEvent"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+detail_7.Name = "detail"
+detail_7.Parent = Main
+detail_7.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_7.BackgroundTransparency = 1.000
+detail_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_7.BorderSizePixel = 0
+detail_7.Position = UDim2.new(-0.000885739573, 0, 0, 0)
+detail_7.Size = UDim2.new(1, 0, 1, 0)
+detail_7.ZIndex = 0
+detail_7.Image = "rbxassetid://16255699706"
+detail_7.ImageColor3 = Color3.fromRGB(33, 95, 98)
+detail_7.ImageTransparency = 0.860
+
+detail_8.Name = "detail"
+detail_8.Parent = Main
+detail_8.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_8.BackgroundTransparency = 1.000
+detail_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_8.BorderSizePixel = 0
+detail_8.Size = UDim2.new(1, 0, 1, 0)
+detail_8.ZIndex = 0
+detail_8.Image = "rbxassetid://16255699706"
+detail_8.ImageColor3 = Color3.fromRGB(33, 95, 98)
+detail_8.ImageTransparency = 0.860
+
+addScript.Name = "addScript"
+addScript.Parent = Main
+addScript.BackgroundColor3 = Color3.fromRGB(34, 37, 47)
+addScript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+addScript.BorderSizePixel = 0
+addScript.Position = UDim2.new(0.0932358354, 0, 0.123778105, 0)
+addScript.Size = UDim2.new(0, 390, 0, 211)
+addScript.Visible = false
+addScript.ZIndex = 99999999
+
+detail_9.Name = "detail"
+detail_9.Parent = addScript
+detail_9.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_9.BackgroundTransparency = 1.000
+detail_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_9.BorderSizePixel = 0
+detail_9.Size = UDim2.new(1, 0, 1, 0)
+detail_9.ZIndex = 0
+detail_9.Image = "rbxassetid://16255699706"
+detail_9.ImageColor3 = Color3.fromRGB(106, 106, 106)
+detail_9.ImageTransparency = 0.780
+
+title.Name = "title"
+title.Parent = addScript
+title.BackgroundColor3 = Color3.fromRGB(27, 31, 37)
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Size = UDim2.new(0, 391, 0, 30)
+title.Font = Enum.Font.Unknown
+title.Text = "Add a script"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+
+TextLabel_7.Parent = addScript
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(27, 31, 37)
+TextLabel_7.BackgroundTransparency = 0.600
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.00997627433, 0, 0.836064756, 0)
+TextLabel_7.Size = UDim2.new(0, 103, 0, 27)
+TextLabel_7.Font = Enum.Font.Unknown
+TextLabel_7.Text = "Script Name"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 24.000
+TextLabel_7.TextWrapped = true
+
+UICorner_22.Parent = TextLabel_7
+
+scriptBOX.Name = "scriptBOX"
+scriptBOX.Parent = addScript
+scriptBOX.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
+scriptBOX.BackgroundTransparency = 1.000
+scriptBOX.BorderColor3 = Color3.fromRGB(61, 61, 61)
+scriptBOX.BorderSizePixel = 0
+scriptBOX.Position = UDim2.new(0, 0, 0.141509429, 0)
+scriptBOX.Size = UDim2.new(1.00512815, 5, 0.656819463, 0)
+scriptBOX.ZIndex = 999999999
+scriptBOX.BottomImage = "rbxassetid://148970562"
+scriptBOX.CanvasSize = UDim2.new(0, 9999, 0, 9999)
+scriptBOX.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+scriptBOX.MidImage = "rbxassetid://148970562"
+scriptBOX.ScrollBarThickness = 5
+scriptBOX.TopImage = "rbxassetid://148970562"
+
+Lines_2.Name = "Lines"
+Lines_2.Parent = scriptBOX
+Lines_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lines_2.BackgroundTransparency = 1.000
+Lines_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Lines_2.Size = UDim2.new(0.03232494, 0, 1, 0)
+Lines_2.Visible = false
+Lines_2.ZIndex = 4
+Lines_2.Font = Enum.Font.Code
+Lines_2.Text = "1"
+Lines_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lines_2.TextSize = 15.000
+Lines_2.TextYAlignment = Enum.TextYAlignment.Top
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.48, Color3.fromRGB(168, 168, 168)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(67, 67, 67))}
+UIGradient_2.Parent = scriptBOX
+
+UICorner_23.Parent = scriptBOX
+
+UIListLayout_6.Parent = scriptBOX
+UIListLayout_6.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
 
 Source_2.Name = "Source"
-Source_2.Parent = ExecuBox
+Source_2.Parent = scriptBOX
 Source_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Source_2.BackgroundTransparency = 1.000
 Source_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
@@ -1052,6 +1375,8 @@ Source_2.TextSize = 15.000
 Source_2.TextWrapped = true
 Source_2.TextXAlignment = Enum.TextXAlignment.Left
 Source_2.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_24.Parent = Source_2
 
 Vars__2.Name = "Vars_"
 Vars__2.Parent = Source_2
@@ -1098,21 +1423,6 @@ Strings__2.TextWrapped = true
 Strings__2.TextXAlignment = Enum.TextXAlignment.Left
 Strings__2.TextYAlignment = Enum.TextYAlignment.Top
 
-Numbers__2.Name = "Numbers_"
-Numbers__2.Parent = Source_2
-Numbers__2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Numbers__2.BackgroundTransparency = 1.000
-Numbers__2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Numbers__2.Size = UDim2.new(1, 0, 0.972692251, 0)
-Numbers__2.ZIndex = 3
-Numbers__2.Font = Enum.Font.Code
-Numbers__2.Text = ""
-Numbers__2.TextColor3 = Color3.fromRGB(255, 198, 0)
-Numbers__2.TextSize = 15.000
-Numbers__2.TextWrapped = true
-Numbers__2.TextXAlignment = Enum.TextXAlignment.Left
-Numbers__2.TextYAlignment = Enum.TextYAlignment.Top
-
 Keywords__2.Name = "Keywords_"
 Keywords__2.Parent = Source_2
 Keywords__2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1151,122 +1461,181 @@ Comments__2.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Comments__2.Size = UDim2.new(1, 0, 0.972692251, 0)
 Comments__2.ZIndex = 2
 Comments__2.Font = Enum.Font.Code
-Comments__2.Text = ""
+Comments__2.Text = "--Insert script here"
 Comments__2.TextColor3 = Color3.fromRGB(59, 200, 59)
 Comments__2.TextSize = 15.000
 Comments__2.TextWrapped = true
 Comments__2.TextXAlignment = Enum.TextXAlignment.Left
 Comments__2.TextYAlignment = Enum.TextYAlignment.Top
 
-UICorner_19.Parent = Source_2
+Numbers__2.Name = "Numbers_"
+Numbers__2.Parent = Source_2
+Numbers__2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Numbers__2.BackgroundTransparency = 1.000
+Numbers__2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Numbers__2.Size = UDim2.new(1, 0, 0.972692251, 0)
+Numbers__2.ZIndex = 3
+Numbers__2.Font = Enum.Font.Code
+Numbers__2.Text = ""
+Numbers__2.TextColor3 = Color3.fromRGB(255, 198, 0)
+Numbers__2.TextSize = 15.000
+Numbers__2.TextWrapped = true
+Numbers__2.TextXAlignment = Enum.TextXAlignment.Left
+Numbers__2.TextYAlignment = Enum.TextYAlignment.Top
 
-Lines_2.Name = "Lines"
-Lines_2.Parent = ExecuBox
-Lines_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Lines_2.BackgroundTransparency = 1.000
-Lines_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Lines_2.Size = UDim2.new(0.03232494, 0, 1, 0)
-Lines_2.Visible = false
-Lines_2.ZIndex = 4
-Lines_2.Font = Enum.Font.Code
-Lines_2.Text = "1"
-Lines_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Lines_2.TextSize = 15.000
-Lines_2.TextYAlignment = Enum.TextYAlignment.Top
+UICorner_25.Parent = scriptBOX
 
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.48, Color3.fromRGB(168, 168, 168)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(67, 67, 67))}
-UIGradient_2.Parent = ExecuBox
+scriptName.Name = "scriptName"
+scriptName.Parent = addScript
+scriptName.BackgroundColor3 = Color3.fromRGB(27, 31, 37)
+scriptName.BackgroundTransparency = 0.600
+scriptName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scriptName.BorderSizePixel = 0
+scriptName.Position = UDim2.new(0.303248018, 0, 0.836064756, 0)
+scriptName.Size = UDim2.new(0, 132, 0, 26)
+scriptName.Font = Enum.Font.Unknown
+scriptName.PlaceholderText = "--Script Name"
+scriptName.Text = ""
+scriptName.TextColor3 = Color3.fromRGB(255, 255, 255)
+scriptName.TextScaled = true
+scriptName.TextSize = 14.000
+scriptName.TextWrapped = true
 
-UICorner_20.Parent = ExecuBox
+UICorner_26.Parent = scriptName
 
-UIListLayout_5.Parent = ExecuBox
-UIListLayout_5.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+Create.Name = "Create"
+Create.Parent = addScript
+Create.BackgroundColor3 = Color3.fromRGB(27, 31, 37)
+Create.BackgroundTransparency = 0.600
+Create.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Create.BorderSizePixel = 0
+Create.Position = UDim2.new(0.670329392, 0, 0.836064756, 0)
+Create.Size = UDim2.new(0, 122, 0, 26)
+Create.Font = Enum.Font.Unknown
+Create.Text = "Create"
+Create.TextColor3 = Color3.fromRGB(255, 255, 255)
+Create.TextScaled = true
+Create.TextSize = 14.000
+Create.TextWrapped = true
 
-Predict.Name = "Predict"
-Predict.Parent = Main
-Predict.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
-Predict.BackgroundTransparency = 0.800
-Predict.BorderColor3 = Color3.fromRGB(32, 34, 43)
-Predict.Position = UDim2.new(0.5, -75, 0.5, -15)
-Predict.Size = UDim2.new(0, 150, 0, 25)
-Predict.Visible = false
-Predict.ZIndex = 999
+UICorner_27.Parent = Create
 
-Icon.Name = "Icon"
-Icon.Parent = Predict
-Icon.BackgroundColor3 = Color3.fromRGB(43, 0, 1)
-Icon.BackgroundTransparency = 1.000
-Icon.Size = UDim2.new(0, 27, 0, 25)
-Icon.SizeConstraint = Enum.SizeConstraint.RelativeXX
-Icon.Image = "http://www.roblox.com/asset/?id=18607792772"
-Icon.ScaleType = Enum.ScaleType.Fit
+Top_2.Name = "Top"
+Top_2.Parent = Main
+Top_2.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+Top_2.BackgroundTransparency = 0.850
+Top_2.BorderColor3 = Color3.fromRGB(19, 21, 26)
+Top_2.Size = UDim2.new(0, 621, 0, 38)
+Top_2.ZIndex = 9999999
 
-Label_5.Name = "Label"
-Label_5.Parent = Predict
-Label_5.BackgroundColor3 = Color3.fromRGB(43, 0, 1)
-Label_5.BackgroundTransparency = 1.000
-Label_5.Position = UDim2.new(0, 35, 0, 0)
-Label_5.Size = UDim2.new(0, 115, 0, 25)
-Label_5.Font = Enum.Font.Unknown
-Label_5.Text = "nil"
-Label_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-Label_5.TextScaled = true
-Label_5.TextWrapped = true
+UICorner_28.CornerRadius = UDim.new(0, 3)
+UICorner_28.Parent = Top_2
 
-UICorner_21.CornerRadius = UDim.new(0, 3)
-UICorner_21.Parent = Predict
+Close_2.Name = "Close"
+Close_2.Parent = Top_2
+Close_2.BackgroundColor3 = Color3.fromRGB(255, 88, 83)
+Close_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Close_2.Position = UDim2.new(0.956678629, 0, 0.299248129, 0)
+Close_2.Size = UDim2.new(0, 15, 0, 15)
+Close_2.ZIndex = 999999
+Close_2.Font = Enum.Font.SourceSansBold
+Close_2.Text = ""
+Close_2.TextColor3 = Color3.fromRGB(95, 32, 31)
+Close_2.TextScaled = true
+Close_2.TextSize = 24.000
+Close_2.TextWrapped = true
 
-UsePrediction.Name = "UsePrediction"
-UsePrediction.Parent = Predict
-UsePrediction.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-UsePrediction.BackgroundTransparency = 1.000
-UsePrediction.BorderColor3 = Color3.fromRGB(0, 0, 0)
-UsePrediction.BorderSizePixel = 0
-UsePrediction.Size = UDim2.new(0, 150, 0, 25)
-UsePrediction.ZIndex = 999999999
-UsePrediction.Font = Enum.Font.SourceSans
-UsePrediction.Text = ""
-UsePrediction.TextColor3 = Color3.fromRGB(0, 0, 0)
-UsePrediction.TextSize = 14.000
+UICorner_29.CornerRadius = UDim.new(99999, 999999)
+UICorner_29.Parent = Close_2
 
-detail_3.Name = "detail"
-detail_3.Parent = Predict
-detail_3.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
-detail_3.BackgroundTransparency = 1.000
-detail_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-detail_3.BorderSizePixel = 0
-detail_3.Position = UDim2.new(-0.000885739573, 0, 0, 0)
-detail_3.Size = UDim2.new(1, 0, 1, 0)
-detail_3.ZIndex = 0
-detail_3.Image = "rbxassetid://16255699706"
-detail_3.ImageColor3 = Color3.fromRGB(33, 95, 98)
-detail_3.ImageTransparency = 0.930
+Status_2.Name = "Status"
+Status_2.Parent = Top_2
+Status_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Status_2.BackgroundTransparency = 1.000
+Status_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Status_2.Position = UDim2.new(0.23170732, 0, 0.0882347524, 0)
+Status_2.Size = UDim2.new(0, 260, 0, 31)
+Status_2.ZIndex = 99
+Status_2.Font = Enum.Font.ArialBold
+Status_2.Text = "Execution Error: No backdoor found"
+Status_2.TextColor3 = Color3.fromRGB(212, 22, 57)
+Status_2.TextScaled = true
+Status_2.TextSize = 20.000
+Status_2.TextTransparency = 1.000
+Status_2.TextWrapped = true
 
-detail_4.Name = "detail"
-detail_4.Parent = Main
-detail_4.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
-detail_4.BackgroundTransparency = 1.000
-detail_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-detail_4.BorderSizePixel = 0
-detail_4.Size = UDim2.new(1, 0, 1, 0)
-detail_4.ZIndex = 0
-detail_4.Image = "rbxassetid://16255699706"
-detail_4.ImageColor3 = Color3.fromRGB(33, 95, 98)
-detail_4.ImageTransparency = 0.860
+Logo_2.Name = "Logo"
+Logo_2.Parent = Top_2
+Logo_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo_2.BackgroundTransparency = 1.000
+Logo_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Logo_2.Position = UDim2.new(-0.000281018351, 0, -0.156762376, 5)
+Logo_2.Size = UDim2.new(0, 43, 0, 45)
+Logo_2.ZIndex = 9999
+Logo_2.Image = "http://www.roblox.com/asset/?id=18471700048"
+Logo_2.ScaleType = Enum.ScaleType.Fit
 
-detail_5.Name = "detail"
-detail_5.Parent = Main
-detail_5.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
-detail_5.BackgroundTransparency = 1.000
-detail_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-detail_5.BorderSizePixel = 0
-detail_5.Position = UDim2.new(-0.000885739573, 0, 0, 0)
-detail_5.Size = UDim2.new(1, 0, 1, 0)
-detail_5.ZIndex = 0
-detail_5.Image = "rbxassetid://16255699706"
-detail_5.ImageColor3 = Color3.fromRGB(33, 95, 98)
-detail_5.ImageTransparency = 0.860
+Side.Name = "Side"
+Side.Parent = Main
+Side.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+Side.BackgroundTransparency = 0.850
+Side.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Side.Position = UDim2.new(0, 0, 0.123778306, 0)
+Side.Size = UDim2.new(0, 51, 0, 211)
+Side.ZIndex = 10
+
+UICorner_30.CornerRadius = UDim.new(0, 3)
+UICorner_30.Parent = Side
+
+Settings.Name = "Settings"
+Settings.Parent = Side
+Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings.BackgroundTransparency = 1.000
+Settings.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Settings.Position = UDim2.new(0.0491787791, 0, 0.983474493, 5)
+Settings.Size = UDim2.new(0, 45, 0, 42)
+Settings.ZIndex = 9999
+Settings.Image = "rbxassetid://3926307971"
+Settings.ImageRectOffset = Vector2.new(324, 124)
+Settings.ImageRectSize = Vector2.new(36, 36)
+Settings.ScaleType = Enum.ScaleType.Fit
+
+Execution_2.Name = "Execution"
+Execution_2.Parent = Side
+Execution_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Execution_2.BackgroundTransparency = 1.000
+Execution_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Execution_2.Position = UDim2.new(0.0993125737, 0, 0.274726331, 5)
+Execution_2.Size = UDim2.new(0, 39, 0, 39)
+Execution_2.ZIndex = 9999
+Execution_2.Image = "rbxassetid://3926305904"
+Execution_2.ImageRectOffset = Vector2.new(404, 844)
+Execution_2.ImageRectSize = Vector2.new(36, 36)
+Execution_2.ScaleType = Enum.ScaleType.Fit
+
+UploadScript.Name = "UploadScript"
+UploadScript.Parent = Side
+UploadScript.Active = false
+UploadScript.BackgroundTransparency = 1.000
+UploadScript.BorderColor3 = Color3.fromRGB(27, 42, 53)
+UploadScript.LayoutOrder = 6
+UploadScript.Position = UDim2.new(0.107843138, 0, 0.702586234, 0)
+UploadScript.Size = UDim2.new(0, 39, 0, 39)
+UploadScript.Visible = false
+UploadScript.ZIndex = 9999
+UploadScript.Image = "rbxassetid://3926307971"
+UploadScript.ImageRectOffset = Vector2.new(4, 4)
+UploadScript.ImageRectSize = Vector2.new(36, 36)
+
+Home_2.Name = "Home"
+Home_2.Parent = Side
+Home_2.BackgroundTransparency = 1.000
+Home_2.Position = UDim2.new(0.0480262898, 0, 0.0612356178, 0)
+Home_2.Size = UDim2.new(0, 45, 0, 44)
+Home_2.ZIndex = 2
+Home_2.Image = "rbxassetid://3926305904"
+Home_2.ImageRectOffset = Vector2.new(964, 204)
+Home_2.ImageRectSize = Vector2.new(36, 36)
 
 Settings_2.Name = "Settings"
 Settings_2.Parent = MoonExecu
@@ -1303,22 +1672,22 @@ UIAnim.TextScaled = true
 UIAnim.TextSize = 14.000
 UIAnim.TextWrapped = true
 
-UICorner_22.CornerRadius = UDim.new(0, 3)
-UICorner_22.Parent = UIAnim
+UICorner_31.CornerRadius = UDim.new(0, 3)
+UICorner_31.Parent = UIAnim
 
-TextLabel_5.Parent = Settings_2
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_5.BackgroundTransparency = 0.800
-TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_5.Position = UDim2.new(0, 0, 0.115797326, 0)
-TextLabel_5.Size = UDim2.new(0, 360, 0, 34)
-TextLabel_5.SizeConstraint = Enum.SizeConstraint.RelativeYY
-TextLabel_5.Font = Enum.Font.SourceSans
-TextLabel_5.Text = " UI Animations"
-TextLabel_5.TextColor3 = Color3.fromRGB(194, 198, 202)
-TextLabel_5.TextSize = 32.000
-TextLabel_5.TextWrapped = true
-TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_8.Parent = Settings_2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_8.BackgroundTransparency = 0.800
+TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_8.Position = UDim2.new(0, 0, 0.115797326, 0)
+TextLabel_8.Size = UDim2.new(0, 360, 0, 34)
+TextLabel_8.SizeConstraint = Enum.SizeConstraint.RelativeYY
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = " UI Animations"
+TextLabel_8.TextColor3 = Color3.fromRGB(194, 198, 202)
+TextLabel_8.TextSize = 32.000
+TextLabel_8.TextWrapped = true
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
 
 Info1.Name = "Info1"
 Info1.Parent = Settings_2
@@ -1336,18 +1705,18 @@ Info1.TextSize = 32.000
 Info1.TextWrapped = true
 Info1.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_6.Parent = Settings_2
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_6.BackgroundTransparency = 0.800
-TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_6.Position = UDim2.new(0, 0, 0.32112065, 0)
-TextLabel_6.Size = UDim2.new(0, 360, 0, 34)
-TextLabel_6.Font = Enum.Font.SourceSans
-TextLabel_6.Text = " Syntax Highlighting"
-TextLabel_6.TextColor3 = Color3.fromRGB(194, 198, 202)
-TextLabel_6.TextSize = 32.000
-TextLabel_6.TextWrapped = true
-TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_9.Parent = Settings_2
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_9.BackgroundTransparency = 0.800
+TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_9.Position = UDim2.new(0, 0, 0.32112065, 0)
+TextLabel_9.Size = UDim2.new(0, 360, 0, 34)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = " Syntax Highlighting"
+TextLabel_9.TextColor3 = Color3.fromRGB(194, 198, 202)
+TextLabel_9.TextSize = 32.000
+TextLabel_9.TextWrapped = true
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
 
 SyntaxHighlighting.Name = "SyntaxHighlighting"
 SyntaxHighlighting.Parent = Settings_2
@@ -1363,8 +1732,8 @@ SyntaxHighlighting.TextScaled = true
 SyntaxHighlighting.TextSize = 14.000
 SyntaxHighlighting.TextWrapped = true
 
-UICorner_23.CornerRadius = UDim.new(0, 3)
-UICorner_23.Parent = SyntaxHighlighting
+UICorner_32.CornerRadius = UDim.new(0, 3)
+UICorner_32.Parent = SyntaxHighlighting
 
 Info2.Name = "Info2"
 Info2.Parent = Settings_2
@@ -1382,19 +1751,19 @@ Info2.TextSize = 32.000
 Info2.TextWrapped = true
 Info2.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_7.Parent = Settings_2
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_7.BackgroundTransparency = 0.800
-TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_7.Position = UDim2.new(0, 0, 0.692254543, 0)
-TextLabel_7.Size = UDim2.new(0, 360, 0, 34)
-TextLabel_7.Visible = false
-TextLabel_7.Font = Enum.Font.SourceSans
-TextLabel_7.Text = " Hide username (in executor)"
-TextLabel_7.TextColor3 = Color3.fromRGB(194, 198, 202)
-TextLabel_7.TextSize = 32.000
-TextLabel_7.TextWrapped = true
-TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_10.Parent = Settings_2
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_10.BackgroundTransparency = 0.800
+TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_10.Position = UDim2.new(0, 0, 0.692254543, 0)
+TextLabel_10.Size = UDim2.new(0, 360, 0, 34)
+TextLabel_10.Visible = false
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = " Hide username (in executor)"
+TextLabel_10.TextColor3 = Color3.fromRGB(194, 198, 202)
+TextLabel_10.TextSize = 32.000
+TextLabel_10.TextWrapped = true
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
 
 Info3.Name = "Info3"
 Info3.Parent = Settings_2
@@ -1427,30 +1796,30 @@ HideUsername.TextScaled = true
 HideUsername.TextSize = 14.000
 HideUsername.TextWrapped = true
 
-UICorner_24.CornerRadius = UDim.new(0, 3)
-UICorner_24.Parent = HideUsername
+UICorner_33.CornerRadius = UDim.new(0, 3)
+UICorner_33.Parent = HideUsername
 
-ImageLabel_2.Parent = Settings_2
-ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_2.BackgroundTransparency = 1.000
-ImageLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-ImageLabel_2.Position = UDim2.new(0.375273407, 0, 0.627035737, 0)
-ImageLabel_2.Size = UDim2.new(0, 90, 0, 90)
-ImageLabel_2.Image = "rbxassetid://11412550867"
-ImageLabel_2.ImageColor3 = Color3.fromRGB(0, 234, 255)
+ImageLabel.Parent = Settings_2
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel.Position = UDim2.new(0.375273407, 0, 0.627035737, 0)
+ImageLabel.Size = UDim2.new(0, 90, 0, 90)
+ImageLabel.Image = "rbxassetid://11412550867"
+ImageLabel.ImageColor3 = Color3.fromRGB(0, 234, 255)
 
-TextLabel_8.Parent = Settings_2
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_8.BackgroundTransparency = 0.800
-TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_8.Position = UDim2.new(-0.00102113315, 0, 0.874458849, 0)
-TextLabel_8.Size = UDim2.new(0, 367, 0, 35)
-TextLabel_8.Font = Enum.Font.SourceSans
-TextLabel_8.Text = "This section is currently still being worked on!"
-TextLabel_8.TextColor3 = Color3.fromRGB(194, 198, 202)
-TextLabel_8.TextScaled = true
-TextLabel_8.TextSize = 32.000
-TextLabel_8.TextWrapped = true
+TextLabel_11.Parent = Settings_2
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_11.BackgroundTransparency = 0.800
+TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_11.Position = UDim2.new(-0.00102113315, 0, 0.874458849, 0)
+TextLabel_11.Size = UDim2.new(0, 367, 0, 35)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "This section is currently still being worked on!"
+TextLabel_11.TextColor3 = Color3.fromRGB(194, 198, 202)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 32.000
+TextLabel_11.TextWrapped = true
 
 Open.Name = "Open"
 Open.Parent = MoonExecu
@@ -1466,103 +1835,17 @@ Open.ImageRectOffset = Vector2.new(75, 0)
 Open.ImageRectSize = Vector2.new(78, 78)
 Open.ScaleType = Enum.ScaleType.Fit
 
-NotificationD.Name = "NotificationD"
-NotificationD.Parent = MoonExecu
-NotificationD.AnchorPoint = Vector2.new(0.5, 0.5)
-NotificationD.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-NotificationD.BackgroundTransparency = 1.000
-NotificationD.BorderColor3 = Color3.fromRGB(0, 0, 0)
-NotificationD.BorderSizePixel = 0
-NotificationD.Position = UDim2.new(0.871881306, 0, 0.313888878, 0)
-NotificationD.Size = UDim2.new(0, 376, 0, 1078)
-
-UIListLayout_6.Parent = NotificationD
-UIListLayout_6.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_6.VerticalAlignment = Enum.VerticalAlignment.Bottom
-UIListLayout_6.Padding = UDim.new(0, 15)
-
-Notification.Name = "Notification"
-Notification.Parent = NotificationD
-Notification.BackgroundColor3 = Color3.fromRGB(18, 20, 26)
-Notification.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Notification.BorderSizePixel = 0
-Notification.Size = UDim2.new(0, 376, 0, 110)
-
-detail_6.Name = "detail"
-detail_6.Parent = Notification
-detail_6.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
-detail_6.BackgroundTransparency = 1.000
-detail_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-detail_6.BorderSizePixel = 0
-detail_6.Size = UDim2.new(1, 0, 1, 0)
-detail_6.ZIndex = 0
-detail_6.Image = "rbxassetid://16255699706"
-detail_6.ImageColor3 = Color3.fromRGB(33, 95, 98)
-detail_6.ImageTransparency = 0.860
-
-detail_7.Name = "detail"
-detail_7.Parent = Notification
-detail_7.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
-detail_7.BackgroundTransparency = 1.000
-detail_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-detail_7.BorderSizePixel = 0
-detail_7.Size = UDim2.new(1, 0, 1, 0)
-detail_7.ZIndex = 0
-detail_7.Image = "rbxassetid://16255699706"
-detail_7.ImageColor3 = Color3.fromRGB(33, 95, 98)
-detail_7.ImageTransparency = 0.860
-
-Label_6.Name = "Label"
-Label_6.Parent = Notification
-Label_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Label_6.BackgroundTransparency = 1.000
-Label_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Label_6.BorderSizePixel = 0
-Label_6.Position = UDim2.new(0, 0, 0.52730161, 0)
-Label_6.Size = UDim2.new(0, 376, 0, 51)
-Label_6.Font = Enum.Font.Unknown
-Label_6.Text = "Executed!"
-Label_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-Label_6.TextScaled = true
-Label_6.TextSize = 14.000
-Label_6.TextWrapped = true
-
-UICorner_25.CornerRadius = UDim.new(0, 3)
-UICorner_25.Parent = Label_6
-
-Title.Name = "Title"
-Title.Parent = Notification
-Title.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
-Title.BackgroundTransparency = 0.750
-Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Title.BorderSizePixel = 0
-Title.Position = UDim2.new(0, 0, -0.00794344861, 0)
-Title.Size = UDim2.new(0, 376, 0, 47)
-Title.Font = Enum.Font.Unknown
-Title.Text = "Script"
-Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title.TextScaled = true
-Title.TextSize = 14.000
-Title.TextWrapped = true
-
-UICorner_26.CornerRadius = UDim.new(0, 3)
-UICorner_26.Parent = Title
-
-UICorner_27.CornerRadius = UDim.new(0, 3)
-UICorner_27.Parent = Notification
-
 -- Scripts:
 
-local function DJBS_fake_script() -- Close.LocalScript 
+local function ZETK_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(DJBS_fake_script)()
-local function SQOM_fake_script() -- Console.Drag 
+coroutine.wrap(ZETK_fake_script)()
+local function IFRHE_fake_script() -- Console.Drag 
 	local script = Instance.new('LocalScript', Console)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1605,8 +1888,8 @@ local function SQOM_fake_script() -- Console.Drag
 		end
 	end)
 end
-coroutine.wrap(SQOM_fake_script)()
-local function CEBGX_fake_script() -- Main.Drag 
+coroutine.wrap(IFRHE_fake_script)()
+local function SNXZJ_fake_script() -- Main.Drag 
 	local script = Instance.new('LocalScript', Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1649,8 +1932,74 @@ local function CEBGX_fake_script() -- Main.Drag
 		end
 	end)
 end
-coroutine.wrap(CEBGX_fake_script)()
-local function PNOTQTC_fake_script() -- ScriptHub.LocalScript 
+coroutine.wrap(SNXZJ_fake_script)()
+local function XZZLHO_fake_script() -- detail_2.LocalScript 
+	local script = Instance.new('LocalScript', detail_2)
+
+	-- Define the UI element
+	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
+	
+	-- Define the colors
+	local color1 = Color3.fromRGB(41, 116, 121)
+	local color2 = Color3.fromRGB(51, 149, 152)
+	
+	-- Define the tweening information
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true) -- 2 seconds, infinite, auto reverse
+	
+	-- Create the tween
+	local tween = tweenService:Create(uiElement, tweenInfo, {ImageColor3 = color2})
+	
+	-- Start the tween
+	tween:Play()
+	
+end
+coroutine.wrap(XZZLHO_fake_script)()
+local function VXBUX_fake_script() -- detail_3.LocalScript 
+	local script = Instance.new('LocalScript', detail_3)
+
+	-- Define the UI element
+	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
+	
+	-- Define the colors
+	local color1 = Color3.fromRGB(41, 116, 121)
+	local color2 = Color3.fromRGB(33, 95, 98)
+	
+	-- Define the tweening information
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true) -- 2 seconds, infinite, auto reverse
+	
+	-- Create the tween
+	local tween = tweenService:Create(uiElement, tweenInfo, {ImageColor3 = color2})
+	
+	-- Start the tween
+	tween:Play()
+	
+end
+coroutine.wrap(VXBUX_fake_script)()
+local function UFQLAX_fake_script() -- detail_4.LocalScript 
+	local script = Instance.new('LocalScript', detail_4)
+
+	-- Define the UI element
+	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
+	
+	-- Define the colors
+	local color1 = Color3.fromRGB(41, 116, 121)
+	local color2 = Color3.fromRGB(33, 95, 98)
+	
+	-- Define the tweening information
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true) -- 2 seconds, infinite, auto reverse
+	
+	-- Create the tween
+	local tween = tweenService:Create(uiElement, tweenInfo, {ImageColor3 = color2})
+	
+	-- Start the tween
+	tween:Play()
+	
+end
+coroutine.wrap(UFQLAX_fake_script)()
+local function VVQBZ_fake_script() -- ScriptHub.LocalScript 
 	local script = Instance.new('LocalScript', ScriptHub)
 
 	local searchBar = script.Parent.SearchBar
@@ -1676,8 +2025,8 @@ local function PNOTQTC_fake_script() -- ScriptHub.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(PNOTQTC_fake_script)()
-local function EPWTZ_fake_script() -- Frame.Main2 
+coroutine.wrap(VVQBZ_fake_script)()
+local function FGNEFP_fake_script() -- Frame.Main2 
 	local script = Instance.new('LocalScript', Frame)
 
 	local addScript = script.Parent.Parent.Parent.Parent:FindFirstChild("Main"):FindFirstChild("addScript")
@@ -1764,8 +2113,1222 @@ local function EPWTZ_fake_script() -- Frame.Main2
 	end)
 	
 end
-coroutine.wrap(EPWTZ_fake_script)()
-local function BNCQIV_fake_script() -- scriptBOX.Main 
+coroutine.wrap(FGNEFP_fake_script)()
+local function WUQZ_fake_script() -- Placeholder_One.LocalScript 
+	local script = Instance.new('LocalScript', Placeholder_One)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(WUQZ_fake_script)()
+-- Comments_.LocalScript is disabled.
+local function TNGJTO_fake_script() -- ExecuBox.Main 
+	local script = Instance.new('LocalScript', ExecuBox)
+
+	local settings = {
+		Highlight = true; -- Highlight like you know. Script Text color?
+		Lines = false; -- The textbox will have some lines like when you press enter.
+		Scroll = true; -- So if it has alot of lines and that it gets off the screen this will help.
+		HighlightVariables=true;--Highlights the local and global enviorments
+		SplitScanLines=false;-- This trick is used to Scan lines instead of the whole source (Breaks multilined strings and comments) 
+		WaitIfRendered=true;-- This trick will reduce lag by waiting if the game has rendered
+		AutomaticSettingChange=false;--Automatically changes the settings for the best experience
+		LoadLexer=true;--Makes one token and creates highlights out of it instead of many tokens (reduce lag)
+	}
+	local RunService = game:GetService("RunService")
+	local Fps=0
+	local TimeFunction = RunService:IsRunning() and time or os.clock
+	local LastIteration, Start
+	local FrameUpdateTable = {}
+	
+	local function HeartbeatUpdate()
+		LastIteration = TimeFunction()
+		for Index = #FrameUpdateTable, 1, -1 do
+			FrameUpdateTable[Index + 1] = FrameUpdateTable[Index] >= LastIteration - 1 and FrameUpdateTable[Index] or nil
+		end
+	
+		FrameUpdateTable[1] = LastIteration
+		Fps = tonumber(math.floor(TimeFunction() - Start >= 1 and #FrameUpdateTable or #FrameUpdateTable / (TimeFunction() - Start)))
+	end
+	
+	Start = TimeFunction()
+	RunService.Heartbeat:Connect(HeartbeatUpdate)
+	
+	--[==[
+	This syntax is the best syntax on the marketplace
+	Only created by MiAiHsIs1226
+	-- Credits
+	Credits to the lexer module creator
+	Credits to MikePetar for scroll
+	Credits to me for literally doing nothing
+	]==]
+	local function parse(tokens)
+		local localvarables = {}
+		local whitespacecharactersfound=0
+		local readabletokens = {}
+		local tokennumbers = {}
+		for i,v in pairs(tokens) do
+			if v.Source == " " then
+				whitespacecharactersfound+=1
+				continue
+			end
+			if v.Type=="space" then
+				whitespacecharactersfound+=1
+				continue
+			end
+	
+			table.insert(readabletokens,v)
+			table.insert(tokennumbers,{i})
+		end
+	
+	
+		for i,v in pairs(readabletokens) do
+			pcall(function()
+				if v.Source == "local" then
+					local _,name =pcall(function()return readabletokens[i+1].Source;end)
+					if _==false then
+						error("Syntax Error: Expected more code")
+					end
+					if name == "function" then
+						_,name =pcall(function()return readabletokens[i+2].Source;end)
+						if _==false then
+							error("Syntax Error: Expected more code")
+						end
+						if readabletokens[i+2].Type~="iden" then
+							error("Syntax Error: Name isnt an idient")
+						end
+						table.insert(localvarables,{Name = name,Type="Local",Source = "function",number = tokennumbers[i][1]+4})
+					else
+						table.insert(localvarables,{Name = name,Type="Local",Source = readabletokens[i+3].Source,number = tokennumbers[i]
+							[1]+1})
+					end
+				elseif v.Type == "iden"  then
+	
+					if readabletokens[i-1] then
+						if readabletokens[i-1].Type ~= "keyword" and readabletokens[i-1].Type ~= "symbol"  then
+							local source = readabletokens[i+2].Source
+							table.insert(localvarables,{Name = v.Source,Type="Global",Source = source;number = tokennumbers[i]
+								[1]})  
+						elseif readabletokens[i-1].Source=="function" then
+							local source = "function"
+							table.insert(localvarables,{Name = v.Source,Type="Global",Source = source;number = tokennumbers[i]
+								[1]})  
+	
+						end
+					else
+						local source = readabletokens[i+2].Source
+						table.insert(localvarables,{Name = v.Source,Type="Global",Source = source,number = tokennumbers[i][1]})  
+					end
+				end
+			end)
+		end
+	
+		return (localvarables)
+	end
+	local function lexerscan(text)
+		local lexer = coroutine.wrap(function()
+	
+			local lexer = {}
+	
+			local yield, wrap  = coroutine.yield, coroutine.wrap
+			local strfind      = string.find
+			local strsub       = string.sub
+			local append       = table.insert
+			local type         = type
+	
+			local NUMBER1	= "^[%+%-]?%d+%.?%d*[eE][%+%-]?%d+"
+			local NUMBER2	= "^[%+%-]?%d+%.?%d*"
+			local NUMBER3	= "^0x[%da-fA-F]+"
+			local NUMBER4	= "^%d+%.?%d*[eE][%+%-]?%d+"
+			local NUMBER5	= "^%d+%.?%d*"
+			local IDEN		= "^[%a_][%w_]*"
+			local WSPACE	= "^%s+"
+			local STRING1	= "^(['\"])%1"							
+			local STRING2	= [[^(['"])(\*)%2%1]]
+			local STRING3	= [[^(['"]).-[^\](\*)%2%1]]
+			local STRING4	= "^(['\"]).-.*"						
+			local STRING5	= "^%[(=*)%[.-%]%1%]"					
+			local STRING6	= "^%[%[.-.*"							
+			local CHAR1		= "^''"
+			local CHAR2		= [[^'(\*)%1']]
+			local CHAR3		= [[^'.-[^\](\*)%1']]
+			local PREPRO	= "^#.-[^\\]\n"
+			local MCOMMENT1	= "^%-%-%[(=*)%[.-%]%1%]"				
+			local MCOMMENT2	= "^%-%-%[%[.-.*"						
+			local SCOMMENT1	= "^%-%-.-\n"							
+			local SCOMMENT2	= "^%-%-.-.*"							
+	
+			local lua_keyword = {
+				["and"] = true,  ["break"] = true,  ["do"] = true,      ["else"] = true,      ["elseif"] = true,
+				["end"] = true,  ["false"] = true,  ["for"] = true,     ["function"] = true,  ["if"] = true,
+				["in"] = true,   ["local"] = true,  ["nil"] = true,     ["not"] = true,       ["while"] = true,
+				["or"] = true,   ["repeat"] = true, ["return"] = true,  ["then"] = true,      ["true"] = true,
+				["self"] = true, ["until"] = true
+			}
+			
+			local lua_builtin = {
+				["assert"] = true;["collectgarbage"] = true;["error"] = true;["_G"] = true;
+				["gcinfo"] = true;["getfenv"] = true;["getmetatable"] = true;["ipairs"] = true;
+				["loadstring"] = true;["newproxy"] = true;["next"] = true;["pairs"] = true;
+				["pcall"] = true;["print"] = true;["rawequal"] = true;["rawget"] = true;["rawset"] = true;
+				["select"] = true;["setfenv"] = true;["setmetatable"] = true;["tonumber"] = true;
+				["tostring"] = true;["type"] = true;["unpack"] = true;["_VERSION"] = true;["xpcall"] = true;
+				["delay"] = true;["elapsedTime"] = true;["require"] = true;["spawn"] = true;["tick"] = true;
+				["time"] = true;["typeof"] = true;["UserSettings"] = true;["wait"] = true;["warn"] = true;
+				["game"] = true;["Enum"] = true;["script"] = true;["shared"] = true;["workspace"] = true;
+				["Axes"] = true;["BrickColor"] = true;["CFrame"] = true;["Color3"] = true;["ColorSequence"] = true;
+				["ColorSequenceKeypoint"] = true;["Faces"] = true;["Instance"] = true;["NumberRange"] = true;
+				["NumberSequence"] = true;["NumberSequenceKeypoint"] = true;["PhysicalProperties"] = true;
+				["Random"] = true;["Ray"] = true;["Rect"] = true;["Region3"] = true;["Region3int16"] = true;
+				["TweenInfo"] = true;["UDim"] = true;["UDim2"] = true;["Vector2"] = true;["Vector3"] = true;
+				["Vector3int16"] = true;["next"] = true;
+				["os"] = true;
+				["os.time"] = true;["os.date"] = true;["os.difftime"] = true;
+				["debug"] = true;
+				["debug.traceback"] = true;["debug.profilebegin"] = true;["debug.profileend"] = true;
+				["math"] = true;
+				["math.abs"] = true;["math.acos"] = true;["math.asin"] = true;["math.atan"] = true;["math.atan2"] = true;["math.ceil"] = true;["math.clamp"] = true;["math.cos"] = true;["math.cosh"] = true;["math.deg"] = true;["math.exp"] = true;["math.floor"] = true;["math.fmod"] = true;["math.frexp"] = true;["math.ldexp"] = true;["math.log"] = true;["math.log10"] = true;["math.max"] = true;["math.min"] = true;["math.modf"] = true;["math.noise"] = true;["math.pow"] = true;["math.rad"] = true;["math.random"] = true;["math.randomseed"] = true;["math.sign"] = true;["math.sin"] = true;["math.sinh"] = true;["math.sqrt"] = true;["math.tan"] = true;["math.tanh"] = true;
+				["coroutine"] = true;
+				["coroutine.create"] = true;["coroutine.resume"] = true;["coroutine.running"] = true;["coroutine.status"] = true;["coroutine.wrap"] = true;["coroutine.yield"] = true;
+				["string"] = true;
+				["string.byte"] = true;["string.char"] = true;["string.dump"] = true;["string.find"] = true;["string.format"] = true;["string.len"] = true;["string.lower"] = true;["string.match"] = true;["string.rep"] = true;["string.reverse"] = true;["string.sub"] = true;["string.upper"] = true;["string.gmatch"] = true;["string.gsub"] = true;
+				["table"] = true;
+				["table.concat"] = true;["table.insert"] = true;["table.remove"] = true;["table.sort"] = true;
+			}
+	
+			local function tdump(tok)
+				return yield(tok, tok)
+			end
+	
+			local function ndump(tok)
+				return yield("number", tok)
+			end
+	
+			local function sdump(tok)
+				return yield("string", tok)
+			end
+	
+			local function cdump(tok)
+				return yield("comment", tok)
+			end
+	
+			local function wsdump(tok)
+				return yield("space", tok)
+			end
+	
+			local function lua_vdump(tok)
+				if (lua_keyword[tok]) then
+					return yield("keyword", tok)
+				elseif (lua_builtin[tok]) then
+					return yield("builtin", tok)
+				else
+					return yield("iden", tok)
+				end
+			end
+	
+			local lua_matches = {
+				{IDEN,      lua_vdump},        -- Indentifiers
+				{WSPACE,    wsdump},           -- Whitespace
+				{NUMBER3,   ndump},            -- Numbers
+				{NUMBER4,   ndump},
+				{NUMBER5,   ndump},
+				{STRING1,   sdump},            -- Strings
+				{STRING2,   sdump},
+				{STRING3,   sdump},
+				{STRING4,   sdump},
+				{STRING5,   sdump},            -- Multiline-Strings
+				{STRING6,   sdump},            -- Multiline-Strings
+	
+				{MCOMMENT1, cdump},            -- Multiline-Comments
+				{MCOMMENT2, cdump},			
+				{SCOMMENT1, cdump},            -- Singleline-Comments
+				{SCOMMENT2, cdump},
+	
+				{"^==",     tdump},            -- Operators
+				{"^~=",     tdump},
+				{"^<=",     tdump},
+				{"^>=",     tdump},
+				{"^%.%.%.", tdump},
+				{"^%.%.",   tdump},
+				{"^.",      tdump}
+			}
+	
+			local num_lua_matches = #lua_matches
+	
+	
+			--- Create a plain token iterator from a string.
+			-- @tparam string s a string.
+			function lexer.scan(s)
+	
+				local function lex(first_arg)
+	
+					local line_nr = 0
+					local sz = #s
+					local idx = 1
+	
+					-- res is the value used to resume the coroutine.
+					local function handle_requests(res)
+						while (res) do
+							local tp = type(res)
+							-- Insert a token list:
+							if (tp == "table") then
+								res = yield("", "")
+								for i = 1,#res do
+									local t = res[i]
+									res = yield(t[1], t[2])
+								end
+							elseif (tp == "string") then -- Or search up to some special pattern:
+								local i1, i2 = strfind(s, res, idx)
+								if (i1) then
+									local tok = strsub(s, i1, i2)
+									idx = (i2 + 1)
+									res = yield("", tok)
+								else
+									res = yield("", "")
+									idx = (sz + 1)
+								end
+							else
+								res = yield(line_nr, idx)
+							end
+						end
+					end
+	
+					handle_requests(first_arg)
+					line_nr = 1
+	
+					while (true) do
+	
+						if (idx > sz) then
+							while (true) do
+								handle_requests(yield())
+							end
+						end
+	
+						for i = 1,num_lua_matches do
+							local m = lua_matches[i]
+							local pat = m[1]
+							local fun = m[2]
+							local findres = {strfind(s, pat, idx)}
+							local i1, i2 = findres[1], findres[2]
+							if (i1) then
+								local tok = strsub(s, i1, i2)
+								idx = (i2 + 1)
+								lexer.finished = (idx > sz)
+								local res = fun(tok, findres)
+								if (tok:find("\n")) then
+									-- Update line number:
+									local _,newlines = tok:gsub("\n", {})
+									line_nr = (line_nr + newlines)
+								end
+								handle_requests(res)
+								break
+							end
+						end
+	
+					end
+	
+				end
+	
+				return wrap(lex)
+	
+			end
+	
+			return lexer
+		end)()
+		local function doesvalueexist(value,tab)
+			for i,v in pairs(tab) do
+				if v == value then
+					return true
+				end
+			end
+			return false or nil
+		end
+		local symbols = {
+			";";
+			"^";
+			"(";
+			")";
+			"%";
+			"/";
+			":";
+			"#";
+			"-";
+			"=";
+			"+";
+			"{";
+			"}";
+			"~";
+			"<";
+			">";
+			"*";
+			",";
+			".";
+			"\""}
+		local t={}
+		local split=text:split("\n")
+		if settings.SplitScanLines==true then
+			for _, splitv in pairs(text:split("\n")) do 
+				for i,v in (lexer.scan(splitv)) do
+					local type= i
+					if doesvalueexist(type,symbols)  then-- makes the type "symbol" if it is a symbol
+						type="symbol"
+					end
+					table.insert(t,{Type=type,Source=v})
+				end
+				table.insert(t,{Type="space",Source="\n"})--dont remove this unless you know what you're doing
+				if settings.WaitIfRendered then
+					game:GetService("RunService").RenderStepped:Wait()
+				end
+			end
+		else
+	
+			for i,v in (lexer.scan(text)) do
+				local type= i
+				if doesvalueexist(type,symbols)  then-- makes the type "symbol" if it is a symbol
+					type="symbol"
+				end
+				table.insert(t,{Type=type,Source=v})
+				if settings.WaitIfRendered then
+					game:GetService("RunService").RenderStepped:Wait()
+				end
+			end
+	
+	
+	
+		end
+		return(t)
+	end
+	local GetTypeToMakeSyntax=function(s,t)
+		if type(s)=="string" then
+			if t=="var" then
+				local tokens=lexerscan(s)
+				local r=""
+				local variables=parse(tokens)
+				local s={}
+				for i,v in pairs(variables) do
+					s[v.Name]=v
+				end
+				for i,v in pairs(tokens) do
+					if s[v.Source] then
+						if tokens[i-1] then
+							if tokens[i-1].Source~="." then
+								r=r..v.Source
+							else
+								continue
+							end
+						else
+							r=r..v.Source
+						end
+					else
+						local s=string.gsub(v.Source,"%d",function(c)return string.rep(" ",#c)end)
+						local p=string.gsub(s,"%p",function(c)return string.rep(" ",#c)end)
+						local a=string.gsub(p,"%a",function(c)return string.rep(" ",#c)end)
+						r=r..a
+					end
+				end
+	
+				return(r)
+			else
+				local tokens=lexerscan(s)
+				local r=""
+				for i,v in pairs(tokens) do
+					if v.Type==t then
+						r=r..v.Source
+					else
+						local s=string.gsub(v.Source,"%d",function(c)return string.rep(" ",#c)end)
+						local p=string.gsub(s,"%p",function(c)return string.rep(" ",#c)end)
+						local a=string.gsub(p,"%a",function(c)return string.rep(" ",#c)end)
+						r=r..a
+					end
+				end
+	
+				return(r)
+			end
+		elseif type(s)=="table" then
+			if t=="var" then
+				local tokens=s
+				local r=""
+				local variables=parse(tokens)
+				local s={}
+				for i,v in pairs(variables) do
+					s[v.Name]=v
+				end
+				for i,v in pairs(tokens) do
+					if s[v.Source] then
+						if tokens[i-1] then
+							if tokens[i-1].Source~="." then
+								r=r..v.Source
+							else
+								continue
+							end
+						else
+							r=r..v.Source
+						end
+					else
+						local s=string.gsub(v.Source,"%d",function(c)return string.rep(" ",#c)end)
+						local p=string.gsub(s,"%p",function(c)return string.rep(" ",#c)end)
+						local a=string.gsub(p,"%a",function(c)return string.rep(" ",#c)end)
+						r=r..a
+					end
+				end
+	
+				return(r)
+			else
+				local tokens=s
+				local r=""
+				for i,v in pairs(tokens) do
+					if v.Type==t then
+						r=r..v.Source
+					else
+						local s=string.gsub(v.Source,"%d",function(c)return string.rep(" ",#c)end)
+						local p=string.gsub(s,"%p",function(c)return string.rep(" ",#c)end)
+						local a=string.gsub(p,"%a",function(c)return string.rep(" ",#c)end)
+						r=r..a
+					end
+				end
+	
+				return(r)
+			end
+		end
+	end
+	
+	local L_1_ = script.Parent.Source
+	local L_2_ = Vector2.new(0, 0)  
+	local L_3_Org = {      "getrawmetatable",       "game",       "workspace",       "script",       "math",       "string",       "table",       "print",       "wait",       "BrickColor",       "Color3",       "next",       "pairs",       "ipairs",       "select",       "unpack",       "Instance",       "Vector2",       "Vector3",       "CFrame",       "Ray",       "UDim2",       "Enum",       "assert",       "error",       "warn",       "tick",       "loadstring",       "_G",       "shared",       "getfenv",       "setfenv",       "newproxy",       "setmetatable",       "getmetatable",       "os",       "debug",       "pcall",       "ypcall",       "xpcall",       "rawequal",       "rawset",       "rawget",       "tonumber",       "tostring",       "type",       "typeof",       "_VERSION",       "coroutine",       "delay",       "require",       "spawn",       "LoadLibrary",       "settings",       "stats",       "time",       "UserSettings",       "version",       "Axes",       "ColorSequence",       "Faces",       "ColorSequenceKeypoint",       "NumberRange",       "NumberSequence",       "NumberSequenceKeypoint",       "gcinfo",       "elapsedTime",       "collectgarbage",       "PhysicalProperties",       "Rect",       "Region3",       "Region3int16",       "UDim",       "Vector2int16",       "Vector3int16" ,"isSafe" } 
+	local L_3_ = {      "getrawmetatable",       "game",       "workspace",       "script",       "math",       "string",       "table",       "print",       "wait",       "BrickColor",       "Color3",       "next",       "pairs",       "ipairs",       "select",       "unpack",       "Instance",       "Vector2",       "Vector3",       "CFrame",       "Ray",       "UDim2",       "Enum",       "assert",       "error",       "warn",       "tick",       "loadstring",       "_G",       "shared",       "getfenv",       "setfenv",       "newproxy",       "setmetatable",       "getmetatable",       "os",       "debug",       "pcall",       "ypcall",       "xpcall",       "rawequal",       "rawset",       "rawget",       "tonumber",       "tostring",       "type",       "typeof",       "_VERSION",       "coroutine",       "delay",       "require",       "spawn",       "LoadLibrary",       "settings",       "stats",       "time",       "UserSettings",       "version",       "Axes",       "ColorSequence",       "Faces",       "ColorSequenceKeypoint",       "NumberRange",       "NumberSequence",       "NumberSequenceKeypoint",       "gcinfo",       "elapsedTime",       "collectgarbage",       "PhysicalProperties",       "Rect",       "Region3",       "Region3int16",       "UDim",       "Vector2int16",       "Vector3int16" } 
+	local L_4_ = {       "and",       "break",       "do",       "else",       "elseif",       "end",       "false",       "for",       "function",       "goto",       "if",       "in",       "local",       "nil",       "not",       "or",       "repeat",       "return",       "then",       "true",       "until",       "while" } 
+	
+	local function L_5_func(L_49_arg1)       
+		local L_50_, L_51_ = L_49_arg1.CanvasSize.Y.Offset, L_49_arg1.AbsoluteWindowSize.Y       
+		local L_52_ = L_50_ - L_51_       
+		if L_52_ < 0 then             
+			L_52_ = 0
+		end       
+		local L_53_ = Vector2.new(L_49_arg1.CanvasPosition.X, L_52_)       
+		return L_53_ 
+	end 
+	local function ofodguisgfhjjksfghkgh(L_49_arg1)       
+		local L_50_, L_51_ = L_49_arg1.CanvasSize.X.Offset, L_49_arg1.AbsoluteWindowSize.X       
+		local L_52_ = L_50_ - L_51_       
+		if L_52_ < 0 then             
+			L_52_ = 0
+		end       
+		local L_53_ = Vector2.new(L_52_,L_49_arg1.CanvasPosition.Y)       
+		return L_53_ 
+	end 
+	local function GetLineSelected(s)
+		local text =  s.Text
+		local p = s.CursorPosition
+		local text2 = ""
+		for i = p,1,-1 do
+			local c = text:sub(i,i)
+			if c == "\n" then
+				break
+			else
+				text2 = text2 .. c
+			end
+		end
+	
+		return (text2:reverse())
+	end
+	
+	wait(.2) 
+	local L_6_ = 20 
+	L_1_:GetPropertyChangedSignal("Text"):Connect(function()
+		if settings.Highlight then
+			local L_54_ = L_1_.Comments_       
+			local L_56_ = L_1_.Tokens_       
+			local L_57_ = L_1_.Numbers_       
+			local L_58_ = L_1_.Strings_             
+			local L_61_ = L_1_.Keywords_       
+			local L_62_ = L_1_.Globals_  
+			local L_90_ = L_1_.Vars_  
+			if settings.LoadLexer then
+				local tokens= lexerscan(L_1_.Text) 
+				L_54_.Text=GetTypeToMakeSyntax(tokens,"comment")
+	
+				L_58_.Text=GetTypeToMakeSyntax(tokens,"string")
+	
+				L_57_.Text=GetTypeToMakeSyntax(tokens,"number")
+	
+				L_62_.Text=GetTypeToMakeSyntax(tokens,"builtin")
+	
+				L_56_.Text=GetTypeToMakeSyntax(tokens,"symbol")
+	
+				L_61_.Text=GetTypeToMakeSyntax(tokens,"keyword")
+	
+				if settings.HighlightVariables then
+					L_90_.Text=GetTypeToMakeSyntax(tokens,"var")
+				end
+	
+			else
+				spawn(function()
+					L_54_.Text=GetTypeToMakeSyntax(L_1_.Text,"comment")
+				end)
+				spawn(function()
+					L_58_.Text=GetTypeToMakeSyntax(L_1_.Text,"string")
+				end)
+				spawn(function()
+					L_57_.Text=GetTypeToMakeSyntax(L_1_.Text,"number")
+				end)
+				spawn(function()
+					L_62_.Text=GetTypeToMakeSyntax(L_1_.Text,"builtin")
+				end)
+				spawn(function()
+					L_56_.Text=GetTypeToMakeSyntax(L_1_.Text,"symbol")
+				end)
+				spawn(function()
+					L_61_.Text=GetTypeToMakeSyntax(L_1_.Text,"keyword")
+				end)
+				spawn(function()
+					if settings.HighlightVariables then
+						L_90_.Text=GetTypeToMakeSyntax(L_1_.Text,"var")
+					end
+				end)
+	
+			end
+		end
+		local L_63_ = 1    
+		if settings.Scroll then
+			local X = L_1_.TextBounds.X
+			L_1_.Parent.CanvasSize = (UDim2.new(0, L_1_.TextBounds.X + 55 + 5, 0, L_1_.TextBounds.Y))   
+		end
+		if settings.Lines then
+			L_1_.Text:gsub('\n', function()             
+				L_63_ = L_63_ + 1       end)      
+			L_1_.Parent.Lines.Text = ""       
+			for L_64_forvar1 = 1, L_63_ do             
+				L_1_.Parent.Lines.Text = L_1_.Parent.Lines.Text..L_64_forvar1.."\n"       
+			end       
+		end
+		if settings.Scroll then
+			spawn(function()
+				if L_1_.Parent.CanvasPosition.X == L_2_.X then
+					L_1_.Parent.CanvasPosition = ofodguisgfhjjksfghkgh(L_1_.Parent)  
+				else             
+					L_2_ = ofodguisgfhjjksfghkgh(L_1_.Parent)   
+				end 
+			end)
+			wait()
+			if L_1_.Text:sub(#L_1_.Text,#L_1_.Text) == "\n" then
+				L_1_.Parent.CanvasPosition = Vector2.new()
+			end
+	
+			if L_1_.Parent.CanvasPosition.Y == L_2_.Y then
+				L_1_.Parent.CanvasPosition = L_5_func(L_1_.Parent)       
+			else             
+				L_2_ = L_5_func(L_1_.Parent)       
+			end 
+		end
+	
+	
+	
+	end) 
+	if settings.Scroll then
+		L_1_.MouseWheelBackward:Connect(function(L_65_arg1, L_66_arg2)       
+			wait(.1)      
+			game.TweenService:Create(L_1_.Parent, TweenInfo.new(.5, Enum.EasingStyle.Quint), {CanvasPosition = L_1_.Parent.CanvasPosition + Vector2.new(0, L_6_)}):Play()
+			L_6_ = L_6_ + 5       
+			wait(1)       
+			L_6_ = L_6_ - 5 	
+		end) 
+		L_1_.MouseWheelForward:Connect(function(L_67_arg1, L_68_arg2)    
+			wait(.1)      
+			game.TweenService:Create(L_1_.Parent, TweenInfo.new(.5, Enum.EasingStyle.Quint), {CanvasPosition = L_1_.Parent.CanvasPosition + Vector2.new(0,-L_6_)}):Play()
+			L_6_ = L_6_ + 5       
+			wait(1)       
+			L_6_ = L_6_ - 5 
+		end)
+	end
+	if settings.Lines then
+		script.Parent.Lines.Visible = true
+		L_1_.Position = UDim2.new(0,30,0,0)
+	else
+		L_1_.Position = UDim2.new()
+	end
+	if settings.AutomaticSettingChange== true then
+	
+		spawn(function()
+			pcall(function()
+				while wait(10) do
+					settings.Highlight=true
+					if Fps>50 then
+						settings.SplitScanLines=false
+						settings.LoadLexer=false
+						settings.WaitIfRendered=false
+	
+					elseif Fps<60 and Fps>40 then
+						settings.SplitScanLines=false
+						settings.LoadLexer=true
+						settings.WaitIfRendered=true
+						settings.HighlightVariables=false
+	
+					elseif Fps<35 then
+						settings.SplitScanLines=true
+						settings.LoadLexer=true
+						settings.WaitIfRendered=true
+						settings.HighlightVariables=false
+	
+					elseif Fps>10 then
+						settings.Highlight=false
+					end
+				end
+			end)
+		end)
+	end
+end
+coroutine.wrap(TNGJTO_fake_script)()
+local function FFRK_fake_script() -- detail_5.LocalScript 
+	local script = Instance.new('LocalScript', detail_5)
+
+	-- Define the UI element
+	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
+	
+	-- Define the colors
+	local color1 = Color3.fromRGB(41, 116, 121)
+	local color2 = Color3.fromRGB(33, 95, 98)
+	
+	-- Define the tweening information
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true) -- 2 seconds, infinite, auto reverse
+	
+	-- Create the tween
+	local tween = tweenService:Create(uiElement, tweenInfo, {ImageColor3 = color2})
+	
+	-- Start the tween
+	tween:Play()
+	
+end
+coroutine.wrap(FFRK_fake_script)()
+local function TVKILVD_fake_script() -- detail_6.LocalScript 
+	local script = Instance.new('LocalScript', detail_6)
+
+	-- Define the UI element
+	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
+	
+	-- Define the colors
+	local color1 = Color3.fromRGB(41, 116, 121)
+	local color2 = Color3.fromRGB(51, 149, 152)
+	
+	-- Define the tweening information
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true) -- 2 seconds, infinite, auto reverse
+	
+	-- Create the tween
+	local tween = tweenService:Create(uiElement, tweenInfo, {ImageColor3 = color2})
+	
+	-- Start the tween
+	tween:Play()
+	
+end
+coroutine.wrap(TVKILVD_fake_script)()
+local function RDHBOB_fake_script() -- Execution.PredictALPHA 
+	local script = Instance.new('LocalScript', Execution)
+
+	local textBox = script.Parent.ExecuBox:FindFirstChild("Source")
+	local predictionFrame = script.Parent:WaitForChild("Predict")
+	local predictionLabel = predictionFrame:WaitForChild("Label")
+	local predictionIcon = predictionFrame:WaitForChild("Icon")
+	local usePredictionButton = predictionFrame:WaitForChild("UsePrediction")
+	local icons = {
+		["object"] = "http://www.roblox.com/asset/?id=18607792772",
+		["misc"] = "http://www.roblox.com/asset/?id=18607866501",
+		["script"] = "rbxassetid://18580248721",
+		["event"] = "rbxassetid://18596804842",
+	}
+	local completions = {
+		{ text = "print", imageId = icons.misc },
+		{ text = "warn", imageId = icons.misc },
+		{ text = "function", imageId = icons.object },
+		{ text = "local", imageId = icons.misc },
+		{ text = "script", imageId = icons.script },
+		{ text = "loadstring", imageId = icons.misc },
+		{ text = "getfenv", imageId = icons.misc },
+		{ text = "wait", imageId = icons.misc },
+		{ text = "game", imageId = icons.object },
+		{ text = "ReplicatedStorage", imageId = icons.event },
+		{ text = "workspace", imageId = icons.object },
+		{ text = "Players", imageId = icons.object },
+		{ text = "Lighting", imageId = icons.object },
+		{ text = "StarterGui", imageId = icons.object },
+		{ text = "StarterPack", imageId = icons.object },
+		{ text = "ServerScriptService", imageId = icons.script },
+		{ text = "ServerStorage", imageId = icons.object },
+		{ text = "TextService", imageId = icons.misc },
+		{ text = "require", imageId = icons.script },
+		{ text = "Instance.new", imageId = icons.object },
+		{ text = "Vector3.new", imageId = icons.misc },
+		{ text = "CFrame.new", imageId = icons.misc },
+		{ text = "UDim2.new", imageId = icons.misc },
+		{ text = "Color3.new", imageId = icons.misc },
+		{ text = "Enum", imageId = icons.misc },
+		{ text = "math.random", imageId = icons.misc },
+		{ text = "math.pi", imageId = icons.misc },
+		{ text = "string.sub", imageId = icons.misc },
+		{ text = "string.find", imageId = icons.misc },
+		{ text = "string.gsub", imageId = icons.misc },
+		{ text = "string.len", imageId = icons.misc },
+		{ text = "table.insert", imageId = icons.misc },
+		{ text = "table.remove", imageId = icons.misc },
+		{ text = "table.sort", imageId = icons.misc },
+		{ text = "table.concat", imageId = icons.misc },
+		{ text = "pairs", imageId = icons.misc },
+		{ text = "ipairs", imageId = icons.misc },
+		{ text = "pcall", imageId = icons.misc },
+		{ text = "xpcall", imageId = icons.misc },
+		{ text = "coroutine.create", imageId = icons.misc },
+		{ text = "coroutine.resume", imageId = icons.misc },
+		{ text = "coroutine.yield", imageId = icons.misc },
+		{ text = "coroutine.status", imageId = icons.misc },
+		{ text = "tick", imageId = icons.misc },
+		{ text = "os.time", imageId = icons.misc },
+		{ text = "os.date", imageId = icons.misc },
+		{ text = "debug.traceback", imageId = icons.misc },
+		{ text = "debug.getinfo", imageId = icons.misc },
+		{ text = "UserInputService", imageId = icons.misc },
+		{ text = "RunService", imageId = icons.misc },
+		{ text = "TweenService", imageId = icons.misc },
+		{ text = "HttpService", imageId = icons.misc },
+	}
+	local predictedWord = nil
+	local function updatePrediction()
+		local text = textBox.Text
+		local segments = {}
+		for segment in string.gmatch(text, "[^.,+%s]+") do
+			table.insert(segments, segment)
+		end
+	
+		local lastSegment = segments[#segments] or ""
+		local prediction = ""
+		local predictionImageId = ""
+		local lowerLastSegment = lastSegment:lower()
+		for _, completion in ipairs(completions) do
+			if completion.text:lower():sub(1, #lowerLastSegment) == lowerLastSegment then
+				prediction = completion.text
+				predictionImageId = completion.imageId
+				break
+			end
+		end
+		if prediction ~= "" and prediction ~= lastSegment then
+			local remainingText = prediction:sub(#lastSegment + 1)
+			predictionLabel.Text = lastSegment .. "<font color=\"rgb(128, 128, 128)\">" .. remainingText .. "</font>"
+			predictedWord = prediction
+			predictionLabel.TextColor3 = Color3.new(1, 1, 1)
+			predictionLabel.RichText = true
+			predictionIcon.Image = predictionImageId
+			predictionFrame.Visible = true
+	
+			local textService = game:GetService("TextService")
+			local cursorPosition = textService:GetTextSize(
+				text:sub(1, textBox.CursorPosition - 1),
+				textBox.TextSize,
+				textBox.Font,
+				Vector2.new(textBox.AbsoluteSize.X, math.huge)
+			)
+			local lineHeight = textService:GetTextSize(
+				"A",
+				textBox.TextSize,
+				textBox.Font,
+				Vector2.new(textBox.AbsoluteSize.X, math.huge)
+			).Y
+			local lineNumber = math.floor(cursorPosition.Y / lineHeight)
+			local offsetX = cursorPosition.X + 50
+			local offsetY = (lineNumber + 1) * lineHeight + 45
+			local relativePositionX = textBox.AbsolutePosition.X + offsetX
+			local relativePositionY = textBox.AbsolutePosition.Y + offsetY
+			local execuBox = textBox.Parent
+			local execuBoxPos = execuBox.AbsolutePosition
+			local execuBoxSize = execuBox.AbsoluteSize
+	
+			local predictionFrameSize = predictionFrame.AbsoluteSize
+			local newPositionX = math.clamp(relativePositionX, execuBoxPos.X, execuBoxPos.X + execuBoxSize.X - predictionFrameSize.X)
+			local newPositionY = math.clamp(relativePositionY, execuBoxPos.Y, execuBoxPos.Y + execuBoxSize.Y - predictionFrameSize.Y)
+			warn(newPositionX)
+			warn(newPositionY)
+			predictionFrame.Position = UDim2.new(0, newPositionX - execuBoxPos.X, 0, newPositionY - execuBoxPos.Y)
+		else
+			predictionFrame.Visible = false
+		end
+	end
+	
+	local function checkSyntaxError()
+		local code = textBox.Text
+		local func, syntaxError = loadstring(code)
+		if not func then
+			local lineNumber, errorMsg = string.match(syntaxError, ":(%d+): (.+)")
+			print("Syntax Error on line " .. lineNumber .. ": " .. errorMsg)
+		else
+			print("No Syntax Errors")
+		end
+	end
+	
+	textBox:GetPropertyChangedSignal("Text"):Connect(function()
+		if textBox.Text ~= "" and textBox.Text ~= " " then
+			local segments = {}
+			for segment in string.gmatch(textBox.Text, "[^.,+%s]+") do
+				table.insert(segments, segment)
+			end
+	
+			local lastSegment = segments[#segments] or ""
+			local matchFound = false
+			for _, completion in ipairs(completions) do
+				if lastSegment:lower() == completion.text:lower() then
+					matchFound = true
+					break
+				end
+			end
+	
+			if matchFound then
+				predictionFrame.Visible = false
+			else
+				warn("updating prediction")
+				updatePrediction()
+			end
+		else
+			predictionFrame.Visible = false
+		end
+	end)
+	
+	usePredictionButton.MouseButton1Click:Connect(function()
+		if predictionLabel.Text ~= "" then
+			local text = textBox.Text
+			local cursorPos = textBox.CursorPosition
+			local prefix = text:sub(1, cursorPos - 1)
+			local suffix = text:sub(cursorPos)
+			local lastSegmentStart = prefix:find("[^.,%s]+$")
+			if not lastSegmentStart then
+				lastSegmentStart = #prefix + 1
+			end
+			local beforeLastSegment = prefix:sub(1, lastSegmentStart - 1)
+			local lastSegment = prefix:sub(lastSegmentStart)
+			local separator = ""
+			if lastSegment:match("[.,%s]+$") then
+				separator = lastSegment:match("[.,%s]+$")
+			end
+			local newText = beforeLastSegment .. predictedWord .. separator .. suffix
+			textBox.Text = newText
+			textBox.CursorPosition = #beforeLastSegment + #predictedWord + 1
+			predictionFrame.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(RDHBOB_fake_script)()
+local function ATXB_fake_script() -- Execution.Tabs 
+	local script = Instance.new('LocalScript', Execution)
+
+	local TweenService = game:GetService("TweenService")
+	local HttpService = game:GetService("HttpService")
+	local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexDevlpr/JSON-Config-Library-for-Roblox-Lua/main/Library.lua"))()
+	
+	local main = script.Parent
+	local Tabs = main:WaitForChild("Tabs")
+	local addBTN = Tabs:FindFirstChild("add")
+	local tab1 = Tabs:FindFirstChild("tab1")
+	local ExecuBox = main:FindFirstChild("ExecuBox") and main:FindFirstChild("ExecuBox"):FindFirstChild("Source")
+	
+	local settings = {
+		UIAnimations = true,
+		SyntaxHighlighting = true,
+		tabs = {}  -- This will store the content of each tab
+	}
+	
+	-- Table to store the content of each tab
+	local tabContents = {}
+	local currentTab = 1
+	
+	-- Function to update the visibility of the add button
+	local function updateAddButtonVisibility()
+		local tabCount = #Tabs:GetChildren() - 1 -- Subtracting 1 to ignore the add button
+		if addBTN then
+			addBTN.Visible = tabCount < 5
+			if addBTN.Visible then
+				addBTN.Parent = Tabs -- Reparent add button to ensure it's at the end
+			end
+		else
+			warn("Add button not found!")
+		end
+	end
+	
+	local function saveSettings()
+		lib.WriteConfig("PhobosV2T", { tabs = settings.tabs })
+	end
+	
+	-- Function to renumber tabs
+	local function renumberTabs()
+		local tabIndex = 1
+		for _, tab in ipairs(Tabs:GetChildren()) do
+			if tab:IsA("TextButton") and tab ~= addBTN then
+				tab.Name = "Script " .. tabIndex
+				tab.Text = "Script " .. tabIndex
+				tabIndex = tabIndex + 1
+			end
+		end
+	end
+	
+	-- Function to create a new tab with optional fade-in effect
+	local function createNewTab()
+		local newTabNumber = #Tabs:GetChildren() - 1 -- Correctly count the tabs excluding the add button
+		local newTabName = "Script " .. newTabNumber
+	
+		-- Clone tab1 and set its name and text
+		local newTab = tab1:Clone()
+		newTab.Name = newTabName
+		newTab.Text = newTabName
+	
+		-- Make the remove button visible for new tabs
+		local removeBTN = newTab:FindFirstChild("remove")
+		if removeBTN then
+			removeBTN.Visible = true
+		end
+	
+		if settings.UIAnimations then
+			-- Set initial transparency for fade-in effect
+			newTab.BackgroundTransparency = 1
+			newTab.TextTransparency = 1
+			if removeBTN then
+				removeBTN.BackgroundTransparency = 1
+				removeBTN.ImageTransparency = 1
+			end
+		end
+	
+		-- Parent the new tab to Tabs
+		newTab.Parent = Tabs
+	
+		if settings.UIAnimations then
+			-- Add a fade-in tween effect for the new tab
+			local goal = { BackgroundTransparency = 0.6, TextTransparency = 0 }
+			local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In)
+			local tween = TweenService:Create(newTab, tweenInfo, goal)
+			tween:Play()
+	
+			local goal1 = { ImageTransparency = 0 }
+			local tweenInfo1 = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In)
+			local tween1 = TweenService:Create(removeBTN, tweenInfo1, goal1)
+			if removeBTN then
+				local removeTween = TweenService:Create(removeBTN, tweenInfo1, goal1)
+				removeTween:Play()
+			end
+		end
+	
+		-- Add an event listener to the new tab
+		newTab.MouseButton1Click:Connect(function()
+			-- Save current tab content
+			tabContents[currentTab] = ExecuBox.Text
+	
+			-- Save to settings
+			settings.tabs[currentTab] = ExecuBox.Text
+	
+			-- Switch to the new tab
+			currentTab = newTabNumber
+	
+			-- Load the content of the new tab
+			ExecuBox.Text = tabContents[currentTab] or "--Failed to load script"
+		end)
+	
+		-- Add an event listener to the remove button inside the new tab
+		if removeBTN then
+			removeBTN.MouseButton1Click:Connect(function()
+				-- Save current tab content
+				tabContents[currentTab] = ExecuBox.Text
+	
+				-- Save to settings
+				settings.tabs[currentTab] = ExecuBox.Text
+	
+				if settings.UIAnimations then
+					-- Add a fade-out tween effect for the tab removal
+					local goal = { BackgroundTransparency = 1, TextTransparency = 1 }
+					local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+					local removeTween = TweenService:Create(newTab, tweenInfo, goal)
+					removeTween:Play()
+	
+					local goal2 = { BackgroundTransparency = 1, ImageTransparency = 1 }
+					local removeButtonTween = TweenService:Create(removeBTN, tweenInfo, goal2)
+					removeButtonTween:Play()
+	
+					removeTween.Completed:Connect(function()
+						-- Remove the tab from tabContents
+						table.remove(tabContents, newTabNumber)
+	
+						-- Remove from settings
+						table.remove(settings.tabs, currentTab)
+	
+						-- Destroy the tab
+						newTab:Destroy()
+	
+						-- Adjust currentTab if necessary
+						if currentTab == newTabNumber then
+							currentTab = 1
+							ExecuBox.Text = tabContents[currentTab] or "--Failed to load script"
+						end
+	
+						-- Renumber the tabs
+						renumberTabs()
+	
+						-- Update add button visibility and reparent
+						updateAddButtonVisibility()
+	
+						-- Save updated settings
+						saveSettings()
+					end)
+				else
+					-- Remove the tab from tabContents
+					table.remove(tabContents, newTabNumber)
+	
+					-- Remove from settings
+					table.remove(settings.tabs, currentTab)
+	
+					-- Destroy the tab
+					newTab:Destroy()
+	
+					-- Adjust currentTab if necessary
+					if currentTab == newTabNumber then
+						currentTab = 1
+						ExecuBox.Text = tabContents[currentTab] or "--Failed to load script"
+					end
+	
+					-- Renumber the tabs
+					renumberTabs()
+	
+					-- Update add button visibility and reparent
+					updateAddButtonVisibility()
+	
+					-- Save updated settings
+					saveSettings()
+				end
+			end)
+		end
+	
+		-- Initialize the new tab content
+		tabContents[newTabNumber] = ""
+	
+		-- Update add button visibility and reparent
+		updateAddButtonVisibility()
+	end
+	
+	-- Load settings on startup
+	local function loadSettings()
+		local retrievedData = lib.ReadConfig("PhobosV2T")
+		if retrievedData then
+			settings.tabs = retrievedData.tabs or {}
+	
+			-- Create tabs based on the number of saved scripts
+			for i, scriptContent in ipairs(settings.tabs) do
+				createNewTab()  -- Create new tab without passing scriptContent
+			end
+	
+			-- Load content of current tab into ExecuBox
+			currentTab = 1
+			ExecuBox.Text = tabContents[currentTab] or "--Failed to load script"  -- Load initial tab content
+		else
+			return false
+		end
+	end
+	
+	-- Save settings
+	
+	-- Event listener for add button
+	if addBTN then
+		addBTN.MouseButton1Click:Connect(function()
+			createNewTab()
+		end)
+	else
+		return false
+	end
+	
+	-- Load settings on startup
+	local file = lib.IsConfig("PhobosV2T")
+	if file == true then
+		loadSettings()
+	else
+		saveSettings()
+	end
+	
+	-- Event listener for tab1 (initial tab)
+	if tab1 then
+		tab1.MouseButton1Click:Connect(function()
+			-- Save current tab content
+			tabContents[currentTab] = ExecuBox.Text
+	
+			-- Save to settings
+			settings.tabs[currentTab] = ExecuBox.Text
+	
+			-- Switch to tab1
+			currentTab = 1
+	
+			-- Load the content of tab1
+			ExecuBox.Text = tabContents[currentTab]
+		end)
+	else
+		return false
+	end
+	
+	-- Event listener for tab focus change (clicking out of a tab)
+	if ExecuBox then
+		ExecuBox.FocusLost:Connect(function()
+			-- Save current tab content
+			tabContents[currentTab] = ExecuBox.Text
+	
+			-- Save to settings
+			settings.tabs[currentTab] = ExecuBox.Text
+	
+			-- Save updated settings
+			saveSettings()
+		end)
+	else
+		return false
+	end
+	
+	-- Initial update of the add button visibility
+	updateAddButtonVisibility()
+	
+end
+coroutine.wrap(ATXB_fake_script)()
+local function FENVW_fake_script() -- detail_7.LocalScript 
+	local script = Instance.new('LocalScript', detail_7)
+
+	-- Define the UI element
+	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
+	
+	-- Define the colors
+	local color1 = Color3.fromRGB(41, 116, 121)
+	local color2 = Color3.fromRGB(33, 95, 98)
+	
+	-- Define the tweening information
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true) -- 2 seconds, infinite, auto reverse
+	
+	-- Create the tween
+	local tween = tweenService:Create(uiElement, tweenInfo, {ImageColor3 = color2})
+	
+	-- Start the tween
+	tween:Play()
+	
+end
+coroutine.wrap(FENVW_fake_script)()
+local function VLNPLK_fake_script() -- detail_8.LocalScript 
+	local script = Instance.new('LocalScript', detail_8)
+
+	-- Define the UI element
+	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
+	
+	-- Define the colors
+	local color1 = Color3.fromRGB(41, 116, 121)
+	local color2 = Color3.fromRGB(51, 149, 152)
+	
+	-- Define the tweening information
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true) -- 2 seconds, infinite, auto reverse
+	
+	-- Create the tween
+	local tween = tweenService:Create(uiElement, tweenInfo, {ImageColor3 = color2})
+	
+	-- Start the tween
+	tween:Play()
+	
+end
+coroutine.wrap(VLNPLK_fake_script)()
+local function OOMJAY_fake_script() -- scriptBOX.Main 
 	local script = Instance.new('LocalScript', scriptBOX)
 
 	local settings = {
@@ -2421,1194 +3984,9 @@ local function BNCQIV_fake_script() -- scriptBOX.Main
 		end)
 	end
 end
-coroutine.wrap(BNCQIV_fake_script)()
--- Comments_.LocalScript is disabled.
-local function VGYI_fake_script() -- Main.Tabs 
-	local script = Instance.new('LocalScript', Main)
-
-	local TweenService = game:GetService("TweenService")
-	local HttpService = game:GetService("HttpService")
-	local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexDevlpr/JSON-Config-Library-for-Roblox-Lua/main/Library.lua"))()
-	
-	local main = script.Parent
-	local Tabs = main:WaitForChild("Tabs")
-	local addBTN = Tabs:FindFirstChild("add")
-	local tab1 = Tabs:FindFirstChild("tab1")
-	local ExecuBox = main:FindFirstChild("ExecuBox") and main:FindFirstChild("ExecuBox"):FindFirstChild("Source")
-	
-	local settings = {
-		UIAnimations = true,
-		SyntaxHighlighting = true,
-		tabs = {}  -- This will store the content of each tab
-	}
-	
-	-- Table to store the content of each tab
-	local tabContents = {}
-	local currentTab = 1
-	
-	-- Function to update the visibility of the add button
-	local function updateAddButtonVisibility()
-		local tabCount = #Tabs:GetChildren() - 1 -- Subtracting 1 to ignore the add button
-		if addBTN then
-			addBTN.Visible = tabCount < 5
-			if addBTN.Visible then
-				addBTN.Parent = Tabs -- Reparent add button to ensure it's at the end
-			end
-		else
-			warn("Add button not found!")
-		end
-	end
-	
-	local function saveSettings()
-		lib.WriteConfig("PhobosV2T", { tabs = settings.tabs })
-	end
-	
-	-- Function to renumber tabs
-	local function renumberTabs()
-		local tabIndex = 1
-		for _, tab in ipairs(Tabs:GetChildren()) do
-			if tab:IsA("TextButton") and tab ~= addBTN then
-				tab.Name = "Script " .. tabIndex
-				tab.Text = "Script " .. tabIndex
-				tabIndex = tabIndex + 1
-			end
-		end
-	end
-	
-	-- Function to create a new tab with optional fade-in effect
-	local function createNewTab()
-		local newTabNumber = #Tabs:GetChildren() - 1 -- Correctly count the tabs excluding the add button
-		local newTabName = "Script " .. newTabNumber
-	
-		-- Clone tab1 and set its name and text
-		local newTab = tab1:Clone()
-		newTab.Name = newTabName
-		newTab.Text = newTabName
-	
-		-- Make the remove button visible for new tabs
-		local removeBTN = newTab:FindFirstChild("remove")
-		if removeBTN then
-			removeBTN.Visible = true
-		end
-	
-		if settings.UIAnimations then
-			-- Set initial transparency for fade-in effect
-			newTab.BackgroundTransparency = 1
-			newTab.TextTransparency = 1
-			if removeBTN then
-				removeBTN.BackgroundTransparency = 1
-				removeBTN.ImageTransparency = 1
-			end
-		end
-	
-		-- Parent the new tab to Tabs
-		newTab.Parent = Tabs
-	
-		if settings.UIAnimations then
-			-- Add a fade-in tween effect for the new tab
-			local goal = { BackgroundTransparency = 0.6, TextTransparency = 0 }
-			local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In)
-			local tween = TweenService:Create(newTab, tweenInfo, goal)
-			tween:Play()
-	
-			local goal1 = { ImageTransparency = 0 }
-			local tweenInfo1 = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In)
-			local tween1 = TweenService:Create(removeBTN, tweenInfo1, goal1)
-			if removeBTN then
-				local removeTween = TweenService:Create(removeBTN, tweenInfo1, goal1)
-				removeTween:Play()
-			end
-		end
-	
-		-- Add an event listener to the new tab
-		newTab.MouseButton1Click:Connect(function()
-			-- Save current tab content
-			tabContents[currentTab] = ExecuBox.Text
-	
-			-- Save to settings
-			settings.tabs[currentTab] = ExecuBox.Text
-	
-			-- Switch to the new tab
-			currentTab = newTabNumber
-	
-			-- Load the content of the new tab
-			ExecuBox.Text = tabContents[currentTab] or "--Failed to load script"
-		end)
-	
-		-- Add an event listener to the remove button inside the new tab
-		if removeBTN then
-			removeBTN.MouseButton1Click:Connect(function()
-				-- Save current tab content
-				tabContents[currentTab] = ExecuBox.Text
-	
-				-- Save to settings
-				settings.tabs[currentTab] = ExecuBox.Text
-	
-				if settings.UIAnimations then
-					-- Add a fade-out tween effect for the tab removal
-					local goal = { BackgroundTransparency = 1, TextTransparency = 1 }
-					local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
-					local removeTween = TweenService:Create(newTab, tweenInfo, goal)
-					removeTween:Play()
-	
-					local goal2 = { BackgroundTransparency = 1, ImageTransparency = 1 }
-					local removeButtonTween = TweenService:Create(removeBTN, tweenInfo, goal2)
-					removeButtonTween:Play()
-	
-					removeTween.Completed:Connect(function()
-						-- Remove the tab from tabContents
-						table.remove(tabContents, newTabNumber)
-	
-						-- Remove from settings
-						table.remove(settings.tabs, currentTab)
-	
-						-- Destroy the tab
-						newTab:Destroy()
-	
-						-- Adjust currentTab if necessary
-						if currentTab == newTabNumber then
-							currentTab = 1
-							ExecuBox.Text = tabContents[currentTab] or "--Failed to load script"
-						end
-	
-						-- Renumber the tabs
-						renumberTabs()
-	
-						-- Update add button visibility and reparent
-						updateAddButtonVisibility()
-	
-						-- Save updated settings
-						saveSettings()
-					end)
-				else
-					-- Remove the tab from tabContents
-					table.remove(tabContents, newTabNumber)
-	
-					-- Remove from settings
-					table.remove(settings.tabs, currentTab)
-	
-					-- Destroy the tab
-					newTab:Destroy()
-	
-					-- Adjust currentTab if necessary
-					if currentTab == newTabNumber then
-						currentTab = 1
-						ExecuBox.Text = tabContents[currentTab] or "--Failed to load script"
-					end
-	
-					-- Renumber the tabs
-					renumberTabs()
-	
-					-- Update add button visibility and reparent
-					updateAddButtonVisibility()
-	
-					-- Save updated settings
-					saveSettings()
-				end
-			end)
-		end
-	
-		-- Initialize the new tab content
-		tabContents[newTabNumber] = ""
-	
-		-- Update add button visibility and reparent
-		updateAddButtonVisibility()
-	end
-	
-	-- Load settings on startup
-	local function loadSettings()
-		local retrievedData = lib.ReadConfig("PhobosV2T")
-		if retrievedData then
-			settings.tabs = retrievedData.tabs or {}
-	
-			-- Create tabs based on the number of saved scripts
-			for i, scriptContent in ipairs(settings.tabs) do
-				createNewTab()  -- Create new tab without passing scriptContent
-			end
-	
-			-- Load content of current tab into ExecuBox
-			currentTab = 1
-			ExecuBox.Text = tabContents[currentTab] or "--Failed to load script"  -- Load initial tab content
-		else
-			return false
-		end
-	end
-	
-	-- Save settings
-	
-	-- Event listener for add button
-	if addBTN then
-		addBTN.MouseButton1Click:Connect(function()
-			createNewTab()
-		end)
-	else
-		return false
-	end
-	
-	-- Load settings on startup
-	local file = lib.IsConfig("PhobosV2T")
-	if file == true then
-		loadSettings()
-	else
-		saveSettings()
-	end
-	
-	-- Event listener for tab1 (initial tab)
-	if tab1 then
-		tab1.MouseButton1Click:Connect(function()
-			-- Save current tab content
-			tabContents[currentTab] = ExecuBox.Text
-	
-			-- Save to settings
-			settings.tabs[currentTab] = ExecuBox.Text
-	
-			-- Switch to tab1
-			currentTab = 1
-	
-			-- Load the content of tab1
-			ExecuBox.Text = tabContents[currentTab]
-		end)
-	else
-		return false
-	end
-	
-	-- Event listener for tab focus change (clicking out of a tab)
-	if ExecuBox then
-		ExecuBox.FocusLost:Connect(function()
-			-- Save current tab content
-			tabContents[currentTab] = ExecuBox.Text
-	
-			-- Save to settings
-			settings.tabs[currentTab] = ExecuBox.Text
-	
-			-- Save updated settings
-			saveSettings()
-		end)
-	else
-		return false
-	end
-	
-	-- Initial update of the add button visibility
-	updateAddButtonVisibility()
-	
-end
-coroutine.wrap(VGYI_fake_script)()
-local function LTVFOT_fake_script() -- Main.PredictALPHA 
-	local script = Instance.new('LocalScript', Main)
-
-	local textBox = script.Parent.ExecuBox:FindFirstChild("Source")
-	local predictionFrame = script.Parent:WaitForChild("Predict")
-	local predictionLabel = predictionFrame:WaitForChild("Label")
-	local predictionIcon = predictionFrame:WaitForChild("Icon")
-	local usePredictionButton = predictionFrame:WaitForChild("UsePrediction")
-	local icons = {
-		["object"] = "http://www.roblox.com/asset/?id=18607792772",
-		["misc"] = "http://www.roblox.com/asset/?id=18607866501",
-		["script"] = "rbxassetid://18580248721",
-		["event"] = "rbxassetid://18596804842",
-	}
-	local completions = {
-		{ text = "print", imageId = icons.misc },
-		{ text = "warn", imageId = icons.misc },
-		{ text = "function", imageId = icons.object },
-		{ text = "local", imageId = icons.misc },
-		{ text = "script", imageId = icons.script },
-		{ text = "loadstring", imageId = icons.misc },
-		{ text = "getfenv", imageId = icons.misc },
-		{ text = "wait", imageId = icons.misc },
-		{ text = "game", imageId = icons.object },
-		{ text = "ReplicatedStorage", imageId = icons.event },
-		{ text = "workspace", imageId = icons.object },
-		{ text = "Players", imageId = icons.object },
-		{ text = "Lighting", imageId = icons.object },
-		{ text = "StarterGui", imageId = icons.object },
-		{ text = "StarterPack", imageId = icons.object },
-		{ text = "ServerScriptService", imageId = icons.script },
-		{ text = "ServerStorage", imageId = icons.object },
-		{ text = "TextService", imageId = icons.misc },
-		{ text = "require", imageId = icons.script },
-		{ text = "Instance.new", imageId = icons.object },
-		{ text = "Vector3.new", imageId = icons.misc },
-		{ text = "CFrame.new", imageId = icons.misc },
-		{ text = "UDim2.new", imageId = icons.misc },
-		{ text = "Color3.new", imageId = icons.misc },
-		{ text = "Enum", imageId = icons.misc },
-		{ text = "math.random", imageId = icons.misc },
-		{ text = "math.pi", imageId = icons.misc },
-		{ text = "string.sub", imageId = icons.misc },
-		{ text = "string.find", imageId = icons.misc },
-		{ text = "string.gsub", imageId = icons.misc },
-		{ text = "string.len", imageId = icons.misc },
-		{ text = "table.insert", imageId = icons.misc },
-		{ text = "table.remove", imageId = icons.misc },
-		{ text = "table.sort", imageId = icons.misc },
-		{ text = "table.concat", imageId = icons.misc },
-		{ text = "pairs", imageId = icons.misc },
-		{ text = "ipairs", imageId = icons.misc },
-		{ text = "pcall", imageId = icons.misc },
-		{ text = "xpcall", imageId = icons.misc },
-		{ text = "coroutine.create", imageId = icons.misc },
-		{ text = "coroutine.resume", imageId = icons.misc },
-		{ text = "coroutine.yield", imageId = icons.misc },
-		{ text = "coroutine.status", imageId = icons.misc },
-		{ text = "tick", imageId = icons.misc },
-		{ text = "os.time", imageId = icons.misc },
-		{ text = "os.date", imageId = icons.misc },
-		{ text = "debug.traceback", imageId = icons.misc },
-		{ text = "debug.getinfo", imageId = icons.misc },
-		{ text = "UserInputService", imageId = icons.misc },
-		{ text = "RunService", imageId = icons.misc },
-		{ text = "TweenService", imageId = icons.misc },
-		{ text = "HttpService", imageId = icons.misc },
-	}
-	local predictedWord = nil
-	local function updatePrediction()
-		local text = textBox.Text
-		local segments = {}
-		for segment in string.gmatch(text, "[^.,+%s]+") do
-			table.insert(segments, segment)
-		end
-	
-		local lastSegment = segments[#segments] or ""
-		local prediction = ""
-		local predictionImageId = ""
-		local lowerLastSegment = lastSegment:lower()
-		for _, completion in ipairs(completions) do
-			if completion.text:lower():sub(1, #lowerLastSegment) == lowerLastSegment then
-				prediction = completion.text
-				predictionImageId = completion.imageId
-				break
-			end
-		end
-		if prediction ~= "" and prediction ~= lastSegment then
-			local remainingText = prediction:sub(#lastSegment + 1)
-			predictionLabel.Text = lastSegment .. "<font color=\"rgb(128, 128, 128)\">" .. remainingText .. "</font>"
-			predictedWord = prediction
-			predictionLabel.TextColor3 = Color3.new(1, 1, 1)
-			predictionLabel.RichText = true
-			predictionIcon.Image = predictionImageId
-			predictionFrame.Visible = true
-	
-			local textService = game:GetService("TextService")
-			local cursorPosition = textService:GetTextSize(
-				text:sub(1, textBox.CursorPosition - 1),
-				textBox.TextSize,
-				textBox.Font,
-				Vector2.new(textBox.AbsoluteSize.X, math.huge)
-			)
-			local lineHeight = textService:GetTextSize(
-				"A",
-				textBox.TextSize,
-				textBox.Font,
-				Vector2.new(textBox.AbsoluteSize.X, math.huge)
-			).Y
-			local lineNumber = math.floor(cursorPosition.Y / lineHeight)
-			local offsetX = cursorPosition.X + 50
-			local offsetY = (lineNumber + 1) * lineHeight + 45
-			local relativePositionX = textBox.AbsolutePosition.X + offsetX
-			local relativePositionY = textBox.AbsolutePosition.Y + offsetY
-			local execuBox = textBox.Parent
-			local execuBoxPos = execuBox.AbsolutePosition
-			local execuBoxSize = execuBox.AbsoluteSize
-	
-			local predictionFrameSize = predictionFrame.AbsoluteSize
-			local newPositionX = math.clamp(relativePositionX, execuBoxPos.X, execuBoxPos.X + execuBoxSize.X - predictionFrameSize.X)
-			local newPositionY = math.clamp(relativePositionY, execuBoxPos.Y, execuBoxPos.Y + execuBoxSize.Y - predictionFrameSize.Y)
-			warn(newPositionX)
-			warn(newPositionY)
-			predictionFrame.Position = UDim2.new(0, newPositionX - execuBoxPos.X, 0, newPositionY - execuBoxPos.Y)
-		else
-			predictionFrame.Visible = false
-		end
-	end
-	
-	local function checkSyntaxError()
-		local code = textBox.Text
-		local func, syntaxError = loadstring(code)
-		if not func then
-			local lineNumber, errorMsg = string.match(syntaxError, ":(%d+): (.+)")
-			print("Syntax Error on line " .. lineNumber .. ": " .. errorMsg)
-		else
-			print("No Syntax Errors")
-		end
-	end
-	
-	textBox:GetPropertyChangedSignal("Text"):Connect(function()
-		if textBox.Text ~= "" and textBox.Text ~= " " then
-			local segments = {}
-			for segment in string.gmatch(textBox.Text, "[^.,+%s]+") do
-				table.insert(segments, segment)
-			end
-	
-			local lastSegment = segments[#segments] or ""
-			local matchFound = false
-			for _, completion in ipairs(completions) do
-				if lastSegment:lower() == completion.text:lower() then
-					matchFound = true
-					break
-				end
-			end
-	
-			if matchFound then
-				predictionFrame.Visible = false
-			else
-				warn("updating prediction")
-				updatePrediction()
-			end
-		else
-			predictionFrame.Visible = false
-		end
-	end)
-	
-	usePredictionButton.MouseButton1Click:Connect(function()
-		if predictionLabel.Text ~= "" then
-			local text = textBox.Text
-			local cursorPos = textBox.CursorPosition
-			local prefix = text:sub(1, cursorPos - 1)
-			local suffix = text:sub(cursorPos)
-			local lastSegmentStart = prefix:find("[^.,%s]+$")
-			if not lastSegmentStart then
-				lastSegmentStart = #prefix + 1
-			end
-			local beforeLastSegment = prefix:sub(1, lastSegmentStart - 1)
-			local lastSegment = prefix:sub(lastSegmentStart)
-			local separator = ""
-			if lastSegment:match("[.,%s]+$") then
-				separator = lastSegment:match("[.,%s]+$")
-			end
-			local newText = beforeLastSegment .. predictedWord .. separator .. suffix
-			textBox.Text = newText
-			textBox.CursorPosition = #beforeLastSegment + #predictedWord + 1
-			predictionFrame.Visible = false
-		end
-	end)
-	
-end
-coroutine.wrap(LTVFOT_fake_script)()
+coroutine.wrap(OOMJAY_fake_script)()
 -- Comments__2.LocalScript is disabled.
-local function HHIFQJH_fake_script() -- ExecuBox.Main 
-	local script = Instance.new('LocalScript', ExecuBox)
-
-	local settings = {
-		Highlight = true; -- Highlight like you know. Script Text color?
-		Lines = false; -- The textbox will have some lines like when you press enter.
-		Scroll = true; -- So if it has alot of lines and that it gets off the screen this will help.
-		HighlightVariables=true;--Highlights the local and global enviorments
-		SplitScanLines=false;-- This trick is used to Scan lines instead of the whole source (Breaks multilined strings and comments) 
-		WaitIfRendered=true;-- This trick will reduce lag by waiting if the game has rendered
-		AutomaticSettingChange=false;--Automatically changes the settings for the best experience
-		LoadLexer=true;--Makes one token and creates highlights out of it instead of many tokens (reduce lag)
-	}
-	local RunService = game:GetService("RunService")
-	local Fps=0
-	local TimeFunction = RunService:IsRunning() and time or os.clock
-	local LastIteration, Start
-	local FrameUpdateTable = {}
-	
-	local function HeartbeatUpdate()
-		LastIteration = TimeFunction()
-		for Index = #FrameUpdateTable, 1, -1 do
-			FrameUpdateTable[Index + 1] = FrameUpdateTable[Index] >= LastIteration - 1 and FrameUpdateTable[Index] or nil
-		end
-	
-		FrameUpdateTable[1] = LastIteration
-		Fps = tonumber(math.floor(TimeFunction() - Start >= 1 and #FrameUpdateTable or #FrameUpdateTable / (TimeFunction() - Start)))
-	end
-	
-	Start = TimeFunction()
-	RunService.Heartbeat:Connect(HeartbeatUpdate)
-	
-	--[==[
-	This syntax is the best syntax on the marketplace
-	Only created by MiAiHsIs1226
-	-- Credits
-	Credits to the lexer module creator
-	Credits to MikePetar for scroll
-	Credits to me for literally doing nothing
-	]==]
-	local function parse(tokens)
-		local localvarables = {}
-		local whitespacecharactersfound=0
-		local readabletokens = {}
-		local tokennumbers = {}
-		for i,v in pairs(tokens) do
-			if v.Source == " " then
-				whitespacecharactersfound+=1
-				continue
-			end
-			if v.Type=="space" then
-				whitespacecharactersfound+=1
-				continue
-			end
-	
-			table.insert(readabletokens,v)
-			table.insert(tokennumbers,{i})
-		end
-	
-	
-		for i,v in pairs(readabletokens) do
-			pcall(function()
-				if v.Source == "local" then
-					local _,name =pcall(function()return readabletokens[i+1].Source;end)
-					if _==false then
-						error("Syntax Error: Expected more code")
-					end
-					if name == "function" then
-						_,name =pcall(function()return readabletokens[i+2].Source;end)
-						if _==false then
-							error("Syntax Error: Expected more code")
-						end
-						if readabletokens[i+2].Type~="iden" then
-							error("Syntax Error: Name isnt an idient")
-						end
-						table.insert(localvarables,{Name = name,Type="Local",Source = "function",number = tokennumbers[i][1]+4})
-					else
-						table.insert(localvarables,{Name = name,Type="Local",Source = readabletokens[i+3].Source,number = tokennumbers[i]
-							[1]+1})
-					end
-				elseif v.Type == "iden"  then
-	
-					if readabletokens[i-1] then
-						if readabletokens[i-1].Type ~= "keyword" and readabletokens[i-1].Type ~= "symbol"  then
-							local source = readabletokens[i+2].Source
-							table.insert(localvarables,{Name = v.Source,Type="Global",Source = source;number = tokennumbers[i]
-								[1]})  
-						elseif readabletokens[i-1].Source=="function" then
-							local source = "function"
-							table.insert(localvarables,{Name = v.Source,Type="Global",Source = source;number = tokennumbers[i]
-								[1]})  
-	
-						end
-					else
-						local source = readabletokens[i+2].Source
-						table.insert(localvarables,{Name = v.Source,Type="Global",Source = source,number = tokennumbers[i][1]})  
-					end
-				end
-			end)
-		end
-	
-		return (localvarables)
-	end
-	local function lexerscan(text)
-		local lexer = coroutine.wrap(function()
-	
-			local lexer = {}
-	
-			local yield, wrap  = coroutine.yield, coroutine.wrap
-			local strfind      = string.find
-			local strsub       = string.sub
-			local append       = table.insert
-			local type         = type
-	
-			local NUMBER1	= "^[%+%-]?%d+%.?%d*[eE][%+%-]?%d+"
-			local NUMBER2	= "^[%+%-]?%d+%.?%d*"
-			local NUMBER3	= "^0x[%da-fA-F]+"
-			local NUMBER4	= "^%d+%.?%d*[eE][%+%-]?%d+"
-			local NUMBER5	= "^%d+%.?%d*"
-			local IDEN		= "^[%a_][%w_]*"
-			local WSPACE	= "^%s+"
-			local STRING1	= "^(['\"])%1"							
-			local STRING2	= [[^(['"])(\*)%2%1]]
-			local STRING3	= [[^(['"]).-[^\](\*)%2%1]]
-			local STRING4	= "^(['\"]).-.*"						
-			local STRING5	= "^%[(=*)%[.-%]%1%]"					
-			local STRING6	= "^%[%[.-.*"							
-			local CHAR1		= "^''"
-			local CHAR2		= [[^'(\*)%1']]
-			local CHAR3		= [[^'.-[^\](\*)%1']]
-			local PREPRO	= "^#.-[^\\]\n"
-			local MCOMMENT1	= "^%-%-%[(=*)%[.-%]%1%]"				
-			local MCOMMENT2	= "^%-%-%[%[.-.*"						
-			local SCOMMENT1	= "^%-%-.-\n"							
-			local SCOMMENT2	= "^%-%-.-.*"							
-	
-			local lua_keyword = {
-				["and"] = true,  ["break"] = true,  ["do"] = true,      ["else"] = true,      ["elseif"] = true,
-				["end"] = true,  ["false"] = true,  ["for"] = true,     ["function"] = true,  ["if"] = true,
-				["in"] = true,   ["local"] = true,  ["nil"] = true,     ["not"] = true,       ["while"] = true,
-				["or"] = true,   ["repeat"] = true, ["return"] = true,  ["then"] = true,      ["true"] = true,
-				["self"] = true, ["until"] = true
-			}
-			
-			local lua_builtin = {
-				["assert"] = true;["collectgarbage"] = true;["error"] = true;["_G"] = true;
-				["gcinfo"] = true;["getfenv"] = true;["getmetatable"] = true;["ipairs"] = true;
-				["loadstring"] = true;["newproxy"] = true;["next"] = true;["pairs"] = true;
-				["pcall"] = true;["print"] = true;["rawequal"] = true;["rawget"] = true;["rawset"] = true;
-				["select"] = true;["setfenv"] = true;["setmetatable"] = true;["tonumber"] = true;
-				["tostring"] = true;["type"] = true;["unpack"] = true;["_VERSION"] = true;["xpcall"] = true;
-				["delay"] = true;["elapsedTime"] = true;["require"] = true;["spawn"] = true;["tick"] = true;
-				["time"] = true;["typeof"] = true;["UserSettings"] = true;["wait"] = true;["warn"] = true;
-				["game"] = true;["Enum"] = true;["script"] = true;["shared"] = true;["workspace"] = true;
-				["Axes"] = true;["BrickColor"] = true;["CFrame"] = true;["Color3"] = true;["ColorSequence"] = true;
-				["ColorSequenceKeypoint"] = true;["Faces"] = true;["Instance"] = true;["NumberRange"] = true;
-				["NumberSequence"] = true;["NumberSequenceKeypoint"] = true;["PhysicalProperties"] = true;
-				["Random"] = true;["Ray"] = true;["Rect"] = true;["Region3"] = true;["Region3int16"] = true;
-				["TweenInfo"] = true;["UDim"] = true;["UDim2"] = true;["Vector2"] = true;["Vector3"] = true;
-				["Vector3int16"] = true;["next"] = true;
-				["os"] = true;
-				["os.time"] = true;["os.date"] = true;["os.difftime"] = true;
-				["debug"] = true;
-				["debug.traceback"] = true;["debug.profilebegin"] = true;["debug.profileend"] = true;
-				["math"] = true;
-				["math.abs"] = true;["math.acos"] = true;["math.asin"] = true;["math.atan"] = true;["math.atan2"] = true;["math.ceil"] = true;["math.clamp"] = true;["math.cos"] = true;["math.cosh"] = true;["math.deg"] = true;["math.exp"] = true;["math.floor"] = true;["math.fmod"] = true;["math.frexp"] = true;["math.ldexp"] = true;["math.log"] = true;["math.log10"] = true;["math.max"] = true;["math.min"] = true;["math.modf"] = true;["math.noise"] = true;["math.pow"] = true;["math.rad"] = true;["math.random"] = true;["math.randomseed"] = true;["math.sign"] = true;["math.sin"] = true;["math.sinh"] = true;["math.sqrt"] = true;["math.tan"] = true;["math.tanh"] = true;
-				["coroutine"] = true;
-				["coroutine.create"] = true;["coroutine.resume"] = true;["coroutine.running"] = true;["coroutine.status"] = true;["coroutine.wrap"] = true;["coroutine.yield"] = true;
-				["string"] = true;
-				["string.byte"] = true;["string.char"] = true;["string.dump"] = true;["string.find"] = true;["string.format"] = true;["string.len"] = true;["string.lower"] = true;["string.match"] = true;["string.rep"] = true;["string.reverse"] = true;["string.sub"] = true;["string.upper"] = true;["string.gmatch"] = true;["string.gsub"] = true;
-				["table"] = true;
-				["table.concat"] = true;["table.insert"] = true;["table.remove"] = true;["table.sort"] = true;
-			}
-	
-			local function tdump(tok)
-				return yield(tok, tok)
-			end
-	
-			local function ndump(tok)
-				return yield("number", tok)
-			end
-	
-			local function sdump(tok)
-				return yield("string", tok)
-			end
-	
-			local function cdump(tok)
-				return yield("comment", tok)
-			end
-	
-			local function wsdump(tok)
-				return yield("space", tok)
-			end
-	
-			local function lua_vdump(tok)
-				if (lua_keyword[tok]) then
-					return yield("keyword", tok)
-				elseif (lua_builtin[tok]) then
-					return yield("builtin", tok)
-				else
-					return yield("iden", tok)
-				end
-			end
-	
-			local lua_matches = {
-				{IDEN,      lua_vdump},        -- Indentifiers
-				{WSPACE,    wsdump},           -- Whitespace
-				{NUMBER3,   ndump},            -- Numbers
-				{NUMBER4,   ndump},
-				{NUMBER5,   ndump},
-				{STRING1,   sdump},            -- Strings
-				{STRING2,   sdump},
-				{STRING3,   sdump},
-				{STRING4,   sdump},
-				{STRING5,   sdump},            -- Multiline-Strings
-				{STRING6,   sdump},            -- Multiline-Strings
-	
-				{MCOMMENT1, cdump},            -- Multiline-Comments
-				{MCOMMENT2, cdump},			
-				{SCOMMENT1, cdump},            -- Singleline-Comments
-				{SCOMMENT2, cdump},
-	
-				{"^==",     tdump},            -- Operators
-				{"^~=",     tdump},
-				{"^<=",     tdump},
-				{"^>=",     tdump},
-				{"^%.%.%.", tdump},
-				{"^%.%.",   tdump},
-				{"^.",      tdump}
-			}
-	
-			local num_lua_matches = #lua_matches
-	
-	
-			--- Create a plain token iterator from a string.
-			-- @tparam string s a string.
-			function lexer.scan(s)
-	
-				local function lex(first_arg)
-	
-					local line_nr = 0
-					local sz = #s
-					local idx = 1
-	
-					-- res is the value used to resume the coroutine.
-					local function handle_requests(res)
-						while (res) do
-							local tp = type(res)
-							-- Insert a token list:
-							if (tp == "table") then
-								res = yield("", "")
-								for i = 1,#res do
-									local t = res[i]
-									res = yield(t[1], t[2])
-								end
-							elseif (tp == "string") then -- Or search up to some special pattern:
-								local i1, i2 = strfind(s, res, idx)
-								if (i1) then
-									local tok = strsub(s, i1, i2)
-									idx = (i2 + 1)
-									res = yield("", tok)
-								else
-									res = yield("", "")
-									idx = (sz + 1)
-								end
-							else
-								res = yield(line_nr, idx)
-							end
-						end
-					end
-	
-					handle_requests(first_arg)
-					line_nr = 1
-	
-					while (true) do
-	
-						if (idx > sz) then
-							while (true) do
-								handle_requests(yield())
-							end
-						end
-	
-						for i = 1,num_lua_matches do
-							local m = lua_matches[i]
-							local pat = m[1]
-							local fun = m[2]
-							local findres = {strfind(s, pat, idx)}
-							local i1, i2 = findres[1], findres[2]
-							if (i1) then
-								local tok = strsub(s, i1, i2)
-								idx = (i2 + 1)
-								lexer.finished = (idx > sz)
-								local res = fun(tok, findres)
-								if (tok:find("\n")) then
-									-- Update line number:
-									local _,newlines = tok:gsub("\n", {})
-									line_nr = (line_nr + newlines)
-								end
-								handle_requests(res)
-								break
-							end
-						end
-	
-					end
-	
-				end
-	
-				return wrap(lex)
-	
-			end
-	
-			return lexer
-		end)()
-		local function doesvalueexist(value,tab)
-			for i,v in pairs(tab) do
-				if v == value then
-					return true
-				end
-			end
-			return false or nil
-		end
-		local symbols = {
-			";";
-			"^";
-			"(";
-			")";
-			"%";
-			"/";
-			":";
-			"#";
-			"-";
-			"=";
-			"+";
-			"{";
-			"}";
-			"~";
-			"<";
-			">";
-			"*";
-			",";
-			".";
-			"\""}
-		local t={}
-		local split=text:split("\n")
-		if settings.SplitScanLines==true then
-			for _, splitv in pairs(text:split("\n")) do 
-				for i,v in (lexer.scan(splitv)) do
-					local type= i
-					if doesvalueexist(type,symbols)  then-- makes the type "symbol" if it is a symbol
-						type="symbol"
-					end
-					table.insert(t,{Type=type,Source=v})
-				end
-				table.insert(t,{Type="space",Source="\n"})--dont remove this unless you know what you're doing
-				if settings.WaitIfRendered then
-					game:GetService("RunService").RenderStepped:Wait()
-				end
-			end
-		else
-	
-			for i,v in (lexer.scan(text)) do
-				local type= i
-				if doesvalueexist(type,symbols)  then-- makes the type "symbol" if it is a symbol
-					type="symbol"
-				end
-				table.insert(t,{Type=type,Source=v})
-				if settings.WaitIfRendered then
-					game:GetService("RunService").RenderStepped:Wait()
-				end
-			end
-	
-	
-	
-		end
-		return(t)
-	end
-	local GetTypeToMakeSyntax=function(s,t)
-		if type(s)=="string" then
-			if t=="var" then
-				local tokens=lexerscan(s)
-				local r=""
-				local variables=parse(tokens)
-				local s={}
-				for i,v in pairs(variables) do
-					s[v.Name]=v
-				end
-				for i,v in pairs(tokens) do
-					if s[v.Source] then
-						if tokens[i-1] then
-							if tokens[i-1].Source~="." then
-								r=r..v.Source
-							else
-								continue
-							end
-						else
-							r=r..v.Source
-						end
-					else
-						local s=string.gsub(v.Source,"%d",function(c)return string.rep(" ",#c)end)
-						local p=string.gsub(s,"%p",function(c)return string.rep(" ",#c)end)
-						local a=string.gsub(p,"%a",function(c)return string.rep(" ",#c)end)
-						r=r..a
-					end
-				end
-	
-				return(r)
-			else
-				local tokens=lexerscan(s)
-				local r=""
-				for i,v in pairs(tokens) do
-					if v.Type==t then
-						r=r..v.Source
-					else
-						local s=string.gsub(v.Source,"%d",function(c)return string.rep(" ",#c)end)
-						local p=string.gsub(s,"%p",function(c)return string.rep(" ",#c)end)
-						local a=string.gsub(p,"%a",function(c)return string.rep(" ",#c)end)
-						r=r..a
-					end
-				end
-	
-				return(r)
-			end
-		elseif type(s)=="table" then
-			if t=="var" then
-				local tokens=s
-				local r=""
-				local variables=parse(tokens)
-				local s={}
-				for i,v in pairs(variables) do
-					s[v.Name]=v
-				end
-				for i,v in pairs(tokens) do
-					if s[v.Source] then
-						if tokens[i-1] then
-							if tokens[i-1].Source~="." then
-								r=r..v.Source
-							else
-								continue
-							end
-						else
-							r=r..v.Source
-						end
-					else
-						local s=string.gsub(v.Source,"%d",function(c)return string.rep(" ",#c)end)
-						local p=string.gsub(s,"%p",function(c)return string.rep(" ",#c)end)
-						local a=string.gsub(p,"%a",function(c)return string.rep(" ",#c)end)
-						r=r..a
-					end
-				end
-	
-				return(r)
-			else
-				local tokens=s
-				local r=""
-				for i,v in pairs(tokens) do
-					if v.Type==t then
-						r=r..v.Source
-					else
-						local s=string.gsub(v.Source,"%d",function(c)return string.rep(" ",#c)end)
-						local p=string.gsub(s,"%p",function(c)return string.rep(" ",#c)end)
-						local a=string.gsub(p,"%a",function(c)return string.rep(" ",#c)end)
-						r=r..a
-					end
-				end
-	
-				return(r)
-			end
-		end
-	end
-	
-	local L_1_ = script.Parent.Source
-	local L_2_ = Vector2.new(0, 0)  
-	local L_3_Org = {      "getrawmetatable",       "game",       "workspace",       "script",       "math",       "string",       "table",       "print",       "wait",       "BrickColor",       "Color3",       "next",       "pairs",       "ipairs",       "select",       "unpack",       "Instance",       "Vector2",       "Vector3",       "CFrame",       "Ray",       "UDim2",       "Enum",       "assert",       "error",       "warn",       "tick",       "loadstring",       "_G",       "shared",       "getfenv",       "setfenv",       "newproxy",       "setmetatable",       "getmetatable",       "os",       "debug",       "pcall",       "ypcall",       "xpcall",       "rawequal",       "rawset",       "rawget",       "tonumber",       "tostring",       "type",       "typeof",       "_VERSION",       "coroutine",       "delay",       "require",       "spawn",       "LoadLibrary",       "settings",       "stats",       "time",       "UserSettings",       "version",       "Axes",       "ColorSequence",       "Faces",       "ColorSequenceKeypoint",       "NumberRange",       "NumberSequence",       "NumberSequenceKeypoint",       "gcinfo",       "elapsedTime",       "collectgarbage",       "PhysicalProperties",       "Rect",       "Region3",       "Region3int16",       "UDim",       "Vector2int16",       "Vector3int16" ,"isSafe" } 
-	local L_3_ = {      "getrawmetatable",       "game",       "workspace",       "script",       "math",       "string",       "table",       "print",       "wait",       "BrickColor",       "Color3",       "next",       "pairs",       "ipairs",       "select",       "unpack",       "Instance",       "Vector2",       "Vector3",       "CFrame",       "Ray",       "UDim2",       "Enum",       "assert",       "error",       "warn",       "tick",       "loadstring",       "_G",       "shared",       "getfenv",       "setfenv",       "newproxy",       "setmetatable",       "getmetatable",       "os",       "debug",       "pcall",       "ypcall",       "xpcall",       "rawequal",       "rawset",       "rawget",       "tonumber",       "tostring",       "type",       "typeof",       "_VERSION",       "coroutine",       "delay",       "require",       "spawn",       "LoadLibrary",       "settings",       "stats",       "time",       "UserSettings",       "version",       "Axes",       "ColorSequence",       "Faces",       "ColorSequenceKeypoint",       "NumberRange",       "NumberSequence",       "NumberSequenceKeypoint",       "gcinfo",       "elapsedTime",       "collectgarbage",       "PhysicalProperties",       "Rect",       "Region3",       "Region3int16",       "UDim",       "Vector2int16",       "Vector3int16" } 
-	local L_4_ = {       "and",       "break",       "do",       "else",       "elseif",       "end",       "false",       "for",       "function",       "goto",       "if",       "in",       "local",       "nil",       "not",       "or",       "repeat",       "return",       "then",       "true",       "until",       "while" } 
-	
-	local function L_5_func(L_49_arg1)       
-		local L_50_, L_51_ = L_49_arg1.CanvasSize.Y.Offset, L_49_arg1.AbsoluteWindowSize.Y       
-		local L_52_ = L_50_ - L_51_       
-		if L_52_ < 0 then             
-			L_52_ = 0
-		end       
-		local L_53_ = Vector2.new(L_49_arg1.CanvasPosition.X, L_52_)       
-		return L_53_ 
-	end 
-	local function ofodguisgfhjjksfghkgh(L_49_arg1)       
-		local L_50_, L_51_ = L_49_arg1.CanvasSize.X.Offset, L_49_arg1.AbsoluteWindowSize.X       
-		local L_52_ = L_50_ - L_51_       
-		if L_52_ < 0 then             
-			L_52_ = 0
-		end       
-		local L_53_ = Vector2.new(L_52_,L_49_arg1.CanvasPosition.Y)       
-		return L_53_ 
-	end 
-	local function GetLineSelected(s)
-		local text =  s.Text
-		local p = s.CursorPosition
-		local text2 = ""
-		for i = p,1,-1 do
-			local c = text:sub(i,i)
-			if c == "\n" then
-				break
-			else
-				text2 = text2 .. c
-			end
-		end
-	
-		return (text2:reverse())
-	end
-	
-	wait(.2) 
-	local L_6_ = 20 
-	L_1_:GetPropertyChangedSignal("Text"):Connect(function()
-		if settings.Highlight then
-			local L_54_ = L_1_.Comments_       
-			local L_56_ = L_1_.Tokens_       
-			local L_57_ = L_1_.Numbers_       
-			local L_58_ = L_1_.Strings_             
-			local L_61_ = L_1_.Keywords_       
-			local L_62_ = L_1_.Globals_  
-			local L_90_ = L_1_.Vars_  
-			if settings.LoadLexer then
-				local tokens= lexerscan(L_1_.Text) 
-				L_54_.Text=GetTypeToMakeSyntax(tokens,"comment")
-	
-				L_58_.Text=GetTypeToMakeSyntax(tokens,"string")
-	
-				L_57_.Text=GetTypeToMakeSyntax(tokens,"number")
-	
-				L_62_.Text=GetTypeToMakeSyntax(tokens,"builtin")
-	
-				L_56_.Text=GetTypeToMakeSyntax(tokens,"symbol")
-	
-				L_61_.Text=GetTypeToMakeSyntax(tokens,"keyword")
-	
-				if settings.HighlightVariables then
-					L_90_.Text=GetTypeToMakeSyntax(tokens,"var")
-				end
-	
-			else
-				spawn(function()
-					L_54_.Text=GetTypeToMakeSyntax(L_1_.Text,"comment")
-				end)
-				spawn(function()
-					L_58_.Text=GetTypeToMakeSyntax(L_1_.Text,"string")
-				end)
-				spawn(function()
-					L_57_.Text=GetTypeToMakeSyntax(L_1_.Text,"number")
-				end)
-				spawn(function()
-					L_62_.Text=GetTypeToMakeSyntax(L_1_.Text,"builtin")
-				end)
-				spawn(function()
-					L_56_.Text=GetTypeToMakeSyntax(L_1_.Text,"symbol")
-				end)
-				spawn(function()
-					L_61_.Text=GetTypeToMakeSyntax(L_1_.Text,"keyword")
-				end)
-				spawn(function()
-					if settings.HighlightVariables then
-						L_90_.Text=GetTypeToMakeSyntax(L_1_.Text,"var")
-					end
-				end)
-	
-			end
-		end
-		local L_63_ = 1    
-		if settings.Scroll then
-			local X = L_1_.TextBounds.X
-			L_1_.Parent.CanvasSize = (UDim2.new(0, L_1_.TextBounds.X + 55 + 5, 0, L_1_.TextBounds.Y))   
-		end
-		if settings.Lines then
-			L_1_.Text:gsub('\n', function()             
-				L_63_ = L_63_ + 1       end)      
-			L_1_.Parent.Lines.Text = ""       
-			for L_64_forvar1 = 1, L_63_ do             
-				L_1_.Parent.Lines.Text = L_1_.Parent.Lines.Text..L_64_forvar1.."\n"       
-			end       
-		end
-		if settings.Scroll then
-			spawn(function()
-				if L_1_.Parent.CanvasPosition.X == L_2_.X then
-					L_1_.Parent.CanvasPosition = ofodguisgfhjjksfghkgh(L_1_.Parent)  
-				else             
-					L_2_ = ofodguisgfhjjksfghkgh(L_1_.Parent)   
-				end 
-			end)
-			wait()
-			if L_1_.Text:sub(#L_1_.Text,#L_1_.Text) == "\n" then
-				L_1_.Parent.CanvasPosition = Vector2.new()
-			end
-	
-			if L_1_.Parent.CanvasPosition.Y == L_2_.Y then
-				L_1_.Parent.CanvasPosition = L_5_func(L_1_.Parent)       
-			else             
-				L_2_ = L_5_func(L_1_.Parent)       
-			end 
-		end
-	
-	
-	
-	end) 
-	if settings.Scroll then
-		L_1_.MouseWheelBackward:Connect(function(L_65_arg1, L_66_arg2)       
-			wait(.1)      
-			game.TweenService:Create(L_1_.Parent, TweenInfo.new(.5, Enum.EasingStyle.Quint), {CanvasPosition = L_1_.Parent.CanvasPosition + Vector2.new(0, L_6_)}):Play()
-			L_6_ = L_6_ + 5       
-			wait(1)       
-			L_6_ = L_6_ - 5 	
-		end) 
-		L_1_.MouseWheelForward:Connect(function(L_67_arg1, L_68_arg2)    
-			wait(.1)      
-			game.TweenService:Create(L_1_.Parent, TweenInfo.new(.5, Enum.EasingStyle.Quint), {CanvasPosition = L_1_.Parent.CanvasPosition + Vector2.new(0,-L_6_)}):Play()
-			L_6_ = L_6_ + 5       
-			wait(1)       
-			L_6_ = L_6_ - 5 
-		end)
-	end
-	if settings.Lines then
-		script.Parent.Lines.Visible = true
-		L_1_.Position = UDim2.new(0,30,0,0)
-	else
-		L_1_.Position = UDim2.new()
-	end
-	if settings.AutomaticSettingChange== true then
-	
-		spawn(function()
-			pcall(function()
-				while wait(10) do
-					settings.Highlight=true
-					if Fps>50 then
-						settings.SplitScanLines=false
-						settings.LoadLexer=false
-						settings.WaitIfRendered=false
-	
-					elseif Fps<60 and Fps>40 then
-						settings.SplitScanLines=false
-						settings.LoadLexer=true
-						settings.WaitIfRendered=true
-						settings.HighlightVariables=false
-	
-					elseif Fps<35 then
-						settings.SplitScanLines=true
-						settings.LoadLexer=true
-						settings.WaitIfRendered=true
-						settings.HighlightVariables=false
-	
-					elseif Fps>10 then
-						settings.Highlight=false
-					end
-				end
-			end)
-		end)
-	end
-end
-coroutine.wrap(HHIFQJH_fake_script)()
-local function JEAVYT_fake_script() -- detail_3.LocalScript 
-	local script = Instance.new('LocalScript', detail_3)
-
-	-- Define the UI element
-	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
-	
-	-- Define the colors
-	local color1 = Color3.fromRGB(41, 116, 121)
-	local color2 = Color3.fromRGB(33, 95, 98)
-	
-	-- Define the tweening information
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true) -- 2 seconds, infinite, auto reverse
-	
-	-- Create the tween
-	local tween = tweenService:Create(uiElement, tweenInfo, {ImageColor3 = color2})
-	
-	-- Start the tween
-	tween:Play()
-	
-end
-coroutine.wrap(JEAVYT_fake_script)()
-local function GVEYB_fake_script() -- detail_4.LocalScript 
-	local script = Instance.new('LocalScript', detail_4)
-
-	-- Define the UI element
-	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
-	
-	-- Define the colors
-	local color1 = Color3.fromRGB(41, 116, 121)
-	local color2 = Color3.fromRGB(51, 149, 152)
-	
-	-- Define the tweening information
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true) -- 2 seconds, infinite, auto reverse
-	
-	-- Create the tween
-	local tween = tweenService:Create(uiElement, tweenInfo, {ImageColor3 = color2})
-	
-	-- Start the tween
-	tween:Play()
-	
-end
-coroutine.wrap(GVEYB_fake_script)()
-local function DRJXO_fake_script() -- detail_5.LocalScript 
-	local script = Instance.new('LocalScript', detail_5)
-
-	-- Define the UI element
-	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
-	
-	-- Define the colors
-	local color1 = Color3.fromRGB(41, 116, 121)
-	local color2 = Color3.fromRGB(33, 95, 98)
-	
-	-- Define the tweening information
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true) -- 2 seconds, infinite, auto reverse
-	
-	-- Create the tween
-	local tween = tweenService:Create(uiElement, tweenInfo, {ImageColor3 = color2})
-	
-	-- Start the tween
-	tween:Play()
-	
-end
-coroutine.wrap(DRJXO_fake_script)()
-local function QNQW_fake_script() -- Settings_2.Main 
+local function UKEO_fake_script() -- Settings_2.Main 
 	local script = Instance.new('LocalScript', Settings_2)
 
 	local UIAnim = script.Parent:FindFirstChild("UIAnim")
@@ -3808,8 +4186,8 @@ local function QNQW_fake_script() -- Settings_2.Main
 		end
 	end)
 end
-coroutine.wrap(QNQW_fake_script)()
-local function QVDKTVM_fake_script() -- Settings_2.Drag 
+coroutine.wrap(UKEO_fake_script)()
+local function RUDZXZ_fake_script() -- Settings_2.Drag 
 	local script = Instance.new('LocalScript', Settings_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -3852,8 +4230,8 @@ local function QVDKTVM_fake_script() -- Settings_2.Drag
 		end
 	end)
 end
-coroutine.wrap(QVDKTVM_fake_script)()
-local function VLWONBI_fake_script() -- Open.Drag 
+coroutine.wrap(RUDZXZ_fake_script)()
+local function FTRQLEE_fake_script() -- Open.Drag 
 	local script = Instance.new('LocalScript', Open)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -3896,52 +4274,8 @@ local function VLWONBI_fake_script() -- Open.Drag
 		end
 	end)
 end
-coroutine.wrap(VLWONBI_fake_script)()
-local function CXCCQE_fake_script() -- detail_6.LocalScript 
-	local script = Instance.new('LocalScript', detail_6)
-
-	-- Define the UI element
-	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
-	
-	-- Define the colors
-	local color1 = Color3.fromRGB(41, 116, 121)
-	local color2 = Color3.fromRGB(33, 95, 98)
-	
-	-- Define the tweening information
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true) -- 2 seconds, infinite, auto reverse
-	
-	-- Create the tween
-	local tween = tweenService:Create(uiElement, tweenInfo, {ImageColor3 = color2})
-	
-	-- Start the tween
-	tween:Play()
-	
-end
-coroutine.wrap(CXCCQE_fake_script)()
-local function SPIP_fake_script() -- detail_7.LocalScript 
-	local script = Instance.new('LocalScript', detail_7)
-
-	-- Define the UI element
-	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
-	
-	-- Define the colors
-	local color1 = Color3.fromRGB(41, 116, 121)
-	local color2 = Color3.fromRGB(51, 149, 152)
-	
-	-- Define the tweening information
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true) -- 2 seconds, infinite, auto reverse
-	
-	-- Create the tween
-	local tween = tweenService:Create(uiElement, tweenInfo, {ImageColor3 = color2})
-	
-	-- Start the tween
-	tween:Play()
-	
-end
-coroutine.wrap(SPIP_fake_script)()
-local function TPPOQS_fake_script() -- MoonExecu.Rewrite 
+coroutine.wrap(FTRQLEE_fake_script)()
+local function RHMW_fake_script() -- MoonExecu.Rewrite 
 	local script = Instance.new('LocalScript', MoonExecu)
 
 	--[[
@@ -4096,4 +4430,4 @@ local function TPPOQS_fake_script() -- MoonExecu.Rewrite
 	end)
 	
 end
-coroutine.wrap(TPPOQS_fake_script)()
+coroutine.wrap(RHMW_fake_script)()
