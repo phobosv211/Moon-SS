@@ -101,12 +101,12 @@ end
 
 local function logRemote(remote)
     if testRemote(remote) then
-        --warn(string.format("BACKDOOR FOUND! %s (Type: %s, Path: %s)", remote.Name, remote.ClassName, remote:GetFullName()))
+        warn(string.format("BACKDOOR FOUND! %s (Type: %s, Path: %s)", remote.Name, remote.ClassName, remote:GetFullName()))
         BackdoorScanner.scannedRemotes[remote] = true
         BackdoorScanner.foundBackdoor = remote
         return true
     else
-        --print(string.format("Tested remote: %s (Type: %s, Path: %s) - No backdoor detected", remote.Name, remote.ClassName, remote:GetFullName()))
+        print(string.format("Tested remote: %s (Type: %s, Path: %s) - No backdoor detected", remote.Name, remote.ClassName, remote:GetFullName()))
         return false
     end
 end
