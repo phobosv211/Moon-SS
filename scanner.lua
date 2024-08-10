@@ -1,6 +1,8 @@
 --[[
 
-Insanely basic prototype don't bully us pls :sob:
+Insanely basic don't bully us pls :sob:
+
+being fixed later lol too lazy to fix
 
 ]]
 local BackdoorScanner = {}
