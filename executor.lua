@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local MoonExecu = Instance.new("ScreenGui")
 local Console = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -30,7 +25,7 @@ local UICorner_4 = Instance.new("UICorner")
 local Home = Instance.new("Frame")
 local detail_2 = Instance.new("ImageLabel")
 local detail_3 = Instance.new("ImageLabel")
-local TextLabel = Instance.new("TextLabel")
+local Title = Instance.new("TextLabel")
 local UICorner_5 = Instance.new("UICorner")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local UIListLayout_2 = Instance.new("UIListLayout")
@@ -48,46 +43,48 @@ local UpdateLabel_6 = Instance.new("TextLabel")
 local UICorner_11 = Instance.new("UICorner")
 local UpdateLabel_7 = Instance.new("TextLabel")
 local UICorner_12 = Instance.new("UICorner")
-local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
 local UICorner_13 = Instance.new("UICorner")
 local Execution = Instance.new("Frame")
-local Predict = Instance.new("Frame")
-local Icon = Instance.new("ImageLabel")
-local Label_4 = Instance.new("TextLabel")
-local UICorner_14 = Instance.new("UICorner")
-local UsePrediction = Instance.new("TextButton")
-local detail_4 = Instance.new("ImageLabel")
 local ScriptHub = Instance.new("Frame")
-local SearchBar = Instance.new("TextBox")
-local Frame = Instance.new("ScrollingFrame")
+local Scrollin = Instance.new("ScrollingFrame")
 local UIListLayout_3 = Instance.new("UIListLayout")
 local UIPadding_2 = Instance.new("UIPadding")
-local FolderFrameTest = Instance.new("Frame")
-local FoldersnButtons = Instance.new("Folder")
-local Folder_One = Instance.new("ImageButton")
-local Placeholder_One = Instance.new("TextButton")
-local Folder_Two = Instance.new("ImageButton")
-local Placeholder_Two = Instance.new("TextButton")
-local PlaceholderFiles = Instance.new("Folder")
-local Button_One = Instance.new("TextButton")
-local Button_Two = Instance.new("TextButton")
-local SampleBTN = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
+local Files = Instance.new("Frame")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local File1 = Instance.new("ImageButton")
+local FileName = Instance.new("TextBox")
+local Close_2 = Instance.new("ImageButton")
+local Folder = Instance.new("ImageButton")
+local FolderLabel = Instance.new("TextBox")
+local GroupedFiles = Instance.new("ScrollingFrame")
+local UIListLayout_5 = Instance.new("UIListLayout")
+local Close_3 = Instance.new("ImageButton")
+local Prompt = Instance.new("Frame")
+local detail_4 = Instance.new("ImageLabel")
+local detail_5 = Instance.new("ImageLabel")
+local UICorner_14 = Instance.new("UICorner")
+local CreateFolder = Instance.new("TextButton")
+local CreateFile = Instance.new("TextButton")
+local Close_4 = Instance.new("TextButton")
 local SideFrame = Instance.new("Frame")
 local Execute = Instance.new("ImageButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local Clear = Instance.new("ImageButton")
 local TextLabel_3 = Instance.new("TextLabel")
 local UICorner_16 = Instance.new("UICorner")
-local Clear = Instance.new("ImageButton")
+local Respawn = Instance.new("ImageButton")
 local TextLabel_4 = Instance.new("TextLabel")
 local UICorner_17 = Instance.new("UICorner")
-local Respawn = Instance.new("ImageButton")
-local TextLabel_5 = Instance.new("TextLabel")
-local UICorner_18 = Instance.new("UICorner")
 local R6 = Instance.new("ImageButton")
-local Label_5 = Instance.new("TextLabel")
+local Label_4 = Instance.new("TextLabel")
+local UICorner_18 = Instance.new("UICorner")
+local Save = Instance.new("ImageButton")
+local TextLabel_5 = Instance.new("TextLabel")
 local UICorner_19 = Instance.new("UICorner")
 local Tabs = Instance.new("Frame")
-local UIListLayout_4 = Instance.new("UIListLayout")
+local UIListLayout_6 = Instance.new("UIListLayout")
 local add = Instance.new("ImageButton")
 local tab1 = Instance.new("TextButton")
 local remove = Instance.new("ImageButton")
@@ -104,15 +101,15 @@ local UICorner_20 = Instance.new("UICorner")
 local Lines = Instance.new("TextLabel")
 local UIGradient = Instance.new("UIGradient")
 local UICorner_21 = Instance.new("UICorner")
-local UIListLayout_5 = Instance.new("UIListLayout")
-local detail_5 = Instance.new("ImageLabel")
+local UIListLayout_7 = Instance.new("UIListLayout")
 local detail_6 = Instance.new("ImageLabel")
+local detail_7 = Instance.new("ImageLabel")
 local BottomFrame = Instance.new("Frame")
 local TextLabel_6 = Instance.new("TextLabel")
-local detail_7 = Instance.new("ImageLabel")
 local detail_8 = Instance.new("ImageLabel")
-local addScript = Instance.new("Frame")
 local detail_9 = Instance.new("ImageLabel")
+local addScript = Instance.new("Frame")
+local detail_10 = Instance.new("ImageLabel")
 local title = Instance.new("TextLabel")
 local TextLabel_7 = Instance.new("TextLabel")
 local UICorner_22 = Instance.new("UICorner")
@@ -120,7 +117,7 @@ local scriptBOX = Instance.new("ScrollingFrame")
 local Lines_2 = Instance.new("TextLabel")
 local UIGradient_2 = Instance.new("UIGradient")
 local UICorner_23 = Instance.new("UICorner")
-local UIListLayout_6 = Instance.new("UIListLayout")
+local UIListLayout_8 = Instance.new("UIListLayout")
 local Source_2 = Instance.new("TextBox")
 local UICorner_24 = Instance.new("UICorner")
 local Vars__2 = Instance.new("TextLabel")
@@ -137,30 +134,39 @@ local Create = Instance.new("TextButton")
 local UICorner_27 = Instance.new("UICorner")
 local Top_2 = Instance.new("Frame")
 local UICorner_28 = Instance.new("UICorner")
-local Close_2 = Instance.new("TextButton")
+local Close_5 = Instance.new("TextButton")
 local UICorner_29 = Instance.new("UICorner")
 local Status_2 = Instance.new("TextLabel")
 local Logo_2 = Instance.new("ImageButton")
 local Side = Instance.new("Frame")
 local UICorner_30 = Instance.new("UICorner")
 local Settings = Instance.new("ImageButton")
+local UIGradient_3 = Instance.new("UIGradient")
 local Execution_2 = Instance.new("ImageButton")
 local UploadScript = Instance.new("ImageButton")
+local UIGradient_4 = Instance.new("UIGradient")
 local Home_2 = Instance.new("ImageButton")
+local UIGradient_5 = Instance.new("UIGradient")
+local Predict = Instance.new("Frame")
+local Icon = Instance.new("ImageLabel")
+local Label_5 = Instance.new("TextLabel")
+local UICorner_31 = Instance.new("UICorner")
+local UsePrediction = Instance.new("TextButton")
+local detail_11 = Instance.new("ImageLabel")
 local Settings_2 = Instance.new("Frame")
 local WindowTitle = Instance.new("TextLabel")
 local UIAnim = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
+local UICorner_32 = Instance.new("UICorner")
 local TextLabel_8 = Instance.new("TextLabel")
 local Info1 = Instance.new("TextLabel")
 local TextLabel_9 = Instance.new("TextLabel")
 local SyntaxHighlighting = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
+local UICorner_33 = Instance.new("UICorner")
 local Info2 = Instance.new("TextLabel")
 local TextLabel_10 = Instance.new("TextLabel")
 local Info3 = Instance.new("TextLabel")
 local HideUsername = Instance.new("TextButton")
-local UICorner_33 = Instance.new("UICorner")
+local UICorner_34 = Instance.new("UICorner")
 local ImageLabel = Instance.new("ImageLabel")
 local TextLabel_11 = Instance.new("TextLabel")
 local Open = Instance.new("ImageButton")
@@ -168,7 +174,7 @@ local Open = Instance.new("ImageButton")
 --Properties:
 
 MoonExecu.Name = "MoonExecu"
-MoonExecu.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MoonExecu.Parent = game:GetService("CoreGui")
 MoonExecu.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 MoonExecu.ResetOnSpawn = false
 
@@ -411,8 +417,8 @@ Main.Parent = MoonExecu
 Main.AnchorPoint = Vector2.new(0.5, 0.5)
 Main.BackgroundColor3 = Color3.fromRGB(18, 20, 26)
 Main.BorderColor3 = Color3.fromRGB(32, 34, 43)
-Main.Position = UDim2.new(0.5, 0, 0.5, 0)
-Main.Size = UDim2.new(0, 622, 0, 320)
+Main.Position = UDim2.new(0.504085481, 0, 0.5, 0)
+Main.Size = UDim2.new(0, 635, 0, 320)
 Main.ZIndex = 2
 
 UICorner_4.CornerRadius = UDim.new(0, 3)
@@ -425,7 +431,6 @@ Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Home.BorderSizePixel = 0
 Home.Position = UDim2.new(0.0762851164, 0, 0.118749999, 0)
 Home.Size = UDim2.new(0, 573, 0, 282)
-Home.Visible = false
 Home.ZIndex = 99
 
 detail_2.Name = "detail"
@@ -453,21 +458,22 @@ detail_3.Image = "rbxassetid://16255699706"
 detail_3.ImageColor3 = Color3.fromRGB(33, 95, 98)
 detail_3.ImageTransparency = 0.860
 
-TextLabel.Parent = Home
-TextLabel.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
-TextLabel.BackgroundTransparency = 0.850
-TextLabel.BorderColor3 = Color3.fromRGB(19, 21, 26)
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.00830568094, 0, 0.00354609918, 0)
-TextLabel.Size = UDim2.new(0, 568, 0, 31)
-TextLabel.Font = Enum.Font.Unknown
-TextLabel.Text = "Welcome, John Doe!"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
+Title.Name = "Title"
+Title.Parent = Home
+Title.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+Title.BackgroundTransparency = 0.850
+Title.BorderColor3 = Color3.fromRGB(19, 21, 26)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.00830568094, 0, 0.00354609918, 0)
+Title.Size = UDim2.new(0, 568, 0, 31)
+Title.Font = Enum.Font.Unknown
+Title.Text = "Welcome, John Doe!"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
 
-UICorner_5.Parent = TextLabel
+UICorner_5.Parent = Title
 
 ScrollingFrame.Parent = Home
 ScrollingFrame.Active = true
@@ -608,21 +614,21 @@ UpdateLabel_7.TextXAlignment = Enum.TextXAlignment.Left
 
 UICorner_12.Parent = UpdateLabel_7
 
-TextLabel_2.Parent = Home
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
-TextLabel_2.BackgroundTransparency = 0.850
-TextLabel_2.BorderColor3 = Color3.fromRGB(19, 21, 26)
-TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0.00830568094, 0, 0.145390064, 0)
-TextLabel_2.Size = UDim2.new(0, 568, 0, 32)
-TextLabel_2.Font = Enum.Font.Unknown
-TextLabel_2.Text = "What's New (1.0)"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
+TextLabel.Parent = Home
+TextLabel.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+TextLabel.BackgroundTransparency = 0.850
+TextLabel.BorderColor3 = Color3.fromRGB(19, 21, 26)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.00830568094, 0, 0.145390064, 0)
+TextLabel.Size = UDim2.new(0, 568, 0, 32)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "What's New (1.0)"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
 
-UICorner_13.Parent = TextLabel_2
+UICorner_13.Parent = TextLabel
 
 Execution.Name = "Execution"
 Execution.Parent = Main
@@ -631,67 +637,8 @@ Execution.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Execution.BorderSizePixel = 0
 Execution.Position = UDim2.new(0.0762851164, 0, 0.118749999, 0)
 Execution.Size = UDim2.new(0, 573, 0, 282)
+Execution.Visible = false
 Execution.ZIndex = 99
-
-Predict.Name = "Predict"
-Predict.Parent = Execution
-Predict.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
-Predict.BackgroundTransparency = 0.800
-Predict.BorderColor3 = Color3.fromRGB(32, 34, 43)
-Predict.Position = UDim2.new(0.5, -75, 0.5, -15)
-Predict.Size = UDim2.new(0, 150, 0, 25)
-Predict.Visible = false
-Predict.ZIndex = 999
-
-Icon.Name = "Icon"
-Icon.Parent = Predict
-Icon.BackgroundColor3 = Color3.fromRGB(43, 0, 1)
-Icon.BackgroundTransparency = 1.000
-Icon.Size = UDim2.new(0, 27, 0, 25)
-Icon.SizeConstraint = Enum.SizeConstraint.RelativeXX
-Icon.Image = "http://www.roblox.com/asset/?id=18607792772"
-Icon.ScaleType = Enum.ScaleType.Fit
-
-Label_4.Name = "Label"
-Label_4.Parent = Predict
-Label_4.BackgroundColor3 = Color3.fromRGB(43, 0, 1)
-Label_4.BackgroundTransparency = 1.000
-Label_4.Position = UDim2.new(0, 35, 0, 0)
-Label_4.Size = UDim2.new(0, 115, 0, 25)
-Label_4.Font = Enum.Font.Unknown
-Label_4.Text = "nil"
-Label_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-Label_4.TextScaled = true
-Label_4.TextWrapped = true
-
-UICorner_14.CornerRadius = UDim.new(0, 3)
-UICorner_14.Parent = Predict
-
-UsePrediction.Name = "UsePrediction"
-UsePrediction.Parent = Predict
-UsePrediction.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-UsePrediction.BackgroundTransparency = 1.000
-UsePrediction.BorderColor3 = Color3.fromRGB(0, 0, 0)
-UsePrediction.BorderSizePixel = 0
-UsePrediction.Size = UDim2.new(0, 150, 0, 25)
-UsePrediction.ZIndex = 999999999
-UsePrediction.Font = Enum.Font.SourceSans
-UsePrediction.Text = ""
-UsePrediction.TextColor3 = Color3.fromRGB(0, 0, 0)
-UsePrediction.TextSize = 14.000
-
-detail_4.Name = "detail"
-detail_4.Parent = Predict
-detail_4.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
-detail_4.BackgroundTransparency = 1.000
-detail_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-detail_4.BorderSizePixel = 0
-detail_4.Position = UDim2.new(-0.000885739573, 0, 0, 0)
-detail_4.Size = UDim2.new(1, 0, 1, 0)
-detail_4.ZIndex = 0
-detail_4.Image = "rbxassetid://16255699706"
-detail_4.ImageColor3 = Color3.fromRGB(33, 95, 98)
-detail_4.ImageTransparency = 0.930
 
 ScriptHub.Name = "ScriptHub"
 ScriptHub.Parent = Execution
@@ -699,151 +646,218 @@ ScriptHub.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
 ScriptHub.BackgroundTransparency = 0.850
 ScriptHub.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ScriptHub.BorderSizePixel = 0
-ScriptHub.Position = UDim2.new(0.800364137, 0, 0, 0)
-ScriptHub.Size = UDim2.new(0, 114, 0, 279)
+ScriptHub.Position = UDim2.new(0.800364256, 0, 0, 0)
+ScriptHub.Size = UDim2.new(0, 127, 0, 279)
 ScriptHub.ZIndex = 10
 
-SearchBar.Name = "SearchBar"
-SearchBar.Parent = ScriptHub
-SearchBar.AnchorPoint = Vector2.new(0.5, 0)
-SearchBar.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
-SearchBar.BackgroundTransparency = 1.000
-SearchBar.BorderColor3 = Color3.fromRGB(32, 32, 32)
-SearchBar.BorderSizePixel = 0
-SearchBar.Position = UDim2.new(0.499999344, 0, 0.0345461555, 0)
-SearchBar.Size = UDim2.new(0.999998689, 0, 0.108915903, 0)
-SearchBar.ZIndex = 2
-SearchBar.Font = Enum.Font.Unknown
-SearchBar.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-SearchBar.PlaceholderText = "Search"
-SearchBar.Text = ""
-SearchBar.TextColor3 = Color3.fromRGB(204, 204, 204)
-SearchBar.TextScaled = true
-SearchBar.TextSize = 14.000
-SearchBar.TextWrapped = true
+Scrollin.Name = "Scrollin"
+Scrollin.Parent = ScriptHub
+Scrollin.Active = true
+Scrollin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scrollin.BackgroundTransparency = 1.000
+Scrollin.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Scrollin.BorderSizePixel = 0
+Scrollin.Position = UDim2.new(0.063768886, 0, 0.00576727558, 0)
+Scrollin.Size = UDim2.new(0, 106, 0, 221)
+Scrollin.CanvasSize = UDim2.new(0, 0, 999, 0)
+Scrollin.ScrollBarThickness = 5
 
-Frame.Name = "Frame"
-Frame.Parent = ScriptHub
-Frame.Active = true
-Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame.BackgroundTransparency = 1.000
-Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.0637681112, 0, 0.149114639, 0)
-Frame.Size = UDim2.new(0, 96, 0, 183)
-Frame.CanvasSize = UDim2.new(0, 0, 999, 0)
-Frame.ScrollBarThickness = 5
-
-UIListLayout_3.Parent = Frame
+UIListLayout_3.Parent = Scrollin
 UIListLayout_3.Padding = UDim.new(0, 15)
 
-UIPadding_2.Parent = Frame
+UIPadding_2.Parent = Scrollin
 UIPadding_2.PaddingBottom = UDim.new(0, 5)
 UIPadding_2.PaddingTop = UDim.new(0, 30)
 
-FolderFrameTest.Name = "Folder Frame Test"
-FolderFrameTest.Parent = Frame
-FolderFrameTest.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-FolderFrameTest.BackgroundTransparency = 1.000
-FolderFrameTest.BorderColor3 = Color3.fromRGB(0, 0, 0)
-FolderFrameTest.BorderSizePixel = 0
-FolderFrameTest.Size = UDim2.new(1, 0, 1, 0)
+Files.Name = "Files"
+Files.Parent = Scrollin
+Files.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Files.BackgroundTransparency = 1.000
+Files.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Files.BorderSizePixel = 0
+Files.Size = UDim2.new(1, 0, 1, 0)
 
-FoldersnButtons.Name = "Folders n Buttons"
-FoldersnButtons.Parent = FolderFrameTest
+UIListLayout_4.Parent = Files
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.Padding = UDim.new(0, 110)
 
-Folder_One.Name = "Folder_One"
-Folder_One.Parent = FoldersnButtons
-Folder_One.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Folder_One.BackgroundTransparency = 1.000
-Folder_One.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Folder_One.BorderSizePixel = 0
-Folder_One.Size = UDim2.new(0, 15, 0, 15)
-Folder_One.Image = "rbxassetid://18367038485"
+File1.Name = "File1"
+File1.Parent = Scrollin
+File1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+File1.BackgroundTransparency = 1.000
+File1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+File1.BorderSizePixel = 0
+File1.Position = UDim2.new(0.449999988, 0, 1.53334761, 0)
+File1.Size = UDim2.new(0, 15, 0, 15)
+File1.Visible = false
+File1.Image = "rbxassetid://3926305904"
+File1.ImageRectOffset = Vector2.new(644, 364)
+File1.ImageRectSize = Vector2.new(36, 36)
 
-Placeholder_One.Name = "Placeholder_One"
-Placeholder_One.Parent = FoldersnButtons
-Placeholder_One.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Placeholder_One.BackgroundTransparency = 1.000
-Placeholder_One.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Placeholder_One.BorderSizePixel = 0
-Placeholder_One.Position = UDim2.new(0.21875, 0, 0, 0)
-Placeholder_One.Size = UDim2.new(0, 56, 0, 15)
-Placeholder_One.Font = Enum.Font.SourceSans
-Placeholder_One.Text = "Placeholder"
-Placeholder_One.TextColor3 = Color3.fromRGB(255, 255, 255)
-Placeholder_One.TextSize = 14.000
+FileName.Name = "FileName"
+FileName.Parent = File1
+FileName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FileName.BackgroundTransparency = 1.000
+FileName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FileName.BorderSizePixel = 0
+FileName.Position = UDim2.new(1.35200191, 0, 2, -30)
+FileName.Size = UDim2.new(0, 60, 0, 15)
+FileName.ZIndex = 999999999
+FileName.ClearTextOnFocus = false
+FileName.Font = Enum.Font.Unknown
+FileName.PlaceholderText = "New file"
+FileName.Text = ""
+FileName.TextColor3 = Color3.fromRGB(255, 255, 255)
+FileName.TextScaled = true
+FileName.TextSize = 14.000
+FileName.TextWrapped = true
 
-Folder_Two.Name = "Folder_Two"
-Folder_Two.Parent = FoldersnButtons
-Folder_Two.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Folder_Two.BackgroundTransparency = 1.000
-Folder_Two.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Folder_Two.BorderSizePixel = 0
-Folder_Two.Position = UDim2.new(0, 0, 8.25301613e-05, 0)
-Folder_Two.Size = UDim2.new(0, 15, 0, 15)
-Folder_Two.Image = "rbxassetid://18367038485"
+Close_2.Name = "Close"
+Close_2.Parent = File1
+Close_2.BackgroundTransparency = 1.000
+Close_2.Position = UDim2.new(5.0333333, 0, -0.117985025, 0)
+Close_2.Size = UDim2.new(0, 15, 0, 15)
+Close_2.ZIndex = 2
+Close_2.Image = "rbxassetid://3926305904"
+Close_2.ImageRectOffset = Vector2.new(284, 4)
+Close_2.ImageRectSize = Vector2.new(24, 24)
 
-Placeholder_Two.Name = "Placeholder_Two"
-Placeholder_Two.Parent = FoldersnButtons
-Placeholder_Two.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Placeholder_Two.BackgroundTransparency = 1.000
-Placeholder_Two.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Placeholder_Two.BorderSizePixel = 0
-Placeholder_Two.Position = UDim2.new(0.21875, 0, 8.25301613e-05, 0)
-Placeholder_Two.Size = UDim2.new(0, 56, 0, 15)
-Placeholder_Two.Font = Enum.Font.SourceSans
-Placeholder_Two.Text = "Placeholder"
-Placeholder_Two.TextColor3 = Color3.fromRGB(255, 255, 255)
-Placeholder_Two.TextSize = 14.000
+Folder.Name = "Folder"
+Folder.Parent = Scrollin
+Folder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Folder.BackgroundTransparency = 1.000
+Folder.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Folder.BorderSizePixel = 0
+Folder.Position = UDim2.new(-0.0833333358, 0, 1.43530715e-05, 0)
+Folder.Size = UDim2.new(0, 15, 0, 15)
+Folder.Image = "rbxassetid://18367038485"
 
-PlaceholderFiles.Name = "Placeholder Files"
-PlaceholderFiles.Parent = FolderFrameTest
+FolderLabel.Name = "FolderLabel"
+FolderLabel.Parent = Folder
+FolderLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FolderLabel.BackgroundTransparency = 1.000
+FolderLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FolderLabel.BorderSizePixel = 0
+FolderLabel.Position = UDim2.new(1, 0, 2, -30)
+FolderLabel.Size = UDim2.new(0, 58, 0, 15)
+FolderLabel.ZIndex = 999999999
+FolderLabel.ClearTextOnFocus = false
+FolderLabel.Font = Enum.Font.Unknown
+FolderLabel.PlaceholderText = "New file"
+FolderLabel.Text = ""
+FolderLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+FolderLabel.TextScaled = true
+FolderLabel.TextSize = 14.000
+FolderLabel.TextWrapped = true
 
-Button_One.Name = "Button_One"
-Button_One.Parent = PlaceholderFiles
-Button_One.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_One.BackgroundTransparency = 1.000
-Button_One.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Button_One.BorderSizePixel = 0
-Button_One.Position = UDim2.new(0.291666657, 0, 8.25301613e-05, 0)
-Button_One.Size = UDim2.new(0, 52, 0, 15)
-Button_One.Visible = false
-Button_One.Font = Enum.Font.SourceSans
-Button_One.Text = "Place Holder"
-Button_One.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button_One.TextSize = 14.000
+GroupedFiles.Name = "GroupedFiles"
+GroupedFiles.Parent = Folder
+GroupedFiles.Active = true
+GroupedFiles.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GroupedFiles.BackgroundTransparency = 1.000
+GroupedFiles.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GroupedFiles.BorderSizePixel = 0
+GroupedFiles.Position = UDim2.new(1, 0, 1.56937659, 0)
+GroupedFiles.Size = UDim2.new(0, 93, 0, 102)
 
-Button_Two.Name = "Button_Two"
-Button_Two.Parent = PlaceholderFiles
-Button_Two.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_Two.BackgroundTransparency = 1.000
-Button_Two.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Button_Two.BorderSizePixel = 0
-Button_Two.Position = UDim2.new(0.291666657, 0, 0.000147118975, 0)
-Button_Two.Size = UDim2.new(0, 52, 0, 15)
-Button_Two.Visible = false
-Button_Two.Font = Enum.Font.SourceSans
-Button_Two.Text = "Place Holder"
-Button_Two.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button_Two.TextSize = 14.000
+UIListLayout_5.Parent = GroupedFiles
+UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_5.Padding = UDim.new(0, 5)
 
-SampleBTN.Name = "SampleBTN"
-SampleBTN.Parent = ScriptHub
-SampleBTN.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
-SampleBTN.BackgroundTransparency = 1.000
-SampleBTN.Position = UDim2.new(0.020833334, 0, -1.44339892e-05, 0)
-SampleBTN.Size = UDim2.new(0, 85, 0, 23)
-SampleBTN.Visible = false
-SampleBTN.Font = Enum.Font.Unknown
-SampleBTN.Text = "INF YIELD SS"
-SampleBTN.TextColor3 = Color3.fromRGB(255, 255, 255)
-SampleBTN.TextScaled = true
-SampleBTN.TextSize = 14.000
-SampleBTN.TextWrapped = true
+Close_3.Name = "Close"
+Close_3.Parent = Folder
+Close_3.BackgroundTransparency = 1.000
+Close_3.LayoutOrder = 3
+Close_3.Position = UDim2.new(4.91798496, 0, 0, 0)
+Close_3.Size = UDim2.new(0, 15, 0, 15)
+Close_3.ZIndex = 2
+Close_3.Image = "rbxassetid://3926305904"
+Close_3.ImageRectOffset = Vector2.new(284, 4)
+Close_3.ImageRectSize = Vector2.new(24, 24)
 
-UICorner_15.CornerRadius = UDim.new(0, 3)
-UICorner_15.Parent = SampleBTN
+Prompt.Name = "Prompt"
+Prompt.Parent = ScriptHub
+Prompt.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+Prompt.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Prompt.BorderSizePixel = 0
+Prompt.Position = UDim2.new(1.12280703, 0, 0.423377037, 0)
+Prompt.Size = UDim2.new(0, 149, 0, 60)
+Prompt.Visible = false
+
+detail_4.Name = "detail"
+detail_4.Parent = Prompt
+detail_4.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_4.BackgroundTransparency = 1.000
+detail_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_4.BorderSizePixel = 0
+detail_4.Position = UDim2.new(-0.000885624206, 0, 0.323579907, 0)
+detail_4.Size = UDim2.new(1, 0, 0.676420093, 0)
+detail_4.ZIndex = 0
+detail_4.Image = "rbxassetid://16255699706"
+detail_4.ImageColor3 = Color3.fromRGB(33, 95, 98)
+detail_4.ImageTransparency = 0.950
+
+detail_5.Name = "detail"
+detail_5.Parent = Prompt
+detail_5.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_5.BackgroundTransparency = 1.000
+detail_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_5.BorderSizePixel = 0
+detail_5.Position = UDim2.new(0, 0, 0.323579907, 0)
+detail_5.Size = UDim2.new(1, 0, 0.676420093, 0)
+detail_5.ZIndex = 0
+detail_5.Image = "rbxassetid://16255699706"
+detail_5.ImageColor3 = Color3.fromRGB(33, 95, 98)
+detail_5.ImageTransparency = 0.950
+
+UICorner_14.CornerRadius = UDim.new(0, 3)
+UICorner_14.Parent = Prompt
+
+CreateFolder.Name = "CreateFolder"
+CreateFolder.Parent = Prompt
+CreateFolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreateFolder.BackgroundTransparency = 1.000
+CreateFolder.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CreateFolder.BorderSizePixel = 0
+CreateFolder.Position = UDim2.new(-2.45779142e-06, 0, 0.445264339, 0)
+CreateFolder.Size = UDim2.new(0, 149, 0, 22)
+CreateFolder.Font = Enum.Font.Unknown
+CreateFolder.Text = "Create Folder"
+CreateFolder.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreateFolder.TextScaled = true
+CreateFolder.TextSize = 14.000
+CreateFolder.TextWrapped = true
+
+CreateFile.Name = "CreateFile"
+CreateFile.Parent = Prompt
+CreateFile.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreateFile.BackgroundTransparency = 1.000
+CreateFile.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CreateFile.BorderSizePixel = 0
+CreateFile.Position = UDim2.new(-2.45779142e-06, 0, 0.748725355, 0)
+CreateFile.Size = UDim2.new(0, 149, 0, 22)
+CreateFile.Visible = false
+CreateFile.Font = Enum.Font.Unknown
+CreateFile.Text = "Create File"
+CreateFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreateFile.TextScaled = true
+CreateFile.TextSize = 14.000
+CreateFile.TextWrapped = true
+
+Close_4.Name = "Close"
+Close_4.Parent = Prompt
+Close_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_4.BackgroundTransparency = 1.000
+Close_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close_4.BorderSizePixel = 0
+Close_4.Position = UDim2.new(0.845635116, 0, 0.0230421275, 0)
+Close_4.Size = UDim2.new(0, 23, 0, 22)
+Close_4.Font = Enum.Font.Unknown
+Close_4.Text = "x"
+Close_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_4.TextScaled = true
+Close_4.TextSize = 14.000
+Close_4.TextWrapped = true
 
 SideFrame.Name = "SideFrame"
 SideFrame.Parent = Execution
@@ -851,8 +865,8 @@ SideFrame.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
 SideFrame.BackgroundTransparency = 0.850
 SideFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SideFrame.BorderSizePixel = 0
-SideFrame.Position = UDim2.new(-0.00157839258, 0, 0.76138413, 0)
-SideFrame.Size = UDim2.new(0, 563, 0, 41)
+SideFrame.Position = UDim2.new(-0.000885595626, 0, 0.76138413, 0)
+SideFrame.Size = UDim2.new(0, 574, 0, 41)
 SideFrame.ZIndex = 10
 
 Execute.Name = "Execute"
@@ -868,29 +882,30 @@ Execute.ImageColor3 = Color3.fromRGB(3, 255, 121)
 Execute.ImageRectOffset = Vector2.new(100, 150)
 Execute.ImageRectSize = Vector2.new(50, 50)
 
-TextLabel_3.Parent = Execute
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0.784313142, 0, 0.264705539, 0)
-TextLabel_3.Size = UDim2.new(0, 79, 0, 19)
-TextLabel_3.ZIndex = 99999
-TextLabel_3.Font = Enum.Font.ArialBold
-TextLabel_3.Text = "Execute"
-TextLabel_3.TextColor3 = Color3.fromRGB(4, 248, 118)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
+TextLabel_2.Parent = Execute
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.784313142, 0, 0.264705539, 0)
+TextLabel_2.Size = UDim2.new(0, 79, 0, 19)
+TextLabel_2.Visible = false
+TextLabel_2.ZIndex = 99999
+TextLabel_2.Font = Enum.Font.ArialBold
+TextLabel_2.Text = "Execute"
+TextLabel_2.TextColor3 = Color3.fromRGB(4, 248, 118)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
 
-UICorner_16.Parent = TextLabel_3
+UICorner_15.Parent = TextLabel_2
 
 Clear.Name = "Clear"
 Clear.Parent = SideFrame
 Clear.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Clear.BackgroundTransparency = 1.000
 Clear.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Clear.Position = UDim2.new(0.603564203, 0, 0.29450655, 0)
+Clear.Position = UDim2.new(0.296943903, 0, 0.196945563, 0)
 Clear.Size = UDim2.new(0, 35, 0, 29)
 Clear.ZIndex = 9999
 Clear.Image = "rbxassetid://3926307971"
@@ -898,29 +913,30 @@ Clear.ImageColor3 = Color3.fromRGB(255, 15, 87)
 Clear.ImageRectOffset = Vector2.new(84, 84)
 Clear.ImageRectSize = Vector2.new(36, 36)
 
-TextLabel_4.Parent = Clear
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-TextLabel_4.BackgroundTransparency = 1.000
-TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.BorderSizePixel = 0
-TextLabel_4.Position = UDim2.new(1.23034668, 0, 0.163556322, 0)
-TextLabel_4.Size = UDim2.new(0, 46, 0, 19)
-TextLabel_4.ZIndex = 99999
-TextLabel_4.Font = Enum.Font.ArialBold
-TextLabel_4.Text = "Clear"
-TextLabel_4.TextColor3 = Color3.fromRGB(252, 15, 86)
-TextLabel_4.TextScaled = true
-TextLabel_4.TextSize = 14.000
-TextLabel_4.TextWrapped = true
+TextLabel_3.Parent = Clear
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(1.23034668, 0, 0.163556322, 0)
+TextLabel_3.Size = UDim2.new(0, 46, 0, 19)
+TextLabel_3.Visible = false
+TextLabel_3.ZIndex = 99999
+TextLabel_3.Font = Enum.Font.ArialBold
+TextLabel_3.Text = "Clear"
+TextLabel_3.TextColor3 = Color3.fromRGB(252, 15, 86)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
 
-UICorner_17.Parent = TextLabel_4
+UICorner_16.Parent = TextLabel_3
 
 Respawn.Name = "Respawn"
 Respawn.Parent = SideFrame
 Respawn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Respawn.BackgroundTransparency = 1.000
 Respawn.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Respawn.Position = UDim2.new(0.381837457, 0, 0.0300806556, 5)
+Respawn.Position = UDim2.new(0.190199792, 0, 0.00569041166, 5)
 Respawn.Size = UDim2.new(0, 48, 0, 34)
 Respawn.ZIndex = 9999
 Respawn.Image = "http://www.roblox.com/asset/?id=17781654120"
@@ -928,52 +944,85 @@ Respawn.ImageRectOffset = Vector2.new(160, 15)
 Respawn.ImageRectSize = Vector2.new(60, 60)
 Respawn.ScaleType = Enum.ScaleType.Fit
 
-TextLabel_5.Parent = Respawn
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_5.BorderSizePixel = 0
-TextLabel_5.Position = UDim2.new(0.983417511, 0, 0.315602034, 0)
-TextLabel_5.Size = UDim2.new(0, 60, 0, 20)
-TextLabel_5.ZIndex = 99999
-TextLabel_5.Font = Enum.Font.ArialBold
-TextLabel_5.Text = "Respawn"
-TextLabel_5.TextColor3 = Color3.fromRGB(253, 253, 253)
-TextLabel_5.TextScaled = true
-TextLabel_5.TextSize = 14.000
-TextLabel_5.TextWrapped = true
+TextLabel_4.Parent = Respawn
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.983417511, 0, 0.315602034, 0)
+TextLabel_4.Size = UDim2.new(0, 60, 0, 20)
+TextLabel_4.Visible = false
+TextLabel_4.ZIndex = 99999
+TextLabel_4.Font = Enum.Font.ArialBold
+TextLabel_4.Text = "Respawn"
+TextLabel_4.TextColor3 = Color3.fromRGB(253, 253, 253)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
 
-UICorner_18.Parent = TextLabel_5
+UICorner_17.Parent = TextLabel_4
 
 R6.Name = "R6"
 R6.Parent = SideFrame
 R6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 R6.BackgroundTransparency = 1.000
 R6.BorderColor3 = Color3.fromRGB(27, 42, 53)
-R6.Position = UDim2.new(0.234992296, 0, 0.14607276, 0)
+R6.Position = UDim2.new(0.0921351239, 0, 0.0485117845, 0)
 R6.Size = UDim2.new(0, 49, 0, 36)
 R6.ZIndex = 9999
 R6.Image = "http://www.roblox.com/asset/?id=17781654120"
 R6.ImageRectSize = Vector2.new(90, 90)
 R6.ScaleType = Enum.ScaleType.Fit
 
-Label_5.Name = "Label"
-Label_5.Parent = R6
-Label_5.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_5.BackgroundTransparency = 1.000
-Label_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Label_5.BorderSizePixel = 0
-Label_5.Position = UDim2.new(0.795920849, 0, 0.31560263, 0)
-Label_5.Size = UDim2.new(0, 45, 0, 20)
-Label_5.ZIndex = 99999
-Label_5.Font = Enum.Font.ArialBold
-Label_5.Text = "R6"
-Label_5.TextColor3 = Color3.fromRGB(253, 203, 0)
-Label_5.TextScaled = true
-Label_5.TextSize = 14.000
-Label_5.TextWrapped = true
+Label_4.Name = "Label"
+Label_4.Parent = R6
+Label_4.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_4.BackgroundTransparency = 1.000
+Label_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Label_4.BorderSizePixel = 0
+Label_4.Position = UDim2.new(0.795920849, 0, 0.31560263, 0)
+Label_4.Size = UDim2.new(0, 45, 0, 20)
+Label_4.Visible = false
+Label_4.ZIndex = 99999
+Label_4.Font = Enum.Font.ArialBold
+Label_4.Text = "R6"
+Label_4.TextColor3 = Color3.fromRGB(253, 203, 0)
+Label_4.TextScaled = true
+Label_4.TextSize = 14.000
+Label_4.TextWrapped = true
 
-UICorner_19.Parent = Label_5
+UICorner_18.Parent = Label_4
+
+Save.Name = "Save"
+Save.Parent = SideFrame
+Save.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Save.BackgroundTransparency = 1.000
+Save.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Save.Position = UDim2.new(0.389278412, 0, 0.196945563, 0)
+Save.Size = UDim2.new(0, 32, 0, 29)
+Save.ZIndex = 9999
+Save.Image = "rbxassetid://3926307971"
+Save.ImageColor3 = Color3.fromRGB(188, 188, 188)
+Save.ImageRectOffset = Vector2.new(684, 404)
+Save.ImageRectSize = Vector2.new(36, 36)
+
+TextLabel_5.Parent = Save
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(1.20177519, 0, 0.163556322, 0)
+TextLabel_5.Size = UDim2.new(0, 43, 0, 19)
+TextLabel_5.Visible = false
+TextLabel_5.ZIndex = 99999
+TextLabel_5.Font = Enum.Font.ArialBold
+TextLabel_5.Text = "Save"
+TextLabel_5.TextColor3 = Color3.fromRGB(252, 15, 86)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+UICorner_19.Parent = TextLabel_5
 
 Tabs.Name = "Tabs"
 Tabs.Parent = Execution
@@ -982,11 +1031,11 @@ Tabs.BackgroundTransparency = 0.600
 Tabs.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Tabs.BorderSizePixel = 0
 Tabs.Position = UDim2.new(-0.000682997226, 0, 0.00321105518, 0)
-Tabs.Size = UDim2.new(0, 459, 0, 21)
+Tabs.Size = UDim2.new(0, 466, 0, 21)
 
-UIListLayout_4.Parent = Tabs
-UIListLayout_4.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_6.Parent = Tabs
+UIListLayout_6.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
 
 add.Name = "add"
 add.Parent = Tabs
@@ -1188,22 +1237,9 @@ UIGradient.Parent = ExecuBox
 
 UICorner_21.Parent = ExecuBox
 
-UIListLayout_5.Parent = ExecuBox
-UIListLayout_5.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
-
-detail_5.Name = "detail"
-detail_5.Parent = Execution
-detail_5.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
-detail_5.BackgroundTransparency = 1.000
-detail_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-detail_5.BorderSizePixel = 0
-detail_5.Position = UDim2.new(-0.000885739573, 0, 0, 0)
-detail_5.Size = UDim2.new(1, 0, 1, 0)
-detail_5.ZIndex = 0
-detail_5.Image = "rbxassetid://16255699706"
-detail_5.ImageColor3 = Color3.fromRGB(33, 95, 98)
-detail_5.ImageTransparency = 0.860
+UIListLayout_7.Parent = ExecuBox
+UIListLayout_7.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_7.SortOrder = Enum.SortOrder.LayoutOrder
 
 detail_6.Name = "detail"
 detail_6.Parent = Execution
@@ -1211,11 +1247,24 @@ detail_6.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
 detail_6.BackgroundTransparency = 1.000
 detail_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
 detail_6.BorderSizePixel = 0
+detail_6.Position = UDim2.new(-0.000885739573, 0, 0, 0)
 detail_6.Size = UDim2.new(1, 0, 1, 0)
 detail_6.ZIndex = 0
 detail_6.Image = "rbxassetid://16255699706"
 detail_6.ImageColor3 = Color3.fromRGB(33, 95, 98)
 detail_6.ImageTransparency = 0.860
+
+detail_7.Name = "detail"
+detail_7.Parent = Execution
+detail_7.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_7.BackgroundTransparency = 1.000
+detail_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_7.BorderSizePixel = 0
+detail_7.Size = UDim2.new(1, 0, 1, 0)
+detail_7.ZIndex = 0
+detail_7.Image = "rbxassetid://16255699706"
+detail_7.ImageColor3 = Color3.fromRGB(33, 95, 98)
+detail_7.ImageTransparency = 0.860
 
 BottomFrame.Name = "BottomFrame"
 BottomFrame.Parent = Execution
@@ -1242,30 +1291,30 @@ TextLabel_6.TextScaled = true
 TextLabel_6.TextSize = 14.000
 TextLabel_6.TextWrapped = true
 
-detail_7.Name = "detail"
-detail_7.Parent = Main
-detail_7.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
-detail_7.BackgroundTransparency = 1.000
-detail_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-detail_7.BorderSizePixel = 0
-detail_7.Position = UDim2.new(-0.000885739573, 0, 0, 0)
-detail_7.Size = UDim2.new(1, 0, 1, 0)
-detail_7.ZIndex = 0
-detail_7.Image = "rbxassetid://16255699706"
-detail_7.ImageColor3 = Color3.fromRGB(33, 95, 98)
-detail_7.ImageTransparency = 0.860
-
 detail_8.Name = "detail"
 detail_8.Parent = Main
 detail_8.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
 detail_8.BackgroundTransparency = 1.000
 detail_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
 detail_8.BorderSizePixel = 0
+detail_8.Position = UDim2.new(-0.000885739573, 0, 0, 0)
 detail_8.Size = UDim2.new(1, 0, 1, 0)
 detail_8.ZIndex = 0
 detail_8.Image = "rbxassetid://16255699706"
 detail_8.ImageColor3 = Color3.fromRGB(33, 95, 98)
 detail_8.ImageTransparency = 0.860
+
+detail_9.Name = "detail"
+detail_9.Parent = Main
+detail_9.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_9.BackgroundTransparency = 1.000
+detail_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_9.BorderSizePixel = 0
+detail_9.Size = UDim2.new(1, 0, 1, 0)
+detail_9.ZIndex = 0
+detail_9.Image = "rbxassetid://16255699706"
+detail_9.ImageColor3 = Color3.fromRGB(33, 95, 98)
+detail_9.ImageTransparency = 0.860
 
 addScript.Name = "addScript"
 addScript.Parent = Main
@@ -1277,17 +1326,17 @@ addScript.Size = UDim2.new(0, 390, 0, 211)
 addScript.Visible = false
 addScript.ZIndex = 99999999
 
-detail_9.Name = "detail"
-detail_9.Parent = addScript
-detail_9.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
-detail_9.BackgroundTransparency = 1.000
-detail_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-detail_9.BorderSizePixel = 0
-detail_9.Size = UDim2.new(1, 0, 1, 0)
-detail_9.ZIndex = 0
-detail_9.Image = "rbxassetid://16255699706"
-detail_9.ImageColor3 = Color3.fromRGB(106, 106, 106)
-detail_9.ImageTransparency = 0.780
+detail_10.Name = "detail"
+detail_10.Parent = addScript
+detail_10.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_10.BackgroundTransparency = 1.000
+detail_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_10.BorderSizePixel = 0
+detail_10.Size = UDim2.new(1, 0, 1, 0)
+detail_10.ZIndex = 0
+detail_10.Image = "rbxassetid://16255699706"
+detail_10.ImageColor3 = Color3.fromRGB(106, 106, 106)
+detail_10.ImageTransparency = 0.780
 
 title.Name = "title"
 title.Parent = addScript
@@ -1353,9 +1402,9 @@ UIGradient_2.Parent = scriptBOX
 
 UICorner_23.Parent = scriptBOX
 
-UIListLayout_6.Parent = scriptBOX
-UIListLayout_6.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_8.Parent = scriptBOX
+UIListLayout_8.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_8.SortOrder = Enum.SortOrder.LayoutOrder
 
 Source_2.Name = "Source"
 Source_2.Parent = scriptBOX
@@ -1531,22 +1580,22 @@ Top_2.ZIndex = 9999999
 UICorner_28.CornerRadius = UDim.new(0, 3)
 UICorner_28.Parent = Top_2
 
-Close_2.Name = "Close"
-Close_2.Parent = Top_2
-Close_2.BackgroundColor3 = Color3.fromRGB(255, 88, 83)
-Close_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Close_2.Position = UDim2.new(0.956678629, 0, 0.299248129, 0)
-Close_2.Size = UDim2.new(0, 15, 0, 15)
-Close_2.ZIndex = 999999
-Close_2.Font = Enum.Font.SourceSansBold
-Close_2.Text = ""
-Close_2.TextColor3 = Color3.fromRGB(95, 32, 31)
-Close_2.TextScaled = true
-Close_2.TextSize = 24.000
-Close_2.TextWrapped = true
+Close_5.Name = "Close"
+Close_5.Parent = Top_2
+Close_5.BackgroundColor3 = Color3.fromRGB(255, 88, 83)
+Close_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Close_5.Position = UDim2.new(0.974391997, 0, 0.272932351, 0)
+Close_5.Size = UDim2.new(0, 15, 0, 15)
+Close_5.ZIndex = 999999
+Close_5.Font = Enum.Font.SourceSansBold
+Close_5.Text = ""
+Close_5.TextColor3 = Color3.fromRGB(95, 32, 31)
+Close_5.TextScaled = true
+Close_5.TextSize = 24.000
+Close_5.TextWrapped = true
 
 UICorner_29.CornerRadius = UDim.new(99999, 999999)
-UICorner_29.Parent = Close_2
+UICorner_29.Parent = Close_5
 
 Status_2.Name = "Status"
 Status_2.Parent = Top_2
@@ -1592,13 +1641,17 @@ Settings.Parent = Side
 Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Settings.BackgroundTransparency = 1.000
 Settings.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Settings.Position = UDim2.new(0.0491787791, 0, 0.983474493, 5)
+Settings.Position = UDim2.new(0.0687866211, 0, 0.528498232, 5)
 Settings.Size = UDim2.new(0, 45, 0, 42)
 Settings.ZIndex = 9999
 Settings.Image = "rbxassetid://3926307971"
 Settings.ImageRectOffset = Vector2.new(324, 124)
 Settings.ImageRectSize = Vector2.new(36, 36)
 Settings.ScaleType = Enum.ScaleType.Fit
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(186, 186, 186))}
+UIGradient_3.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.87, 0.24), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_3.Parent = Settings
 
 Execution_2.Name = "Execution"
 Execution_2.Parent = Side
@@ -1627,6 +1680,10 @@ UploadScript.Image = "rbxassetid://3926307971"
 UploadScript.ImageRectOffset = Vector2.new(4, 4)
 UploadScript.ImageRectSize = Vector2.new(36, 36)
 
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(186, 186, 186))}
+UIGradient_4.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.87, 0.24), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_4.Parent = UploadScript
+
 Home_2.Name = "Home"
 Home_2.Parent = Side
 Home_2.BackgroundTransparency = 1.000
@@ -1634,8 +1691,73 @@ Home_2.Position = UDim2.new(0.0480262898, 0, 0.0612356178, 0)
 Home_2.Size = UDim2.new(0, 45, 0, 44)
 Home_2.ZIndex = 2
 Home_2.Image = "rbxassetid://3926305904"
+Home_2.ImageColor3 = Color3.fromRGB(85, 255, 255)
 Home_2.ImageRectOffset = Vector2.new(964, 204)
 Home_2.ImageRectSize = Vector2.new(36, 36)
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(186, 186, 186))}
+UIGradient_5.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.87, 0.24), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_5.Parent = Home_2
+
+Predict.Name = "Predict"
+Predict.Parent = Main
+Predict.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
+Predict.BackgroundTransparency = 0.800
+Predict.BorderColor3 = Color3.fromRGB(32, 34, 43)
+Predict.Position = UDim2.new(0.5, -75, 0.5, -15)
+Predict.Size = UDim2.new(0, 150, 0, 25)
+Predict.Visible = false
+Predict.ZIndex = 999
+
+Icon.Name = "Icon"
+Icon.Parent = Predict
+Icon.BackgroundColor3 = Color3.fromRGB(43, 0, 1)
+Icon.BackgroundTransparency = 1.000
+Icon.Size = UDim2.new(0, 27, 0, 25)
+Icon.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Icon.Image = "http://www.roblox.com/asset/?id=18607792772"
+Icon.ScaleType = Enum.ScaleType.Fit
+
+Label_5.Name = "Label"
+Label_5.Parent = Predict
+Label_5.BackgroundColor3 = Color3.fromRGB(43, 0, 1)
+Label_5.BackgroundTransparency = 1.000
+Label_5.Position = UDim2.new(0, 35, 0, 0)
+Label_5.Size = UDim2.new(0, 115, 0, 25)
+Label_5.Font = Enum.Font.Unknown
+Label_5.Text = "nil"
+Label_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label_5.TextScaled = true
+Label_5.TextWrapped = true
+
+UICorner_31.CornerRadius = UDim.new(0, 3)
+UICorner_31.Parent = Predict
+
+UsePrediction.Name = "UsePrediction"
+UsePrediction.Parent = Predict
+UsePrediction.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UsePrediction.BackgroundTransparency = 1.000
+UsePrediction.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UsePrediction.BorderSizePixel = 0
+UsePrediction.Size = UDim2.new(0, 150, 0, 25)
+UsePrediction.ZIndex = 999999999
+UsePrediction.Font = Enum.Font.SourceSans
+UsePrediction.Text = ""
+UsePrediction.TextColor3 = Color3.fromRGB(0, 0, 0)
+UsePrediction.TextSize = 14.000
+
+detail_11.Name = "detail"
+detail_11.Parent = Predict
+detail_11.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_11.BackgroundTransparency = 1.000
+detail_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_11.BorderSizePixel = 0
+detail_11.Position = UDim2.new(-0.000885739573, 0, 0, 0)
+detail_11.Size = UDim2.new(1, 0, 1, 0)
+detail_11.ZIndex = 0
+detail_11.Image = "rbxassetid://16255699706"
+detail_11.ImageColor3 = Color3.fromRGB(33, 95, 98)
+detail_11.ImageTransparency = 0.930
 
 Settings_2.Name = "Settings"
 Settings_2.Parent = MoonExecu
@@ -1672,8 +1794,8 @@ UIAnim.TextScaled = true
 UIAnim.TextSize = 14.000
 UIAnim.TextWrapped = true
 
-UICorner_31.CornerRadius = UDim.new(0, 3)
-UICorner_31.Parent = UIAnim
+UICorner_32.CornerRadius = UDim.new(0, 3)
+UICorner_32.Parent = UIAnim
 
 TextLabel_8.Parent = Settings_2
 TextLabel_8.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
@@ -1732,8 +1854,8 @@ SyntaxHighlighting.TextScaled = true
 SyntaxHighlighting.TextSize = 14.000
 SyntaxHighlighting.TextWrapped = true
 
-UICorner_32.CornerRadius = UDim.new(0, 3)
-UICorner_32.Parent = SyntaxHighlighting
+UICorner_33.CornerRadius = UDim.new(0, 3)
+UICorner_33.Parent = SyntaxHighlighting
 
 Info2.Name = "Info2"
 Info2.Parent = Settings_2
@@ -1796,8 +1918,8 @@ HideUsername.TextScaled = true
 HideUsername.TextSize = 14.000
 HideUsername.TextWrapped = true
 
-UICorner_33.CornerRadius = UDim.new(0, 3)
-UICorner_33.Parent = HideUsername
+UICorner_34.CornerRadius = UDim.new(0, 3)
+UICorner_34.Parent = HideUsername
 
 ImageLabel.Parent = Settings_2
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1837,15 +1959,15 @@ Open.ScaleType = Enum.ScaleType.Fit
 
 -- Scripts:
 
-local function ZETK_fake_script() -- Close.LocalScript 
+local function SBJR_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(ZETK_fake_script)()
-local function IFRHE_fake_script() -- Console.Drag 
+coroutine.wrap(SBJR_fake_script)()
+local function ARQKCZ_fake_script() -- Console.Drag 
 	local script = Instance.new('LocalScript', Console)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1888,8 +2010,8 @@ local function IFRHE_fake_script() -- Console.Drag
 		end
 	end)
 end
-coroutine.wrap(IFRHE_fake_script)()
-local function SNXZJ_fake_script() -- Main.Drag 
+coroutine.wrap(ARQKCZ_fake_script)()
+local function GRQH_fake_script() -- Main.Drag 
 	local script = Instance.new('LocalScript', Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1932,8 +2054,8 @@ local function SNXZJ_fake_script() -- Main.Drag
 		end
 	end)
 end
-coroutine.wrap(SNXZJ_fake_script)()
-local function XZZLHO_fake_script() -- detail_2.LocalScript 
+coroutine.wrap(GRQH_fake_script)()
+local function VADREV_fake_script() -- detail_2.LocalScript 
 	local script = Instance.new('LocalScript', detail_2)
 
 	-- Define the UI element
@@ -1954,8 +2076,8 @@ local function XZZLHO_fake_script() -- detail_2.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(XZZLHO_fake_script)()
-local function VXBUX_fake_script() -- detail_3.LocalScript 
+coroutine.wrap(VADREV_fake_script)()
+local function SNIYEPV_fake_script() -- detail_3.LocalScript 
 	local script = Instance.new('LocalScript', detail_3)
 
 	-- Define the UI element
@@ -1976,8 +2098,145 @@ local function VXBUX_fake_script() -- detail_3.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(VXBUX_fake_script)()
-local function UFQLAX_fake_script() -- detail_4.LocalScript 
+coroutine.wrap(SNIYEPV_fake_script)()
+local function PURH_fake_script() -- Home.LocalScript 
+	local script = Instance.new('LocalScript', Home)
+
+	local Title = script.Parent.Title Title.Text = "Welcome, "..game.Players.LocalPlayer.Name.."!"
+end
+coroutine.wrap(PURH_fake_script)()
+-- Scrollin.Main2 is disabled.
+local function NYRN_fake_script() -- Scrollin.FileSystem 
+	local script = Instance.new('LocalScript', Scrollin)
+
+	--[[
+	
+	least copied scriptware file system :skull:
+	by ghost x moon
+	
+	--]]
+	
+	--// Main stuff LOL
+	local Prompt = script.Parent.Parent:FindFirstChild("Prompt") -- Prompts the user if they want to make a file or a folder
+	local Files = script.Parent:FindFirstChild("Files")
+	local MainFrame = script.Parent.Parent -- Scripthub frame
+	local SaveBTN = script.Parent.Parent.Parent.SideFrame:FindFirstChild("Save")
+	local ExecuteBox = script.Parent.Parent.Parent:FindFirstChild("ExecuBox"):FindFirstChild("Source")
+	
+	local CreateFolder = Prompt:FindFirstChild("CreateFolder")
+	local Close = Prompt:FindFirstChild("Close")
+	
+	local PreFolder = script.Parent:FindFirstChild("Folder")
+	local PreFile = script.Parent:FindFirstChild("File1")
+	
+	local fileContents = {}
+	
+	local function createNewFolder()
+		local newFolder = PreFolder:Clone()
+		newFolder.Parent = Files
+		newFolder.Visible = true
+		newFolder.Name = "Folder"
+		local groupedFiles = Instance.new("Frame")
+		groupedFiles.Name = "GroupedFiles"
+		groupedFiles.Parent = newFolder
+		
+		local close = newFolder:FindFirstChild("Close")
+		close.MouseButton1Click:Connect(function()
+			newFolder:Remove()
+		end)
+		return newFolder
+	end
+	
+	local function loadNsave(file)
+		file.MouseButton1Click:Connect(function()
+			local fileName = file.Name
+			if fileContents[fileName] then
+				ExecuteBox.Text = fileContents[fileName]
+			else
+				return
+			end
+		end)
+	end
+	
+	local function newfile(folder)
+		local groupedFiles = folder:FindFirstChild("GroupedFiles")
+		if not groupedFiles then
+			return nil
+		end
+	
+		local fileCount = #groupedFiles:GetChildren()
+		local newFile = PreFile:Clone()
+		newFile.Name = "File" .. (fileCount + 1)
+		newFile.Parent = groupedFiles
+		newFile.Visible = true
+		newFile.FileName.Text = "Script" 
+	
+		fileContents[newFile.Name] = ""
+		loadNsave(newFile)
+		local close = newFile:FindFirstChild("Close")
+		
+		close.MouseButton1Click:Connect(function()
+			newFile:Remove()
+		end)
+		return newFile
+	end
+	
+	MainFrame.InputBegan:Connect(function(InputObject)
+		if InputObject.UserInputType == Enum.UserInputType.MouseButton2 then
+			Prompt.Visible = true
+		end
+	end)
+	
+	Close.MouseButton1Click:Connect(function()
+		Prompt.Visible = false
+	end)
+	
+	CreateFolder.MouseButton1Click:Connect(function()
+		createNewFolder()
+		Prompt.Visible = false
+	end)
+	
+	SaveBTN.MouseButton1Click:Connect(function()
+		local fileContent = ExecuteBox.Text
+		local foundFolder = false
+	
+		for _, folder in ipairs(Files:GetChildren()) do
+			if folder.Name == "Folder" then
+				local newFile = newfile(folder)
+				if newFile then
+					fileContents[newFile.Name] = fileContent
+					foundFolder = true
+					break
+				end
+			end
+		end
+	
+		if not foundFolder then
+			warn("No available folder found to save the file")
+		end
+	end)
+	
+	for _, folder in ipairs(Files:GetChildren()) do
+		if folder:IsA("Frame") and folder.Name:match("^Folder%d+$") then
+			local groupedFiles = folder:FindFirstChild("GroupedFiles")
+			if groupedFiles then
+				for _, file in ipairs(groupedFiles:GetChildren()) do
+					if file:IsA("Frame") and file.Name:match("^File%d+$") then
+						loadNsave(file)
+						fileContents[file.Name] = ""
+					end
+				end
+			else
+				groupedFiles = Instance.new("Frame")
+				groupedFiles.Name = "GroupedFiles"
+				groupedFiles.Parent = folder
+			end
+		end
+	end
+	
+end
+coroutine.wrap(NYRN_fake_script)()
+local function FOCSK_fake_script() -- detail_4.LocalScript 
 	local script = Instance.new('LocalScript', detail_4)
 
 	-- Define the UI element
@@ -1998,131 +2257,31 @@ local function UFQLAX_fake_script() -- detail_4.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(UFQLAX_fake_script)()
-local function VVQBZ_fake_script() -- ScriptHub.LocalScript 
-	local script = Instance.new('LocalScript', ScriptHub)
+coroutine.wrap(FOCSK_fake_script)()
+local function XUHIPB_fake_script() -- detail_5.LocalScript 
+	local script = Instance.new('LocalScript', detail_5)
 
-	local searchBar = script.Parent.SearchBar
-	local items = script.Parent.Frame
+	-- Define the UI element
+	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
 	
-	function UpdateResults()
-		local search = string.lower(searchBar.Text)
-		for i, v in	 pairs(items:GetChildren()) do
-			if v:IsA("GuiButton") then
-				if search ~= "" then
-					local item = string.lower(v.Text)
-					if string.find(item, search) then
-						v.Visible = true
-					else
-						v.Visible = false
-					end
-				else
-					v.Visible = true
-				end
-			end
-		end
-	end
+	-- Define the colors
+	local color1 = Color3.fromRGB(41, 116, 121)
+	local color2 = Color3.fromRGB(51, 149, 152)
 	
-	searchBar.Changed:Connect(UpdateResults)
-end
-coroutine.wrap(VVQBZ_fake_script)()
-local function FGNEFP_fake_script() -- Frame.Main2 
-	local script = Instance.new('LocalScript', Frame)
-
-	local addScript = script.Parent.Parent.Parent.Parent:FindFirstChild("Main"):FindFirstChild("addScript")
-	local scriptBox = addScript:FindFirstChild("scriptBOX").Source
-	local scriptName = addScript:FindFirstChild("scriptName")
-	local Create = addScript:FindFirstChild("Create")
-	local title = addScript:FindFirstChild("title")
-	local SampleBTN = script.Parent.Parent:FindFirstChild("SampleBTN")
-	local ExecuteBox = script.Parent.Parent.Parent:FindFirstChild("ExecuBox"):FindFirstChild("Source")
-	local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexDevlpr/JSON-Config-Library-for-Roblox-Lua/main/Library.lua"))()
-	local uploadedScripts = {}
-	function saveSettings()
-		local settings = {
-			uploadedScripts = uploadedScripts
-		}
-		lib.WriteConfig("PhobosV2S", settings)
-	end
-	function loadScripts()
-		local retrievedData = lib.ReadConfig("PhobosV2S")
-		if retrievedData and retrievedData.uploadedScripts then
-			uploadedScripts = retrievedData.uploadedScripts
-		else
-			uploadedScripts = {}
-		end
-	end
-	local function newScript(script1, name)
-		SampleBTN.Visible = false
-		local new = SampleBTN:Clone()
-		new.Visible = true
-		new.Name = name
-		new.Text = name
-		new.Parent = script.Parent
-		new.MouseButton1Click:Connect(function()
-			ExecuteBox.Text = script1
-		end)
-	end
-	local function initializeScripts()
-		for _, scriptData in ipairs(uploadedScripts) do
-			newScript(scriptData.code, scriptData.name) --user generated scripts
-		end
-		newScript('require(11560761226).HD("'..game.Players.LocalPlayer.Name..'")', "HD Admin")
-		newScript('require(2930987220).load("'..game.Players.LocalPlayer.Name..'")', "Star Glitcher")
-		newScript('require(3032640233):Start("' .. game.Players.LocalPlayer.Name .. '","' .. "AAA" .. '")', "Server Admin")
-		newScript('require(4696373104)("' .. game.Players.LocalPlayer.Name .. '")', "InfYieldSS")
-		newScript('require(3010581956):Fireplace("' .. game.Players.LocalPlayer.Name .. '")', "DEX SS")
-		newScript('require(5686002742):Fire("' .. game.Players.LocalPlayer.Name ..'","caducus")', "Caducus")
-		newScript('require(5613801320).eliza("' .. game.Players.LocalPlayer.Name ..'")', "EchoV3")
-		newScript('require(6027664603).eliza("' .. game.Players.LocalPlayer.Name ..'")', "HaloV3")
-		newScript('require(4741518800).Guns("' .. game.Players.LocalPlayer.Name ..'")', "Guns")
-		newScript('require(6027719103)("' .. game.Players.LocalPlayer.Name ..'")', "Time Banisher")
-		newScript('require(6036211918).eliza("' .. game.Players.LocalPlayer.Name ..'")', "Split")
-		newScript('require(4679874662)("' .. game.Players.LocalPlayer.Name ..'")', "CradlesV2")
-		newScript('require(3709746847).load("' .. game.Players.LocalPlayer.Name ..'")', "Murderer")
-		newScript('require(3543575474).load("' .. game.Players.LocalPlayer.Name ..'")', "Tea")
-		newScript('require(4952709475).load("' .. game.Players.LocalPlayer.Name ..'")', "Sans")
-		newScript('require(0x15d0d1a90)("jojo","' .. game.Players.LocalPlayer.Name ..'")', "Jojo1")
-		newScript('require(5855981009)("jojo","' .. game.Players.LocalPlayer.Name ..'")', "Jojo2")
-		newScript('require(2841156534):Fire("' .. game.Players.LocalPlayer.Name ..'","i baked you a pie")',"John Doe")
-		newScript('require(2787132106):Run("' .. game.Players.LocalPlayer.Name ..'","i baked you a pie")',"Sin Unleashed")
-		newScript('require(2826823504):Run("' .. game.Players.LocalPlayer.Name ..'","i baked you a pie")',"School Shooter")
-	end
-	loadScripts()
-	initializeScripts()
-	Create.MouseButton1Click:Connect(function()
-		local success, result = pcall(function()
-			if scriptName.Text == "" or scriptBox.Text == "" or scriptName.Text == " " or scriptBox.Text == " " then
-				title.Text = "Added nothing! "..utf8.char(0x1F480)
-				wait(2.5)
-				title.Text = ""
-				return
-			end
-			local name = scriptName.Text
-			local code = scriptBox.Text
-			table.insert(uploadedScripts, {name = name, code = code})
-			saveSettings()
-			newScript(code, name)
-			title.Text = "Added script!"
-			wait(2.5)
-			title.Text = "Add a script"
-		end)
-		if not success then
-			warn("Error adding script: " .. result)
-		end
-	end)
+	-- Define the tweening information
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true) -- 2 seconds, infinite, auto reverse
+	
+	-- Create the tween
+	local tween = tweenService:Create(uiElement, tweenInfo, {ImageColor3 = color2})
+	
+	-- Start the tween
+	tween:Play()
 	
 end
-coroutine.wrap(FGNEFP_fake_script)()
-local function WUQZ_fake_script() -- Placeholder_One.LocalScript 
-	local script = Instance.new('LocalScript', Placeholder_One)
-
-	print("Hello world!")
-	
-end
-coroutine.wrap(WUQZ_fake_script)()
+coroutine.wrap(XUHIPB_fake_script)()
 -- Comments_.LocalScript is disabled.
-local function TNGJTO_fake_script() -- ExecuBox.Main 
+local function OJPN_fake_script() -- ExecuBox.Main 
 	local script = Instance.new('LocalScript', ExecuBox)
 
 	local settings = {
@@ -2777,9 +2936,9 @@ local function TNGJTO_fake_script() -- ExecuBox.Main
 		end)
 	end
 end
-coroutine.wrap(TNGJTO_fake_script)()
-local function FFRK_fake_script() -- detail_5.LocalScript 
-	local script = Instance.new('LocalScript', detail_5)
+coroutine.wrap(OJPN_fake_script)()
+local function SLBVJC_fake_script() -- detail_6.LocalScript 
+	local script = Instance.new('LocalScript', detail_6)
 
 	-- Define the UI element
 	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
@@ -2799,9 +2958,9 @@ local function FFRK_fake_script() -- detail_5.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(FFRK_fake_script)()
-local function TVKILVD_fake_script() -- detail_6.LocalScript 
-	local script = Instance.new('LocalScript', detail_6)
+coroutine.wrap(SLBVJC_fake_script)()
+local function NVJFHQ_fake_script() -- detail_7.LocalScript 
+	local script = Instance.new('LocalScript', detail_7)
 
 	-- Define the UI element
 	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
@@ -2821,200 +2980,8 @@ local function TVKILVD_fake_script() -- detail_6.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(TVKILVD_fake_script)()
-local function RDHBOB_fake_script() -- Execution.PredictALPHA 
-	local script = Instance.new('LocalScript', Execution)
-
-	local textBox = script.Parent.ExecuBox:FindFirstChild("Source")
-	local predictionFrame = script.Parent:WaitForChild("Predict")
-	local predictionLabel = predictionFrame:WaitForChild("Label")
-	local predictionIcon = predictionFrame:WaitForChild("Icon")
-	local usePredictionButton = predictionFrame:WaitForChild("UsePrediction")
-	local icons = {
-		["object"] = "http://www.roblox.com/asset/?id=18607792772",
-		["misc"] = "http://www.roblox.com/asset/?id=18607866501",
-		["script"] = "rbxassetid://18580248721",
-		["event"] = "rbxassetid://18596804842",
-	}
-	local completions = {
-		{ text = "print", imageId = icons.misc },
-		{ text = "warn", imageId = icons.misc },
-		{ text = "function", imageId = icons.object },
-		{ text = "local", imageId = icons.misc },
-		{ text = "script", imageId = icons.script },
-		{ text = "loadstring", imageId = icons.misc },
-		{ text = "getfenv", imageId = icons.misc },
-		{ text = "wait", imageId = icons.misc },
-		{ text = "game", imageId = icons.object },
-		{ text = "ReplicatedStorage", imageId = icons.event },
-		{ text = "workspace", imageId = icons.object },
-		{ text = "Players", imageId = icons.object },
-		{ text = "Lighting", imageId = icons.object },
-		{ text = "StarterGui", imageId = icons.object },
-		{ text = "StarterPack", imageId = icons.object },
-		{ text = "ServerScriptService", imageId = icons.script },
-		{ text = "ServerStorage", imageId = icons.object },
-		{ text = "TextService", imageId = icons.misc },
-		{ text = "require", imageId = icons.script },
-		{ text = "Instance.new", imageId = icons.object },
-		{ text = "Vector3.new", imageId = icons.misc },
-		{ text = "CFrame.new", imageId = icons.misc },
-		{ text = "UDim2.new", imageId = icons.misc },
-		{ text = "Color3.new", imageId = icons.misc },
-		{ text = "Enum", imageId = icons.misc },
-		{ text = "math.random", imageId = icons.misc },
-		{ text = "math.pi", imageId = icons.misc },
-		{ text = "string.sub", imageId = icons.misc },
-		{ text = "string.find", imageId = icons.misc },
-		{ text = "string.gsub", imageId = icons.misc },
-		{ text = "string.len", imageId = icons.misc },
-		{ text = "table.insert", imageId = icons.misc },
-		{ text = "table.remove", imageId = icons.misc },
-		{ text = "table.sort", imageId = icons.misc },
-		{ text = "table.concat", imageId = icons.misc },
-		{ text = "pairs", imageId = icons.misc },
-		{ text = "ipairs", imageId = icons.misc },
-		{ text = "pcall", imageId = icons.misc },
-		{ text = "xpcall", imageId = icons.misc },
-		{ text = "coroutine.create", imageId = icons.misc },
-		{ text = "coroutine.resume", imageId = icons.misc },
-		{ text = "coroutine.yield", imageId = icons.misc },
-		{ text = "coroutine.status", imageId = icons.misc },
-		{ text = "tick", imageId = icons.misc },
-		{ text = "os.time", imageId = icons.misc },
-		{ text = "os.date", imageId = icons.misc },
-		{ text = "debug.traceback", imageId = icons.misc },
-		{ text = "debug.getinfo", imageId = icons.misc },
-		{ text = "UserInputService", imageId = icons.misc },
-		{ text = "RunService", imageId = icons.misc },
-		{ text = "TweenService", imageId = icons.misc },
-		{ text = "HttpService", imageId = icons.misc },
-	}
-	local predictedWord = nil
-	local function updatePrediction()
-		local text = textBox.Text
-		local segments = {}
-		for segment in string.gmatch(text, "[^.,+%s]+") do
-			table.insert(segments, segment)
-		end
-	
-		local lastSegment = segments[#segments] or ""
-		local prediction = ""
-		local predictionImageId = ""
-		local lowerLastSegment = lastSegment:lower()
-		for _, completion in ipairs(completions) do
-			if completion.text:lower():sub(1, #lowerLastSegment) == lowerLastSegment then
-				prediction = completion.text
-				predictionImageId = completion.imageId
-				break
-			end
-		end
-		if prediction ~= "" and prediction ~= lastSegment then
-			local remainingText = prediction:sub(#lastSegment + 1)
-			predictionLabel.Text = lastSegment .. "<font color=\"rgb(128, 128, 128)\">" .. remainingText .. "</font>"
-			predictedWord = prediction
-			predictionLabel.TextColor3 = Color3.new(1, 1, 1)
-			predictionLabel.RichText = true
-			predictionIcon.Image = predictionImageId
-			predictionFrame.Visible = true
-	
-			local textService = game:GetService("TextService")
-			local cursorPosition = textService:GetTextSize(
-				text:sub(1, textBox.CursorPosition - 1),
-				textBox.TextSize,
-				textBox.Font,
-				Vector2.new(textBox.AbsoluteSize.X, math.huge)
-			)
-			local lineHeight = textService:GetTextSize(
-				"A",
-				textBox.TextSize,
-				textBox.Font,
-				Vector2.new(textBox.AbsoluteSize.X, math.huge)
-			).Y
-			local lineNumber = math.floor(cursorPosition.Y / lineHeight)
-			local offsetX = cursorPosition.X + 50
-			local offsetY = (lineNumber + 1) * lineHeight + 45
-			local relativePositionX = textBox.AbsolutePosition.X + offsetX
-			local relativePositionY = textBox.AbsolutePosition.Y + offsetY
-			local execuBox = textBox.Parent
-			local execuBoxPos = execuBox.AbsolutePosition
-			local execuBoxSize = execuBox.AbsoluteSize
-	
-			local predictionFrameSize = predictionFrame.AbsoluteSize
-			local newPositionX = math.clamp(relativePositionX, execuBoxPos.X, execuBoxPos.X + execuBoxSize.X - predictionFrameSize.X)
-			local newPositionY = math.clamp(relativePositionY, execuBoxPos.Y, execuBoxPos.Y + execuBoxSize.Y - predictionFrameSize.Y)
-			warn(newPositionX)
-			warn(newPositionY)
-			predictionFrame.Position = UDim2.new(0, newPositionX - execuBoxPos.X, 0, newPositionY - execuBoxPos.Y)
-		else
-			predictionFrame.Visible = false
-		end
-	end
-	
-	local function checkSyntaxError()
-		local code = textBox.Text
-		local func, syntaxError = loadstring(code)
-		if not func then
-			local lineNumber, errorMsg = string.match(syntaxError, ":(%d+): (.+)")
-			print("Syntax Error on line " .. lineNumber .. ": " .. errorMsg)
-		else
-			print("No Syntax Errors")
-		end
-	end
-	
-	textBox:GetPropertyChangedSignal("Text"):Connect(function()
-		if textBox.Text ~= "" and textBox.Text ~= " " then
-			local segments = {}
-			for segment in string.gmatch(textBox.Text, "[^.,+%s]+") do
-				table.insert(segments, segment)
-			end
-	
-			local lastSegment = segments[#segments] or ""
-			local matchFound = false
-			for _, completion in ipairs(completions) do
-				if lastSegment:lower() == completion.text:lower() then
-					matchFound = true
-					break
-				end
-			end
-	
-			if matchFound then
-				predictionFrame.Visible = false
-			else
-				warn("updating prediction")
-				updatePrediction()
-			end
-		else
-			predictionFrame.Visible = false
-		end
-	end)
-	
-	usePredictionButton.MouseButton1Click:Connect(function()
-		if predictionLabel.Text ~= "" then
-			local text = textBox.Text
-			local cursorPos = textBox.CursorPosition
-			local prefix = text:sub(1, cursorPos - 1)
-			local suffix = text:sub(cursorPos)
-			local lastSegmentStart = prefix:find("[^.,%s]+$")
-			if not lastSegmentStart then
-				lastSegmentStart = #prefix + 1
-			end
-			local beforeLastSegment = prefix:sub(1, lastSegmentStart - 1)
-			local lastSegment = prefix:sub(lastSegmentStart)
-			local separator = ""
-			if lastSegment:match("[.,%s]+$") then
-				separator = lastSegment:match("[.,%s]+$")
-			end
-			local newText = beforeLastSegment .. predictedWord .. separator .. suffix
-			textBox.Text = newText
-			textBox.CursorPosition = #beforeLastSegment + #predictedWord + 1
-			predictionFrame.Visible = false
-		end
-	end)
-	
-end
-coroutine.wrap(RDHBOB_fake_script)()
-local function ATXB_fake_script() -- Execution.Tabs 
+coroutine.wrap(NVJFHQ_fake_script)()
+local function GJTUQFD_fake_script() -- Execution.Tabs 
 	local script = Instance.new('LocalScript', Execution)
 
 	local TweenService = game:GetService("TweenService")
@@ -3283,9 +3250,9 @@ local function ATXB_fake_script() -- Execution.Tabs
 	updateAddButtonVisibility()
 	
 end
-coroutine.wrap(ATXB_fake_script)()
-local function FENVW_fake_script() -- detail_7.LocalScript 
-	local script = Instance.new('LocalScript', detail_7)
+coroutine.wrap(GJTUQFD_fake_script)()
+local function JPPUT_fake_script() -- detail_8.LocalScript 
+	local script = Instance.new('LocalScript', detail_8)
 
 	-- Define the UI element
 	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
@@ -3305,9 +3272,9 @@ local function FENVW_fake_script() -- detail_7.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(FENVW_fake_script)()
-local function VLNPLK_fake_script() -- detail_8.LocalScript 
-	local script = Instance.new('LocalScript', detail_8)
+coroutine.wrap(JPPUT_fake_script)()
+local function FQRBMNX_fake_script() -- detail_9.LocalScript 
+	local script = Instance.new('LocalScript', detail_9)
 
 	-- Define the UI element
 	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
@@ -3327,8 +3294,8 @@ local function VLNPLK_fake_script() -- detail_8.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(VLNPLK_fake_script)()
-local function OOMJAY_fake_script() -- scriptBOX.Main 
+coroutine.wrap(FQRBMNX_fake_script)()
+local function PERJF_fake_script() -- scriptBOX.Main 
 	local script = Instance.new('LocalScript', scriptBOX)
 
 	local settings = {
@@ -3984,9 +3951,223 @@ local function OOMJAY_fake_script() -- scriptBOX.Main
 		end)
 	end
 end
-coroutine.wrap(OOMJAY_fake_script)()
+coroutine.wrap(PERJF_fake_script)()
 -- Comments__2.LocalScript is disabled.
-local function UKEO_fake_script() -- Settings_2.Main 
+local function SOIBNB_fake_script() -- detail_11.LocalScript 
+	local script = Instance.new('LocalScript', detail_11)
+
+	-- Define the UI element
+	local uiElement = script.Parent -- adjust this if the script is not a direct child of the UI element
+	
+	-- Define the colors
+	local color1 = Color3.fromRGB(41, 116, 121)
+	local color2 = Color3.fromRGB(33, 95, 98)
+	
+	-- Define the tweening information
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true) -- 2 seconds, infinite, auto reverse
+	
+	-- Create the tween
+	local tween = tweenService:Create(uiElement, tweenInfo, {ImageColor3 = color2})
+	
+	-- Start the tween
+	tween:Play()
+	
+end
+coroutine.wrap(SOIBNB_fake_script)()
+local function MKUMVUU_fake_script() -- Main.PredictALPHA 
+	local script = Instance.new('LocalScript', Main)
+
+	local textBox = script.Parent.Execution.ExecuBox:FindFirstChild("Source")
+	local predictionFrame = script.Parent:WaitForChild("Predict")
+	local predictionLabel = predictionFrame:WaitForChild("Label")
+	local predictionIcon = predictionFrame:WaitForChild("Icon")
+	local usePredictionButton = predictionFrame:WaitForChild("UsePrediction")
+	local icons = {
+		["object"] = "http://www.roblox.com/asset/?id=18607792772",
+		["misc"] = "http://www.roblox.com/asset/?id=18607866501",
+		["script"] = "rbxassetid://18580248721",
+		["event"] = "rbxassetid://18596804842",
+	}
+	local completions = {
+		{ text = "print", imageId = icons.misc },
+		{ text = "warn", imageId = icons.misc },
+		{ text = "function", imageId = icons.object },
+		{ text = "local", imageId = icons.misc },
+		{ text = "script", imageId = icons.script },
+		{ text = "loadstring", imageId = icons.misc },
+		{ text = "getfenv", imageId = icons.misc },
+		{ text = "wait", imageId = icons.misc },
+		{ text = "game", imageId = icons.object },
+		{ text = "ReplicatedStorage", imageId = icons.event },
+		{ text = "workspace", imageId = icons.object },
+		{ text = "Players", imageId = icons.object },
+		{ text = "Lighting", imageId = icons.object },
+		{ text = "StarterGui", imageId = icons.object },
+		{ text = "StarterPack", imageId = icons.object },
+		{ text = "ServerScriptService", imageId = icons.script },
+		{ text = "ServerStorage", imageId = icons.object },
+		{ text = "TextService", imageId = icons.misc },
+		{ text = "require", imageId = icons.script },
+		{ text = "Instance.new", imageId = icons.object },
+		{ text = "Vector3.new", imageId = icons.misc },
+		{ text = "CFrame.new", imageId = icons.misc },
+		{ text = "UDim2.new", imageId = icons.misc },
+		{ text = "Color3.new", imageId = icons.misc },
+		{ text = "Enum", imageId = icons.misc },
+		{ text = "math.random", imageId = icons.misc },
+		{ text = "math.pi", imageId = icons.misc },
+		{ text = "string.sub", imageId = icons.misc },
+		{ text = "string.find", imageId = icons.misc },
+		{ text = "string.gsub", imageId = icons.misc },
+		{ text = "string.len", imageId = icons.misc },
+		{ text = "table.insert", imageId = icons.misc },
+		{ text = "table.remove", imageId = icons.misc },
+		{ text = "table.sort", imageId = icons.misc },
+		{ text = "table.concat", imageId = icons.misc },
+		{ text = "pairs", imageId = icons.misc },
+		{ text = "ipairs", imageId = icons.misc },
+		{ text = "pcall", imageId = icons.misc },
+		{ text = "xpcall", imageId = icons.misc },
+		{ text = "coroutine.create", imageId = icons.misc },
+		{ text = "coroutine.resume", imageId = icons.misc },
+		{ text = "coroutine.yield", imageId = icons.misc },
+		{ text = "coroutine.status", imageId = icons.misc },
+		{ text = "tick", imageId = icons.misc },
+		{ text = "os.time", imageId = icons.misc },
+		{ text = "os.date", imageId = icons.misc },
+		{ text = "debug.traceback", imageId = icons.misc },
+		{ text = "debug.getinfo", imageId = icons.misc },
+		{ text = "UserInputService", imageId = icons.misc },
+		{ text = "RunService", imageId = icons.misc },
+		{ text = "TweenService", imageId = icons.misc },
+		{ text = "HttpService", imageId = icons.misc },
+	}
+	local predictedWord = nil
+	local function updatePrediction()
+		local text = textBox.Text
+		local segments = {}
+		for segment in string.gmatch(text, "[^.,+%s]+") do
+			table.insert(segments, segment)
+		end
+	
+		local lastSegment = segments[#segments] or ""
+		local prediction = ""
+		local predictionImageId = ""
+		local lowerLastSegment = lastSegment:lower()
+		for _, completion in ipairs(completions) do
+			if completion.text:lower():sub(1, #lowerLastSegment) == lowerLastSegment then
+				prediction = completion.text
+				predictionImageId = completion.imageId
+				break
+			end
+		end
+		if prediction ~= "" and prediction ~= lastSegment then
+			local remainingText = prediction:sub(#lastSegment + 1)
+			predictionLabel.Text = lastSegment .. "<font color=\"rgb(128, 128, 128)\">" .. remainingText .. "</font>"
+			predictedWord = prediction
+			predictionLabel.TextColor3 = Color3.new(1, 1, 1)
+			predictionLabel.RichText = true
+			predictionIcon.Image = predictionImageId
+			predictionFrame.Visible = true
+	
+			local textService = game:GetService("TextService")
+			local cursorPosition = textService:GetTextSize(
+				text:sub(1, textBox.CursorPosition - 1),
+				textBox.TextSize,
+				textBox.Font,
+				Vector2.new(textBox.AbsoluteSize.X, math.huge)
+			)
+			local lineHeight = textService:GetTextSize(
+				"A",
+				textBox.TextSize,
+				textBox.Font,
+				Vector2.new(textBox.AbsoluteSize.X, math.huge)
+			).Y
+			local lineNumber = math.floor(cursorPosition.Y / lineHeight)
+			local offsetX = cursorPosition.X + 50
+			local offsetY = (lineNumber + 1) * lineHeight + 45
+			local relativePositionX = textBox.AbsolutePosition.X + offsetX
+			local relativePositionY = textBox.AbsolutePosition.Y + offsetY
+			local execuBox = textBox.Parent
+			local execuBoxPos = execuBox.AbsolutePosition
+			local execuBoxSize = execuBox.AbsoluteSize
+	
+			local predictionFrameSize = predictionFrame.AbsoluteSize
+			local newPositionX = math.clamp(relativePositionX, execuBoxPos.X, execuBoxPos.X + execuBoxSize.X - predictionFrameSize.X)
+			local newPositionY = math.clamp(relativePositionY, execuBoxPos.Y, execuBoxPos.Y + execuBoxSize.Y - predictionFrameSize.Y)
+			warn(newPositionX)
+			warn(newPositionY)
+			predictionFrame.Position = UDim2.new(0, newPositionX - execuBoxPos.X, 0, newPositionY - execuBoxPos.Y)
+		else
+			predictionFrame.Visible = false
+		end
+	end
+	
+	local function checkSyntaxError()
+		local code = textBox.Text
+		local func, syntaxError = loadstring(code)
+		if not func then
+			local lineNumber, errorMsg = string.match(syntaxError, ":(%d+): (.+)")
+			print("Syntax Error on line " .. lineNumber .. ": " .. errorMsg)
+		else
+			print("No Syntax Errors")
+		end
+	end
+	
+	textBox:GetPropertyChangedSignal("Text"):Connect(function()
+		if textBox.Text ~= "" and textBox.Text ~= " " then
+			local segments = {}
+			for segment in string.gmatch(textBox.Text, "[^.,+%s]+") do
+				table.insert(segments, segment)
+			end
+	
+			local lastSegment = segments[#segments] or ""
+			local matchFound = false
+			for _, completion in ipairs(completions) do
+				if lastSegment:lower() == completion.text:lower() then
+					matchFound = true
+					break
+				end
+			end
+	
+			if matchFound then
+				predictionFrame.Visible = false
+			else
+				warn("updating prediction")
+				updatePrediction()
+			end
+		else
+			predictionFrame.Visible = false
+		end
+	end)
+	
+	usePredictionButton.MouseButton1Click:Connect(function()
+		if predictionLabel.Text ~= "" then
+			local text = textBox.Text
+			local cursorPos = textBox.CursorPosition
+			local prefix = text:sub(1, cursorPos - 1)
+			local suffix = text:sub(cursorPos)
+			local lastSegmentStart = prefix:find("[^.,%s]+$")
+			if not lastSegmentStart then
+				lastSegmentStart = #prefix + 1
+			end
+			local beforeLastSegment = prefix:sub(1, lastSegmentStart - 1)
+			local lastSegment = prefix:sub(lastSegmentStart)
+			local separator = ""
+			if lastSegment:match("[.,%s]+$") then
+				separator = lastSegment:match("[.,%s]+$")
+			end
+			local newText = beforeLastSegment .. predictedWord .. separator .. suffix
+			textBox.Text = newText
+			textBox.CursorPosition = #beforeLastSegment + #predictedWord + 1
+			predictionFrame.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(MKUMVUU_fake_script)()
+local function EHKUPF_fake_script() -- Settings_2.Main 
 	local script = Instance.new('LocalScript', Settings_2)
 
 	local UIAnim = script.Parent:FindFirstChild("UIAnim")
@@ -4186,8 +4367,8 @@ local function UKEO_fake_script() -- Settings_2.Main
 		end
 	end)
 end
-coroutine.wrap(UKEO_fake_script)()
-local function RUDZXZ_fake_script() -- Settings_2.Drag 
+coroutine.wrap(EHKUPF_fake_script)()
+local function LOFZEW_fake_script() -- Settings_2.Drag 
 	local script = Instance.new('LocalScript', Settings_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -4230,8 +4411,8 @@ local function RUDZXZ_fake_script() -- Settings_2.Drag
 		end
 	end)
 end
-coroutine.wrap(RUDZXZ_fake_script)()
-local function FTRQLEE_fake_script() -- Open.Drag 
+coroutine.wrap(LOFZEW_fake_script)()
+local function TMHKS_fake_script() -- Open.Drag 
 	local script = Instance.new('LocalScript', Open)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -4274,8 +4455,8 @@ local function FTRQLEE_fake_script() -- Open.Drag
 		end
 	end)
 end
-coroutine.wrap(FTRQLEE_fake_script)()
-local function RHMW_fake_script() -- MoonExecu.Rewrite 
+coroutine.wrap(TMHKS_fake_script)()
+local function BKEF_fake_script() -- MoonExecu.Rewrite 
 	local script = Instance.new('LocalScript', MoonExecu)
 
 	--[[
@@ -4292,21 +4473,28 @@ local function RHMW_fake_script() -- MoonExecu.Rewrite
 	--]]
 	
 	--// Vars
-	warn("bro is this even being ran?")
 	local plr = game.Players.LocalPlayer
 	local bd = game:GetService("InsertService"):FindFirstChild("Services") and game:GetService("InsertService"):FindFirstChild("Services"):FindFirstChild("InsertModel")
 	local serverResponse = game:GetService("InsertService"):FindFirstChild("Services") and game:GetService("InsertService"):FindFirstChild("Services"):FindFirstChild("GetModelData")
-	warn("1")
-	--// UI Vars
+	--// Main Vars
 	local MainGUI = script.Parent
 	local Main = script.Parent:FindFirstChild("Main")
-	local ExecuBox = Main and Main:FindFirstChild("ExecuBox") and Main:FindFirstChild("ExecuBox"):FindFirstChild("Source")
-	local SideBar = Main and Main:FindFirstChild("SideFrame")
+	--//Pages Vars
+	local ExecutionPG = Main:FindFirstChild("Execution")
+	local HomePG = Main:FindFirstChild("Home")
+	--// UI Vars
+	local ExecuBox = Main and ExecutionPG:FindFirstChild("ExecuBox") and ExecutionPG:FindFirstChild("ExecuBox"):FindFirstChild("Source")
+	local SideBar = Main and ExecutionPG:FindFirstChild("SideFrame")
 	local ExecuteBTN = Main and SideBar:FindFirstChild("Execute")
 	local R6BTN = Main and SideBar:FindFirstChild("R6")
 	local ClearBTN = Main and SideBar:FindFirstChild('Clear')
 	local RespawnBTN = Main and SideBar:FindFirstChild('Respawn')
 	local Side = Main and Main:FindFirstChild("Side")
+	local AttachLabel = Main and ExecutionPG:FindFirstChild("BottomFrame"):FindFirstChild("TextLabel")
+	local Logo = Main and Main:FindFirstChild("Top"):FindFirstChild("Logo")
+	
+	--//Console Vars
+	
 	local Console = script.Parent:FindFirstChild("Console")
 	local ConsoleFrame = Console and Console:FindFirstChild("Console")
 	local SettingsF = script.Parent:FindFirstChild("Settings")
@@ -4317,18 +4505,23 @@ local function RHMW_fake_script() -- MoonExecu.Rewrite
 	local CLabelN2 = Console:FindFirstChild("Normal"):FindFirstChild("Label")
 	local CLabelE2 = Console:FindFirstChild("Error"):FindFirstChild("Label")
 	local CLabelW2 = Console:FindFirstChild("Warning"):FindFirstChild("Label")
-	warn("2")
-	--// Miscellaneous Vars
+	--// Miscellaneous Vars / Check
 	local Title = "Moon SS"
-	local Backdoor = useableBackdoor -- GetGenv (Auto assigns 'useableBackdoor' dw bout it) 
-	warn("3")
-	warn("USEABLE BACKDOOR HAHAHAHAHA:"..tostring(Backdoor))
+	local Backdoor = "Moon"--useableBackdoor -- GetGenv (Auto assigns 'useableBackdoor' dw bout it) 
 	
+	--[[
+	if Backdoor == "Moon" then
+		AttachLabel.Text = "Backdoor: Moon"
+	else
+		AttachLabel.Text = "Backdoor:",Backdoor.Name --Should work might break
+	end
+	--]]
 	-- If the Backdoor == "Moon" do Moon logic
 	-- If the Backdoor is not == "Moon" do non Moon logic
 	
 	-- BD = Moon Developed Backdoor
 	-- Backdoor = NON Moon Developed Backdoor
+	
 	local alertLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/phobosv211/Moon-SS/main/alertLIB'))()
 	local Other = nil
 	warn("4")
@@ -4345,10 +4538,9 @@ local function RHMW_fake_script() -- MoonExecu.Rewrite
 	}
 	
 	
-	--// Functions
+	--// Execution Page Functions
 	ExecuteBTN.MouseButton1Click:Connect(function()
 		if Backdoor == "Moon" then
-			warn("backdoor is moon HAHAHAHA")
 			if bd and serverResponse then
 				local success, result = pcall(function()
 					bd:FireServer(ExecuBox.Text)
@@ -4429,5 +4621,55 @@ local function RHMW_fake_script() -- MoonExecu.Rewrite
 		end
 	end)
 	
+	--// Tab System 2 (Execution Page, Home Page etc)
+	
+	--// Vars
+	
+	local ExecutionPGB = Side:FindFirstChild("Execution")
+	local HomePGB = Side:FindFirstChild("Home")
+	local SettingsPGB = Side:FindFirstChild("Settings")
+	
+	if ExecutionPG.Visible == true then
+		local tweenExecution = game:GetService("TweenService"):Create(ExecutionPGB, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {ImageColor3 = Color3.new(0.333333, 1, 1)})
+		local tweenHome = game:GetService("TweenService"):Create(HomePGB, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {ImageColor3 = Color3.new(1, 1, 1)})
+	
+		tweenExecution:Play()
+		tweenHome:Play()
+		HomePG.Visible = false
+	elseif HomePG.Visible == true then
+		local tweenHome = game:GetService("TweenService"):Create(HomePGB, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {ImageColor3 = Color3.new(0.333333, 1, 1)})
+		local tweenExecution = game:GetService("TweenService"):Create(ExecutionPGB, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {ImageColor3 = Color3.new(1, 1, 1)})
+	
+		tweenHome:Play()
+		tweenExecution:Play()
+		ExecutionPG.Visible = false
+	end
+	
+	ExecutionPGB.MouseButton1Click:Connect(function()
+		local tweenExecution = game:GetService("TweenService"):Create(ExecutionPGB, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {ImageColor3 = Color3.new(0.333333, 1, 1)})
+		local tweenHome = game:GetService("TweenService"):Create(HomePGB, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {ImageColor3 = Color3.new(1, 1, 1)})
+	
+		tweenExecution:Play()
+		tweenHome:Play()
+	
+		ExecutionPG.Visible = true
+		HomePG.Visible = false
+	end)
+	
+	HomePGB.MouseButton1Click:Connect(function()
+		local tweenHome = game:GetService("TweenService"):Create(HomePGB, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {ImageColor3 = Color3.new(0.333333, 1, 1)})
+		local tweenExecution = game:GetService("TweenService"):Create(ExecutionPGB, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {ImageColor3 = Color3.new(1, 1, 1)})
+	
+		tweenHome:Play()
+		tweenExecution:Play()
+	
+		HomePG.Visible = true
+		ExecutionPG.Visible = false
+	end)
+	
+	SettingsPGB.MouseButton1Click:Connect(function()
+		alertLib.Error(MainGUI, Title, 'This feature is still under development!')
+		return
+	end)
 end
-coroutine.wrap(RHMW_fake_script)()
+coroutine.wrap(BKEF_fake_script)()
