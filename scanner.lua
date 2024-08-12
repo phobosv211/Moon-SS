@@ -1,10 +1,3 @@
---[[
-
-Insanely basic don't bully us pls :sob:
-
-being fixed later lol too lazy to fix
-
-]]
 local BackdoorScanner = {}
 
 BackdoorScanner.scannedRemotes = {}
@@ -29,6 +22,7 @@ BackdoorScanner.ignoredParentNames = {
     "HDAdminClient", "Adonis", "DefaultChatSystemChatEvents","HDAdminWorkspaceFolder"
 }
 BackdoorScanner.foundBackdoor = nil
+BackdoorScanner.isScanning = false -- New flag to control scanning
 
 local function isRemote(object)
     return object:IsA("RemoteEvent") or object:IsA("RemoteFunction")
@@ -63,7 +57,6 @@ local function isIgnoredParent(remote)
     return false
 end
 
-
 local code = [[
 local p = Instance.new("Part")
 p.Parent = workspace
@@ -71,7 +64,6 @@ p.Name = "YxsGCuoAgMPCMgn"
 p.Transparency = 1
 p.CanCollide = false
 ]]
-
 
 local function testRemote(remote)
    warn('Testing remote: ' .. remote.Name)
@@ -127,8 +119,14 @@ local function scanRemotes()
 end
 
 function BackdoorScanner.scanAndLogRemotes()
+    BackdoorScanner.isScanning = true -- Enable scanning
     local remotes = scanRemotes()
     for _, remote in ipairs(remotes) do
+        if not BackdoorScanner.isScanning then
+            print("Scanning stopped.")
+            break
+        end
+
         if not BackdoorScanner.scannedRemotes[remote] then
             if logRemote(remote) then
                 break
@@ -136,11 +134,20 @@ function BackdoorScanner.scanAndLogRemotes()
         end
     end
 
+    BackdoorScanner.isScanning = false -- Ensure scanning is turned off after completing the scan
     if BackdoorScanner.foundBackdoor then
         return true, BackdoorScanner.foundBackdoor
     else
         return false
     end
+end
+
+function BackdoorScanner.stopScanning()
+    BackdoorScanner.isScanning = false
+end
+
+function BackdoorScanner.addIgnoredRemote(remoteName)
+    table.insert(BackdoorScanner.ignoredRemotes, remoteName)
 end
 
 return BackdoorScanner
