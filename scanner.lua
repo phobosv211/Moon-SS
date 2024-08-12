@@ -144,10 +144,12 @@ end
 
 function BackdoorScanner.stopScanning()
     BackdoorScanner.isScanning = false
+      warn("Stopped scanning")
 end
 
 function BackdoorScanner.addIgnoredRemote(remoteName)
     table.insert(BackdoorScanner.ignoredRemotes, remoteName)
+    warn(tostring(remoteName).."is now blacklisted")
 end
 
 return BackdoorScanner
