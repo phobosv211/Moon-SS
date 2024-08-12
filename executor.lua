@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local MoonExecu = Instance.new("ScreenGui")
 local Console = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -181,12 +176,11 @@ local HideUsername = Instance.new("TextButton")
 local UICorner_37 = Instance.new("UICorner")
 local ImageLabel = Instance.new("ImageLabel")
 local TextLabel_11 = Instance.new("TextLabel")
-
 --Properties:
 
 MoonExecu.Name = "MoonExecu"
 MoonExecu.Parent = game:GetService("CoreGui")
-MoonExecu.Enabled = false
+MoonExecu.Enabled = true
 MoonExecu.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 MoonExecu.ResetOnSpawn = false
 
@@ -2011,7 +2005,6 @@ TextLabel_11.TextColor3 = Color3.fromRGB(194, 198, 202)
 TextLabel_11.TextScaled = true
 TextLabel_11.TextSize = 32.000
 TextLabel_11.TextWrapped = true
-
 -- Scripts:
 
 local function MZZSSC_fake_script() -- Close.LocalScript 
@@ -3074,7 +3067,7 @@ local function AICWUFL_fake_script() -- Execution.Tabs
 				addBTN.Parent = Tabs -- Reparent add button to ensure it's at the end
 			end
 		else
-			warn("Add button not found!")
+			return
 		end
 	end
 	
@@ -4157,8 +4150,6 @@ local function ADZKTT_fake_script() -- Main.PredictALPHA
 			local predictionFrameSize = predictionFrame.AbsoluteSize
 			local newPositionX = math.clamp(relativePositionX, execuBoxPos.X, execuBoxPos.X + execuBoxSize.X - predictionFrameSize.X)
 			local newPositionY = math.clamp(relativePositionY, execuBoxPos.Y, execuBoxPos.Y + execuBoxSize.Y - predictionFrameSize.Y)
-			warn(newPositionX)
-			warn(newPositionY)
 			predictionFrame.Position = UDim2.new(0, newPositionX - execuBoxPos.X, 0, newPositionY - execuBoxPos.Y)
 		else
 			predictionFrame.Visible = false
@@ -4195,7 +4186,6 @@ local function ADZKTT_fake_script() -- Main.PredictALPHA
 			if matchFound then
 				predictionFrame.Visible = false
 			else
-				warn("updating prediction")
 				updatePrediction()
 			end
 		else
