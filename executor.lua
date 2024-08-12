@@ -185,7 +185,8 @@ local TextLabel_11 = Instance.new("TextLabel")
 --Properties:
 
 MoonExecu.Name = "MoonExecu"
-MoonExecu.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MoonExecu.Parent = game:GetService("CoreGui")
+MoonExecu.Enabled = false
 MoonExecu.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 MoonExecu.ResetOnSpawn = false
 
@@ -2013,15 +2014,15 @@ TextLabel_11.TextWrapped = true
 
 -- Scripts:
 
-local function QTODJL_fake_script() -- Close.LocalScript 
+local function MZZSSC_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(QTODJL_fake_script)()
-local function VLQE_fake_script() -- Console.Drag 
+coroutine.wrap(MZZSSC_fake_script)()
+local function BUPWSYC_fake_script() -- Console.Drag 
 	local script = Instance.new('LocalScript', Console)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2064,8 +2065,8 @@ local function VLQE_fake_script() -- Console.Drag
 		end
 	end)
 end
-coroutine.wrap(VLQE_fake_script)()
-local function FBDJC_fake_script() -- Main.Drag 
+coroutine.wrap(BUPWSYC_fake_script)()
+local function KCSBSD_fake_script() -- Main.Drag 
 	local script = Instance.new('LocalScript', Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2108,8 +2109,8 @@ local function FBDJC_fake_script() -- Main.Drag
 		end
 	end)
 end
-coroutine.wrap(FBDJC_fake_script)()
-local function GUVYPY_fake_script() -- detail_2.LocalScript 
+coroutine.wrap(KCSBSD_fake_script)()
+local function EEFBGQ_fake_script() -- detail_2.LocalScript 
 	local script = Instance.new('LocalScript', detail_2)
 
 	-- Define the UI element
@@ -2130,8 +2131,8 @@ local function GUVYPY_fake_script() -- detail_2.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(GUVYPY_fake_script)()
-local function SAHJCC_fake_script() -- detail_3.LocalScript 
+coroutine.wrap(EEFBGQ_fake_script)()
+local function CSQICDL_fake_script() -- detail_3.LocalScript 
 	local script = Instance.new('LocalScript', detail_3)
 
 	-- Define the UI element
@@ -2152,15 +2153,15 @@ local function SAHJCC_fake_script() -- detail_3.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(SAHJCC_fake_script)()
-local function SKNH_fake_script() -- Home.LocalScript 
+coroutine.wrap(CSQICDL_fake_script)()
+local function YAVN_fake_script() -- Home.LocalScript 
 	local script = Instance.new('LocalScript', Home)
 
 	local Title = script.Parent.Title Title.Text = "Welcome, "..game.Players.LocalPlayer.Name.."!"
 end
-coroutine.wrap(SKNH_fake_script)()
+coroutine.wrap(YAVN_fake_script)()
 -- Scrollin.Main2 is disabled.
-local function DMOO_fake_script() -- Scrollin.FileSystem 
+local function PABDN_fake_script() -- Scrollin.FileSystem 
 	local script = Instance.new('LocalScript', Scrollin)
 
 	--[[
@@ -2168,12 +2169,16 @@ local function DMOO_fake_script() -- Scrollin.FileSystem
 	least copied scriptware file system :skull:
 	by ghost x moon
 	
+	does not support saving not doing allat 🤑 (yet)
+	
 	--]]
 	
 	--// Main stuff LOL
 	local Prompt = script.Parent.Parent:FindFirstChild("Prompt") -- Prompts the user if they want to make a file or a folder
 	local Files = script.Parent:FindFirstChild("Files")
 	local MainFrame = script.Parent.Parent -- Scripthub frame
+	local MainGui = script.Parent.Parent.Parent.Parent.Parent
+	
 	local SaveBTN = script.Parent.Parent.Parent.SideFrame:FindFirstChild("Save")
 	local ExecuteBox = script.Parent.Parent.Parent:FindFirstChild("ExecuBox"):FindFirstChild("Source")
 	
@@ -2182,6 +2187,7 @@ local function DMOO_fake_script() -- Scrollin.FileSystem
 	
 	local PreFolder = script.Parent:FindFirstChild("Folder")
 	local PreFile = script.Parent:FindFirstChild("File1")
+	local alertLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/phobosv211/Moon-SS/main/alertLIB'))()
 	
 	local fileContents = {}
 	
@@ -2266,7 +2272,8 @@ local function DMOO_fake_script() -- Scrollin.FileSystem
 		end
 	
 		if not foundFolder then
-			warn("No available folder found to save the file")
+			alertLib.Error(MainGui, "Moon SS", 'You need to create a folder to save a file!')
+			return
 		end
 	end)
 	
@@ -2289,8 +2296,8 @@ local function DMOO_fake_script() -- Scrollin.FileSystem
 	end
 	
 end
-coroutine.wrap(DMOO_fake_script)()
-local function NJWRKL_fake_script() -- detail_4.LocalScript 
+coroutine.wrap(PABDN_fake_script)()
+local function FAHWJL_fake_script() -- detail_4.LocalScript 
 	local script = Instance.new('LocalScript', detail_4)
 
 	-- Define the UI element
@@ -2311,8 +2318,8 @@ local function NJWRKL_fake_script() -- detail_4.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(NJWRKL_fake_script)()
-local function NXBKKCZ_fake_script() -- detail_5.LocalScript 
+coroutine.wrap(FAHWJL_fake_script)()
+local function WYSBVBG_fake_script() -- detail_5.LocalScript 
 	local script = Instance.new('LocalScript', detail_5)
 
 	-- Define the UI element
@@ -2333,9 +2340,9 @@ local function NXBKKCZ_fake_script() -- detail_5.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(NXBKKCZ_fake_script)()
+coroutine.wrap(WYSBVBG_fake_script)()
 -- Comments_.LocalScript is disabled.
-local function EMWRQCM_fake_script() -- ExecuBox.Main 
+local function GXKO_fake_script() -- ExecuBox.Main 
 	local script = Instance.new('LocalScript', ExecuBox)
 
 	local settings = {
@@ -2990,8 +2997,8 @@ local function EMWRQCM_fake_script() -- ExecuBox.Main
 		end)
 	end
 end
-coroutine.wrap(EMWRQCM_fake_script)()
-local function JMPC_fake_script() -- detail_6.LocalScript 
+coroutine.wrap(GXKO_fake_script)()
+local function FMHYBRH_fake_script() -- detail_6.LocalScript 
 	local script = Instance.new('LocalScript', detail_6)
 
 	-- Define the UI element
@@ -3012,8 +3019,8 @@ local function JMPC_fake_script() -- detail_6.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(JMPC_fake_script)()
-local function VWHLKOR_fake_script() -- detail_7.LocalScript 
+coroutine.wrap(FMHYBRH_fake_script)()
+local function FRUROM_fake_script() -- detail_7.LocalScript 
 	local script = Instance.new('LocalScript', detail_7)
 
 	-- Define the UI element
@@ -3034,8 +3041,8 @@ local function VWHLKOR_fake_script() -- detail_7.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(VWHLKOR_fake_script)()
-local function GFPR_fake_script() -- Execution.Tabs 
+coroutine.wrap(FRUROM_fake_script)()
+local function AICWUFL_fake_script() -- Execution.Tabs 
 	local script = Instance.new('LocalScript', Execution)
 
 	local TweenService = game:GetService("TweenService")
@@ -3304,8 +3311,8 @@ local function GFPR_fake_script() -- Execution.Tabs
 	updateAddButtonVisibility()
 	
 end
-coroutine.wrap(GFPR_fake_script)()
-local function WALUH_fake_script() -- detail_8.LocalScript 
+coroutine.wrap(AICWUFL_fake_script)()
+local function QNSX_fake_script() -- detail_8.LocalScript 
 	local script = Instance.new('LocalScript', detail_8)
 
 	-- Define the UI element
@@ -3326,8 +3333,8 @@ local function WALUH_fake_script() -- detail_8.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(WALUH_fake_script)()
-local function EFMUFNX_fake_script() -- detail_9.LocalScript 
+coroutine.wrap(QNSX_fake_script)()
+local function OVCGZM_fake_script() -- detail_9.LocalScript 
 	local script = Instance.new('LocalScript', detail_9)
 
 	-- Define the UI element
@@ -3348,8 +3355,8 @@ local function EFMUFNX_fake_script() -- detail_9.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(EFMUFNX_fake_script)()
-local function BWZM_fake_script() -- scriptBOX.Main 
+coroutine.wrap(OVCGZM_fake_script)()
+local function MUCVQB_fake_script() -- scriptBOX.Main 
 	local script = Instance.new('LocalScript', scriptBOX)
 
 	local settings = {
@@ -4005,9 +4012,9 @@ local function BWZM_fake_script() -- scriptBOX.Main
 		end)
 	end
 end
-coroutine.wrap(BWZM_fake_script)()
+coroutine.wrap(MUCVQB_fake_script)()
 -- Comments__2.LocalScript is disabled.
-local function PLNWJJI_fake_script() -- detail_11.LocalScript 
+local function ZNJRAMV_fake_script() -- detail_11.LocalScript 
 	local script = Instance.new('LocalScript', detail_11)
 
 	-- Define the UI element
@@ -4028,8 +4035,8 @@ local function PLNWJJI_fake_script() -- detail_11.LocalScript
 	tween:Play()
 	
 end
-coroutine.wrap(PLNWJJI_fake_script)()
-local function LXKOLZ_fake_script() -- Main.PredictALPHA 
+coroutine.wrap(ZNJRAMV_fake_script)()
+local function ADZKTT_fake_script() -- Main.PredictALPHA 
 	local script = Instance.new('LocalScript', Main)
 
 	local textBox = script.Parent.Execution.ExecuBox:FindFirstChild("Source")
@@ -4220,8 +4227,8 @@ local function LXKOLZ_fake_script() -- Main.PredictALPHA
 	end)
 	
 end
-coroutine.wrap(LXKOLZ_fake_script)()
-local function GRQT_fake_script() -- Settings_2.Main 
+coroutine.wrap(ADZKTT_fake_script)()
+local function PHNSOX_fake_script() -- Settings_2.Main 
 	local script = Instance.new('LocalScript', Settings_2)
 
 	local UIAnim = script.Parent:FindFirstChild("UIAnim")
@@ -4421,8 +4428,8 @@ local function GRQT_fake_script() -- Settings_2.Main
 		end
 	end)
 end
-coroutine.wrap(GRQT_fake_script)()
-local function HXGNUO_fake_script() -- Settings_2.Drag 
+coroutine.wrap(PHNSOX_fake_script)()
+local function ZDNDZAC_fake_script() -- Settings_2.Drag 
 	local script = Instance.new('LocalScript', Settings_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -4465,8 +4472,8 @@ local function HXGNUO_fake_script() -- Settings_2.Drag
 		end
 	end)
 end
-coroutine.wrap(HXGNUO_fake_script)()
-local function LGDXD_fake_script() -- MoonExecu.Rewrite 
+coroutine.wrap(ZDNDZAC_fake_script)()
+local function VSFKTU_fake_script() -- MoonExecu.Rewrite 
 	local script = Instance.new('LocalScript', MoonExecu)
 
 	--[[
@@ -4502,6 +4509,7 @@ local function LGDXD_fake_script() -- MoonExecu.Rewrite
 	local Side = Main and Main:FindFirstChild("Side")
 	local AttachLabel = Main and ExecutionPG:FindFirstChild("BottomFrame"):FindFirstChild("TextLabel")
 	local Logo = Main and Main:FindFirstChild("Top"):FindFirstChild("Logo")
+	local Close = Main and Main:FindFirstChild("Top"):FindFirstChild("Close")
 	
 	--//Console Vars
 	
@@ -4517,15 +4525,8 @@ local function LGDXD_fake_script() -- MoonExecu.Rewrite
 	local CLabelW2 = Console:FindFirstChild("Warning"):FindFirstChild("Label")
 	--// Miscellaneous Vars / Check
 	local Title = "Moon SS"
-	local Backdoor = "Moon"--useableBackdoor -- GetGenv (Auto assigns 'useableBackdoor' dw bout it) 
+	local Backdoor = cbLK1J3ZHFbXj1ZsYBNv7LPathQ -- GetGenv (Auto assigns 'cbLK1J3ZHFbXj1ZsYBNv7LPathQ' dw bout it) 
 	
-	--[[
-	if Backdoor == "Moon" then
-		AttachLabel.Text = "Backdoor: Moon"
-	else
-		AttachLabel.Text = "Backdoor:",Backdoor.Name --Should work might break
-	end
-	--]]
 	-- If the Backdoor == "Moon" do Moon logic
 	-- If the Backdoor is not == "Moon" do non Moon logic
 	
@@ -4534,7 +4535,6 @@ local function LGDXD_fake_script() -- MoonExecu.Rewrite
 	
 	local alertLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/phobosv211/Moon-SS/main/alertLIB'))()
 	local Other = nil
-	warn("4")
 	
 	local devSettings = {
 		["isTesting"] = true, -- TRUE: Disables any executor references so the script does not break FALSE: Allows executor references
@@ -4634,7 +4634,6 @@ local function LGDXD_fake_script() -- MoonExecu.Rewrite
 	--// Tab System 2 (Execution Page, Home Page etc)
 	
 	--// Vars
-	
 	local ExecutionPGB = Side:FindFirstChild("Execution")
 	local HomePGB = Side:FindFirstChild("Home")
 	local SettingsPGB = Side:FindFirstChild("Settings")
@@ -4681,5 +4680,11 @@ local function LGDXD_fake_script() -- MoonExecu.Rewrite
 		alertLib.Error(MainGUI, Title, 'This feature is still under development!')
 		return
 	end)
+	
+	--//Misc
+	
+	Close.MouseButton1Click:Connect(function()
+		MainGUI:Destroy()
+	end)
 end
-coroutine.wrap(LGDXD_fake_script)()
+coroutine.wrap(VSFKTU_fake_script)()
