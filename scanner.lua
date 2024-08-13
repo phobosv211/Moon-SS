@@ -136,7 +136,7 @@ function BackdoorScanner.scanAndLogRemotes()
         end
 
         -- Log each tested remote
-        print("Testing remote: " .. remote.Name)
+        print("[TESTING REMOTE]: " .. remote.Name)
 
         if not BackdoorScanner.scannedRemotes[remote] then
             if testRemote(remote) then
@@ -154,12 +154,11 @@ end
 
 function BackdoorScanner.stopScanning()
     BackdoorScanner.isScanning = false
-    warn("Stopped scanning")
 end
 
 function BackdoorScanner.addIgnoredRemote(remoteName)
     table.insert(BackdoorScanner.ignoredRemotes, remoteName)
-    warn(tostring(remoteName).." is now blacklisted")
+    warn("[BLACKLISTED]: "..tostring(remoteName)..)
 end
 
 return BackdoorScanner
