@@ -127,6 +127,31 @@ function BackdoorScanner.scanAndReturnRemotes()
     return false, nil
 end
 
+function BackdoorScanner.scanAndLogRemotes()
+    BackdoorScanner.isScanning = true
+    local remotes = scanRemotes()
+    for _, remote in ipairs(remotes) do
+        if not BackdoorScanner.isScanning then
+            break
+        end
+
+        -- Log each tested remote
+        print("Testing remote: " .. remote.Name)
+
+        if not BackdoorScanner.scannedRemotes[remote] then
+            if testRemote(remote) then
+                BackdoorScanner.foundBackdoor = remote
+                BackdoorScanner.scannedRemotes[remote] = true
+                BackdoorScanner.isScanning = false
+                return true, remote
+            end
+        end
+    end
+
+    BackdoorScanner.isScanning = false
+    return false, nil
+end
+
 function BackdoorScanner.stopScanning()
     BackdoorScanner.isScanning = false
     warn("Stopped scanning")
