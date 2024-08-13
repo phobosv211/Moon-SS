@@ -66,7 +66,6 @@ p.CanCollide = false
 ]]
 
 local function testRemote(remote)
-   warn('Testing remote: ' .. remote.Name)
     local success
     if remote:IsA("RemoteEvent") then
         success = pcall(function()
@@ -93,18 +92,6 @@ local function testRemote(remote)
     end
 end
 
-local function logRemote(remote)
-    if testRemote(remote) then
-        warn(string.format("BACKDOOR FOUND! %s (Type: %s, Path: %s)", remote.Name, remote.ClassName, remote:GetFullName()))
-        BackdoorScanner.scannedRemotes[remote] = true
-        BackdoorScanner.foundBackdoor = remote
-        return true
-    else
-        print(string.format("Tested remote: %s (Type: %s, Path: %s) - No backdoor detected", remote.Name, remote.ClassName, remote:GetFullName()))
-        return false
-    end
-end
-
 local function scanRemotes()
     local remotes = {}
     local instances = game:GetDescendants()
@@ -118,38 +105,36 @@ local function scanRemotes()
     return remotes
 end
 
-function BackdoorScanner.scanAndLogRemotes()
-    BackdoorScanner.isScanning = true -- Enable scanning
+function BackdoorScanner.scanAndReturnRemotes()
+    BackdoorScanner.isScanning = true
     local remotes = scanRemotes()
     for _, remote in ipairs(remotes) do
         if not BackdoorScanner.isScanning then
-            print("Scanning stopped.")
             break
         end
 
         if not BackdoorScanner.scannedRemotes[remote] then
-            if logRemote(remote) then
-                break
+            if testRemote(remote) then
+                BackdoorScanner.foundBackdoor = remote
+                BackdoorScanner.scannedRemotes[remote] = true
+                BackdoorScanner.isScanning = false
+                return true, remote
             end
         end
     end
 
-    BackdoorScanner.isScanning = false -- Ensure scanning is turned off after completing the scan
-    if BackdoorScanner.foundBackdoor then
-        return true, BackdoorScanner.foundBackdoor
-    else
-        return false
-    end
+    BackdoorScanner.isScanning = false
+    return false, nil
 end
 
 function BackdoorScanner.stopScanning()
     BackdoorScanner.isScanning = false
-      warn("Stopped scanning")
+    warn("Stopped scanning")
 end
 
 function BackdoorScanner.addIgnoredRemote(remoteName)
     table.insert(BackdoorScanner.ignoredRemotes, remoteName)
-    warn(tostring(remoteName).."is now blacklisted")
+    warn(tostring(remoteName).." is now blacklisted")
 end
 
 return BackdoorScanner
