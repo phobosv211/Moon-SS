@@ -14,18 +14,19 @@ BackdoorScanner.ignoredRemotes = {
     "CharacterSoundEvent", "CaptureFocus", "UIS_Ended", "OnNewMessage", "OnMessageDoneFiltering",
     "OnChannelLeft", "OnMute", "OnUnmute", "CmdrEvent", "CmdrFunction","ClientControl","ServerControl","SendMessage",
 }
+
 BackdoorScanner.ignoredPatterns = {
     "Chat", "PlayerAdded", "PlayerRemoving", "SystemMessage", "Notification",
     "ChatSystem", "DefaultChatSystemChatEvents",
 }
+
 BackdoorScanner.ignoredParentNames = {
     "HDAdminClient", "Adonis", "DefaultChatSystemChatEvents","HDAdminWorkspaceFolder"
 }
-BackdoorScanner.foundBackdoor = nil
-BackdoorScanner.isScanning = false -- New flag to control scanning
-isLog = false
 
-warn(tostring(BackdoorScanner.isLog))
+BackdoorScanner.foundBackdoor = nil
+BackdoorScanner.isScanning = false -- Flag to control scanning
+_G.isLog = true -- Flag to control logging (set to true or false)
 
 local function isRemote(object)
     return object:IsA("RemoteEvent") or object:IsA("RemoteFunction")
@@ -72,14 +73,14 @@ local function testRemote(remote)
     local success
     if remote:IsA("RemoteEvent") then
         success = pcall(function()
-            if BackdoorScanner.isLog == true then
+            if BackdoorScanner.isLog then
                 print("[TESTING REMOTE]: " .. remote.Name)
             end
             remote:FireServer(code)
         end)
     elseif remote:IsA("RemoteFunction") then
         success = pcall(function()
-                if BackdoorScanner.isLog == true then
+            if BackdoorScanner.isLog then
                 print("[TESTING REMOTEFUNCTION]: " .. remote.Name)
             end
             remote:InvokeServer(code)
@@ -144,8 +145,10 @@ function BackdoorScanner.scanAndLogRemotes()
             break
         end
 
-        -- Log each tested remote
-        warn("[TESTED REMOTE]: " .. remote.Name)
+        -- Log each tested remote if logging is enabled
+        if BackdoorScanner.isLog then
+            warn("[TESTED REMOTE]: " .. remote.Name)
+        end
 
         if not BackdoorScanner.scannedRemotes[remote] then
             if testRemote(remote) then
@@ -167,7 +170,7 @@ end
 
 function BackdoorScanner.addIgnoredRemote(remoteName)
     table.insert(BackdoorScanner.ignoredRemotes, remoteName)
-    warn("[BLACKLISTED]: "..tostring(remoteName)..)
+    warn("[BLACKLISTED]: " .. tostring(remoteName))
 end
 
 return BackdoorScanner
