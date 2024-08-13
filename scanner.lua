@@ -26,7 +26,7 @@ BackdoorScanner.ignoredParentNames = {
 
 BackdoorScanner.foundBackdoor = nil
 BackdoorScanner.isScanning = false -- Flag to control scanning
-_G.isLog = true -- Flag to control logging (set to true or false)
+_G.isLog = nil -- Flag to control logging (set to true or false)
 
 local function isRemote(object)
     return object:IsA("RemoteEvent") or object:IsA("RemoteFunction")
