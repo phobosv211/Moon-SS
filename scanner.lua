@@ -25,6 +25,8 @@ BackdoorScanner.foundBackdoor = nil
 BackdoorScanner.isScanning = false -- New flag to control scanning
 BackdoorScanner.isLog = false
 
+warn(tostring(BackdoorScanner.isLog))
+
 local function isRemote(object)
     return object:IsA("RemoteEvent") or object:IsA("RemoteFunction")
 end
