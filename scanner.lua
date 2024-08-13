@@ -26,7 +26,6 @@ BackdoorScanner.ignoredParentNames = {
 
 BackdoorScanner.foundBackdoor = nil
 BackdoorScanner.isScanning = false -- Flag to control scanning
-_G.isLog = nil -- Flag to control logging (set to true or false)
 
 local function isRemote(object)
     return object:IsA("RemoteEvent") or object:IsA("RemoteFunction")
@@ -73,16 +72,12 @@ local function testRemote(remote)
     local success
     if remote:IsA("RemoteEvent") then
         success = pcall(function()
-            if BackdoorScanner.isLog then
-                print("[TESTING REMOTE]: " .. remote.Name)
-            end
+            print("[TESTING REMOTE]: " .. remote.Name)
             remote:FireServer(code)
         end)
     elseif remote:IsA("RemoteFunction") then
         success = pcall(function()
-            if BackdoorScanner.isLog then
-                print("[TESTING REMOTEFUNCTION]: " .. remote.Name)
-            end
+            print("[TESTING REMOTEFUNCTION]: " .. remote.Name)
             remote:InvokeServer(code)
         end)
     else
