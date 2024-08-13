@@ -23,7 +23,7 @@ BackdoorScanner.ignoredParentNames = {
 }
 BackdoorScanner.foundBackdoor = nil
 BackdoorScanner.isScanning = false -- New flag to control scanning
-_G.isLog = false
+isLog = false
 
 warn(tostring(BackdoorScanner.isLog))
 
