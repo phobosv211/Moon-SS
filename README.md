@@ -13,5 +13,5 @@
 - **Built-in Infector**: All it takes is three clicks to get a game backdoored.
 - **Backdoor Scanner**: Don't want to backdoor a game? We've got you covered with our backdoor scanner that scans any game for backdoors and uses them if found.
 ### And many more features..
-# So what's stopping you now? Start experiencing a luxary serverside scripting experience and join our server now to get started, [Moon SS](https://discord.gg/TSZ67HYcgB).
+# So what's stopping you now? Start experiencing a luxury serverside scripting experience and join our server now to get started, [Moon SS](https://discord.gg/TSZ67HYcgB).
 ![Moon SS Logo](https://i.ibb.co/30ssdwr/logo534534.png)
